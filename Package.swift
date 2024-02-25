@@ -15,6 +15,7 @@ let package = Package(
             name: "MetalDevice",
             targets: ["MetalDevice"]),
     ],
+    //
     dependencies: [
         // Dependencies declare other packages that this package depends on.
 //         .package(url: "https://github.com/nzhddemian/MKDevice",   "0.0.2"..<"3.3.8" )
