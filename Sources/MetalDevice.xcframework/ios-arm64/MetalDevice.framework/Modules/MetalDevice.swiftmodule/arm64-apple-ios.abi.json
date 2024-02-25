@@ -2056,6 +2056,65 @@
                 "accessorKind": "_modify"
               }
             ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(u_time:res:flipH:flipV:overlaysCount:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MetalUniform",
+                "printedName": "MetalDevice.MetalUniform",
+                "usr": "s:11MetalDevice0A7UniformV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SIMD2",
+                "printedName": "Swift.SIMD2<Swift.Float>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "usr": "s:s5SIMD2V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11MetalDevice0A7UniformV6u_time3res5flipH0F1V13overlaysCountACSf_s5SIMD2VySfGS3itcfc",
+            "mangledName": "$s11MetalDevice0A7UniformV6u_time3res5flipH0F1V13overlaysCountACSf_s5SIMD2VySfGS3itcfc",
+            "moduleName": "MetalDevice",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
           }
         ],
         "declKind": "Struct",
@@ -3814,182 +3873,182 @@
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 450,
+      "offset": 689,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalRenderer.swift",
       "kind": "StringLiteral",
-      "offset": 504,
+      "offset": 743,
       "length": 24,
       "value": "\"video processing queue\""
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalRenderer.swift",
       "kind": "Array",
-      "offset": 542,
+      "offset": 781,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalRenderer.swift",
       "kind": "StringLiteral",
-      "offset": 799,
+      "offset": 1038,
       "length": 13,
       "value": "\"main_kernel\""
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalRenderer.swift",
       "kind": "FloatLiteral",
-      "offset": 899,
+      "offset": 1138,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalRenderer.swift",
       "kind": "FloatLiteral",
-      "offset": 921,
+      "offset": 1160,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalRenderer.swift",
       "kind": "FloatLiteral",
-      "offset": 925,
+      "offset": 1164,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 938,
+      "offset": 1177,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 948,
+      "offset": 1187,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 966,
+      "offset": 1205,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 2050,
+      "offset": 2289,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 2113,
+      "offset": 2352,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 2170,
+      "offset": 2409,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 2180,
+      "offset": 2419,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 2244,
+      "offset": 2483,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 2248,
+      "offset": 2487,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 2252,
+      "offset": 2491,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 2426,
+      "offset": 2665,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 3851,
+      "offset": 4090,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 3913,
+      "offset": 4152,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 3969,
+      "offset": 4208,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 3979,
+      "offset": 4218,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 4041,
+      "offset": 4280,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 4045,
+      "offset": 4284,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 4049,
+      "offset": 4288,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 4222,
+      "offset": 4461,
       "length": 1,
       "value": "1"
     },

@@ -61,6 +61,7 @@ public struct MetalUniform {
   public var flipH: Swift.Int
   public var flipV: Swift.Int
   public var overlaysCount: Swift.Int
+  public init(u_time: Swift.Float, res: simd.simd_float2, flipH: Swift.Int, flipV: Swift.Int, overlaysCount: Swift.Int)
 }
 public class MetalRenderer {
   public var mtlUniforms: MetalDevice.MetalUniform
