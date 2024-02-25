@@ -1602,6 +1602,462 @@
         "kind": "TypeDecl",
         "name": "MetalUniform",
         "printedName": "MetalUniform",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "u_time",
+            "printedName": "u_time",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11MetalDevice0A7UniformV6u_timeSfvp",
+            "mangledName": "$s11MetalDevice0A7UniformV6u_timeSfvp",
+            "moduleName": "MetalDevice",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MetalDevice0A7UniformV6u_timeSfvg",
+                "mangledName": "$s11MetalDevice0A7UniformV6u_timeSfvg",
+                "moduleName": "MetalDevice",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MetalDevice0A7UniformV6u_timeSfvs",
+                "mangledName": "$s11MetalDevice0A7UniformV6u_timeSfvs",
+                "moduleName": "MetalDevice",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MetalDevice0A7UniformV6u_timeSfvM",
+                "mangledName": "$s11MetalDevice0A7UniformV6u_timeSfvM",
+                "moduleName": "MetalDevice",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "res",
+            "printedName": "res",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SIMD2",
+                "printedName": "Swift.SIMD2<Swift.Float>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "usr": "s:s5SIMD2V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11MetalDevice0A7UniformV3ress5SIMD2VySfGvp",
+            "mangledName": "$s11MetalDevice0A7UniformV3ress5SIMD2VySfGvp",
+            "moduleName": "MetalDevice",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD2",
+                    "printedName": "Swift.SIMD2<Swift.Float>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Float",
+                        "printedName": "Swift.Float",
+                        "usr": "s:Sf"
+                      }
+                    ],
+                    "usr": "s:s5SIMD2V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MetalDevice0A7UniformV3ress5SIMD2VySfGvg",
+                "mangledName": "$s11MetalDevice0A7UniformV3ress5SIMD2VySfGvg",
+                "moduleName": "MetalDevice",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD2",
+                    "printedName": "Swift.SIMD2<Swift.Float>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Float",
+                        "printedName": "Swift.Float",
+                        "usr": "s:Sf"
+                      }
+                    ],
+                    "usr": "s:s5SIMD2V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MetalDevice0A7UniformV3ress5SIMD2VySfGvs",
+                "mangledName": "$s11MetalDevice0A7UniformV3ress5SIMD2VySfGvs",
+                "moduleName": "MetalDevice",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MetalDevice0A7UniformV3ress5SIMD2VySfGvM",
+                "mangledName": "$s11MetalDevice0A7UniformV3ress5SIMD2VySfGvM",
+                "moduleName": "MetalDevice",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "flipH",
+            "printedName": "flipH",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11MetalDevice0A7UniformV5flipHSivp",
+            "mangledName": "$s11MetalDevice0A7UniformV5flipHSivp",
+            "moduleName": "MetalDevice",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MetalDevice0A7UniformV5flipHSivg",
+                "mangledName": "$s11MetalDevice0A7UniformV5flipHSivg",
+                "moduleName": "MetalDevice",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MetalDevice0A7UniformV5flipHSivs",
+                "mangledName": "$s11MetalDevice0A7UniformV5flipHSivs",
+                "moduleName": "MetalDevice",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MetalDevice0A7UniformV5flipHSivM",
+                "mangledName": "$s11MetalDevice0A7UniformV5flipHSivM",
+                "moduleName": "MetalDevice",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "flipV",
+            "printedName": "flipV",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11MetalDevice0A7UniformV5flipVSivp",
+            "mangledName": "$s11MetalDevice0A7UniformV5flipVSivp",
+            "moduleName": "MetalDevice",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MetalDevice0A7UniformV5flipVSivg",
+                "mangledName": "$s11MetalDevice0A7UniformV5flipVSivg",
+                "moduleName": "MetalDevice",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MetalDevice0A7UniformV5flipVSivs",
+                "mangledName": "$s11MetalDevice0A7UniformV5flipVSivs",
+                "moduleName": "MetalDevice",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MetalDevice0A7UniformV5flipVSivM",
+                "mangledName": "$s11MetalDevice0A7UniformV5flipVSivM",
+                "moduleName": "MetalDevice",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "overlaysCount",
+            "printedName": "overlaysCount",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11MetalDevice0A7UniformV13overlaysCountSivp",
+            "mangledName": "$s11MetalDevice0A7UniformV13overlaysCountSivp",
+            "moduleName": "MetalDevice",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MetalDevice0A7UniformV13overlaysCountSivg",
+                "mangledName": "$s11MetalDevice0A7UniformV13overlaysCountSivg",
+                "moduleName": "MetalDevice",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MetalDevice0A7UniformV13overlaysCountSivs",
+                "mangledName": "$s11MetalDevice0A7UniformV13overlaysCountSivs",
+                "moduleName": "MetalDevice",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MetalDevice0A7UniformV13overlaysCountSivM",
+                "mangledName": "$s11MetalDevice0A7UniformV13overlaysCountSivM",
+                "moduleName": "MetalDevice",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
         "declKind": "Struct",
         "usr": "s:11MetalDevice0A7UniformV",
         "mangledName": "$s11MetalDevice0A7UniformV",
@@ -3358,182 +3814,182 @@
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 420,
+      "offset": 450,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalRenderer.swift",
       "kind": "StringLiteral",
-      "offset": 474,
+      "offset": 504,
       "length": 24,
       "value": "\"video processing queue\""
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalRenderer.swift",
       "kind": "Array",
-      "offset": 512,
+      "offset": 542,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalRenderer.swift",
       "kind": "StringLiteral",
-      "offset": 769,
+      "offset": 799,
       "length": 13,
       "value": "\"main_kernel\""
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalRenderer.swift",
       "kind": "FloatLiteral",
-      "offset": 869,
+      "offset": 899,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalRenderer.swift",
       "kind": "FloatLiteral",
-      "offset": 891,
+      "offset": 921,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalRenderer.swift",
       "kind": "FloatLiteral",
-      "offset": 895,
+      "offset": 925,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 908,
+      "offset": 938,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 918,
+      "offset": 948,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 936,
+      "offset": 966,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 2020,
+      "offset": 2050,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 2083,
+      "offset": 2113,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 2140,
+      "offset": 2170,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 2150,
+      "offset": 2180,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 2214,
+      "offset": 2244,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 2218,
+      "offset": 2248,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 2222,
+      "offset": 2252,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 2396,
+      "offset": 2426,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 3821,
+      "offset": 3851,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 3883,
+      "offset": 3913,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 3939,
+      "offset": 3969,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 3949,
+      "offset": 3979,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 4011,
+      "offset": 4041,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 4015,
+      "offset": 4045,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 4019,
+      "offset": 4049,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 4192,
+      "offset": 4222,
       "length": 1,
       "value": "1"
     },

@@ -56,6 +56,11 @@ extension Metal.MTLRenderCommandEncoder {
   public func setFragmentTextures(_ textures: [(any Metal.MTLTexture)?], startingAt startIndex: Swift.Int = 0)
 }
 public struct MetalUniform {
+  public var u_time: Swift.Float
+  public var res: simd.simd_float2
+  public var flipH: Swift.Int
+  public var flipV: Swift.Int
+  public var overlaysCount: Swift.Int
 }
 public class MetalRenderer {
   public var mtlUniforms: MetalDevice.MetalUniform
