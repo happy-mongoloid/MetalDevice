@@ -11,8 +11,8 @@ import Swift
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-@_hasMissingDesignatedInitializers public class MetalDevice {
-  public static let shared: MetalDevice.MetalDevice
+@_hasMissingDesignatedInitializers public class MTDevice {
+  public static let shared: MetalDevice.MTDevice
   public var device: any Metal.MTLDevice
   public var commandQueue: any Metal.MTLCommandQueue
   public var videoTextureCache: CoreVideo.CVMetalTextureCache?
