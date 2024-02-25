@@ -2,12 +2,17 @@
 // swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
 // swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MetalDevice
 // swift-module-flags-ignorable: -enable-bare-slash-regex
+import AVFoundation
+import CoreImage
 import CoreMedia
+import Foundation
 @_exported import MetalDevice
 import MetalKit
 import MobileCoreServices
+import Photos
 import SceneKit
 import Swift
+import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
@@ -49,4 +54,23 @@ extension Swift.SIMD2 where Scalar == Swift.Float {
 }
 extension Metal.MTLRenderCommandEncoder {
   public func setFragmentTextures(_ textures: [(any Metal.MTLTexture)?], startingAt startIndex: Swift.Int = 0)
+}
+public struct MetalUniform {
+}
+public class MetalRenderer {
+  public var mtlUniforms: MetalDevice.MetalUniform
+  public init()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class VExport {
+  public static func export(presetName: Swift.String, inVideoUrl: Foundation.URL!, outUrl: Foundation.URL!, completion: @escaping () -> Swift.Void)
+  public static func exportWithSound(presetName: Swift.String, inVideoUrl: Foundation.URL!, inAudioUrl: Foundation.URL!, outUrl: Foundation.URL!, completion: @escaping () -> Swift.Void)
+  public static var progress: Swift.Float? {
+    get
+    set(newVal)
+  }
+  public static func exportPB(presetName: Swift.String, inVideoUrl: Foundation.URL!, outUrl: Foundation.URL!, completion: @escaping () -> Swift.Void)
+  public static func videoCompositionInstruction(_ track: AVFoundation.AVCompositionTrack) -> AVFoundation.AVMutableVideoCompositionLayerInstruction
+  public static func trim(inURL: Foundation.URL, outURL: Foundation.URL, timeRange: CoreMedia.CMTimeRange, callBack: @escaping () -> Swift.Void)
+  @objc deinit
 }
