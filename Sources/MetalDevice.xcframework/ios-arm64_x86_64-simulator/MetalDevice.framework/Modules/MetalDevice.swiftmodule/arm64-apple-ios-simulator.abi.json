@@ -30,6 +30,509 @@
       },
       {
         "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "MetalDevice",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MetalDevice"
+      },
+      {
+        "kind": "Import",
+        "name": "Photos",
+        "printedName": "Photos",
+        "declKind": "Import",
+        "moduleName": "MetalDevice"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VExport",
+        "printedName": "VExport",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "export",
+            "printedName": "export(presetName:inVideoUrl:outUrl:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "Foundation.URL?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "Foundation.URL?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11MetalDevice7VExportC6export10presetName10inVideoUrl03outI010completionySS_10Foundation3URLVSgALyyctFZ",
+            "mangledName": "$s11MetalDevice7VExportC6export10presetName10inVideoUrl03outI010completionySS_10Foundation3URLVSgALyyctFZ",
+            "moduleName": "MetalDevice",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "exportWithSound",
+            "printedName": "exportWithSound(presetName:inVideoUrl:inAudioUrl:outUrl:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "Foundation.URL?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "Foundation.URL?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "Foundation.URL?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11MetalDevice7VExportC15exportWithSound10presetName10inVideoUrl0i5AudioK003outK010completionySS_10Foundation3URLVSgA2MyyctFZ",
+            "mangledName": "$s11MetalDevice7VExportC15exportWithSound10presetName10inVideoUrl0i5AudioK003outK010completionySS_10Foundation3URLVSgA2MyyctFZ",
+            "moduleName": "MetalDevice",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "progress",
+            "printedName": "progress",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Float?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11MetalDevice7VExportC8progressSfSgvpZ",
+            "mangledName": "$s11MetalDevice7VExportC8progressSfSgvpZ",
+            "moduleName": "MetalDevice",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Float?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Float",
+                        "printedName": "Swift.Float",
+                        "usr": "s:Sf"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MetalDevice7VExportC8progressSfSgvgZ",
+                "mangledName": "$s11MetalDevice7VExportC8progressSfSgvgZ",
+                "moduleName": "MetalDevice",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Float?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Float",
+                        "printedName": "Swift.Float",
+                        "usr": "s:Sf"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MetalDevice7VExportC8progressSfSgvsZ",
+                "mangledName": "$s11MetalDevice7VExportC8progressSfSgvsZ",
+                "moduleName": "MetalDevice",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MetalDevice7VExportC8progressSfSgvMZ",
+                "mangledName": "$s11MetalDevice7VExportC8progressSfSgvMZ",
+                "moduleName": "MetalDevice",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "exportPB",
+            "printedName": "exportPB(presetName:inVideoUrl:outUrl:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "Foundation.URL?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "Foundation.URL?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11MetalDevice7VExportC8exportPB10presetName10inVideoUrl03outJ010completionySS_10Foundation3URLVSgALyyctFZ",
+            "mangledName": "$s11MetalDevice7VExportC8exportPB10presetName10inVideoUrl03outJ010completionySS_10Foundation3URLVSgALyyctFZ",
+            "moduleName": "MetalDevice",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "videoCompositionInstruction",
+            "printedName": "videoCompositionInstruction(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AVMutableVideoCompositionLayerInstruction",
+                "printedName": "AVFoundation.AVMutableVideoCompositionLayerInstruction",
+                "usr": "c:objc(cs)AVMutableVideoCompositionLayerInstruction"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVCompositionTrack",
+                "printedName": "AVFoundation.AVCompositionTrack",
+                "usr": "c:objc(cs)AVCompositionTrack"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11MetalDevice7VExportC27videoCompositionInstructionySo014AVMutableVideoe5LayerF0CSo18AVCompositionTrackCFZ",
+            "mangledName": "$s11MetalDevice7VExportC27videoCompositionInstructionySo014AVMutableVideoe5LayerF0CSo18AVCompositionTrackCFZ",
+            "moduleName": "MetalDevice",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "trim",
+            "printedName": "trim(inURL:outURL:timeRange:callBack:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CMTimeRange",
+                "printedName": "CoreMedia.CMTimeRange",
+                "usr": "c:@SA@CMTimeRange"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11MetalDevice7VExportC4trim5inURL03outF09timeRange8callBacky10Foundation0F0V_AKSo06CMTimeI0ayyctFZ",
+            "mangledName": "$s11MetalDevice7VExportC4trim5inURL03outF09timeRange8callBacky10Foundation0F0V_AKSo06CMTimeI0ayyctFZ",
+            "moduleName": "MetalDevice",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11MetalDevice7VExportC",
+        "mangledName": "$s11MetalDevice7VExportC",
+        "moduleName": "MetalDevice",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MetalDevice",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreMedia",
+        "printedName": "CoreMedia",
+        "declKind": "Import",
+        "moduleName": "MetalDevice"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "MetalDevice"
+      },
+      {
+        "kind": "Import",
         "name": "MetalKit",
         "printedName": "MetalKit",
         "declKind": "Import",
@@ -1576,6 +2079,23 @@
       },
       {
         "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "MetalDevice",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreImage",
+        "printedName": "CoreImage",
+        "declKind": "Import",
+        "moduleName": "MetalDevice"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -2246,526 +2766,6 @@
         ]
       },
       {
-        "kind": "Import",
-        "name": "AVFoundation",
-        "printedName": "AVFoundation",
-        "declKind": "Import",
-        "moduleName": "MetalDevice",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CoreImage",
-        "printedName": "CoreImage",
-        "declKind": "Import",
-        "moduleName": "MetalDevice"
-      },
-      {
-        "kind": "Import",
-        "name": "AVFoundation",
-        "printedName": "AVFoundation",
-        "declKind": "Import",
-        "moduleName": "MetalDevice",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "MetalDevice"
-      },
-      {
-        "kind": "Import",
-        "name": "Photos",
-        "printedName": "Photos",
-        "declKind": "Import",
-        "moduleName": "MetalDevice"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "VExport",
-        "printedName": "VExport",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "export",
-            "printedName": "export(presetName:inVideoUrl:outUrl:completion:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ImplicitlyUnwrappedOptional",
-                "printedName": "Foundation.URL?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "URL",
-                    "printedName": "Foundation.URL",
-                    "usr": "s:10Foundation3URLV"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ImplicitlyUnwrappedOptional",
-                "printedName": "Foundation.URL?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "URL",
-                    "printedName": "Foundation.URL",
-                    "usr": "s:10Foundation3URLV"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "() -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11MetalDevice7VExportC6export10presetName10inVideoUrl03outI010completionySS_10Foundation3URLVSgALyyctFZ",
-            "mangledName": "$s11MetalDevice7VExportC6export10presetName10inVideoUrl03outI010completionySS_10Foundation3URLVSgALyyctFZ",
-            "moduleName": "MetalDevice",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "exportWithSound",
-            "printedName": "exportWithSound(presetName:inVideoUrl:inAudioUrl:outUrl:completion:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ImplicitlyUnwrappedOptional",
-                "printedName": "Foundation.URL?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "URL",
-                    "printedName": "Foundation.URL",
-                    "usr": "s:10Foundation3URLV"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ImplicitlyUnwrappedOptional",
-                "printedName": "Foundation.URL?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "URL",
-                    "printedName": "Foundation.URL",
-                    "usr": "s:10Foundation3URLV"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ImplicitlyUnwrappedOptional",
-                "printedName": "Foundation.URL?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "URL",
-                    "printedName": "Foundation.URL",
-                    "usr": "s:10Foundation3URLV"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "() -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11MetalDevice7VExportC15exportWithSound10presetName10inVideoUrl0i5AudioK003outK010completionySS_10Foundation3URLVSgA2MyyctFZ",
-            "mangledName": "$s11MetalDevice7VExportC15exportWithSound10presetName10inVideoUrl0i5AudioK003outK010completionySS_10Foundation3URLVSgA2MyyctFZ",
-            "moduleName": "MetalDevice",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Var",
-            "name": "progress",
-            "printedName": "progress",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Float?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Float",
-                    "printedName": "Swift.Float",
-                    "usr": "s:Sf"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:11MetalDevice7VExportC8progressSfSgvpZ",
-            "mangledName": "$s11MetalDevice7VExportC8progressSfSgvpZ",
-            "moduleName": "MetalDevice",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Float?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Float",
-                        "printedName": "Swift.Float",
-                        "usr": "s:Sf"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11MetalDevice7VExportC8progressSfSgvgZ",
-                "mangledName": "$s11MetalDevice7VExportC8progressSfSgvgZ",
-                "moduleName": "MetalDevice",
-                "static": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Float?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Float",
-                        "printedName": "Swift.Float",
-                        "usr": "s:Sf"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11MetalDevice7VExportC8progressSfSgvsZ",
-                "mangledName": "$s11MetalDevice7VExportC8progressSfSgvsZ",
-                "moduleName": "MetalDevice",
-                "static": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11MetalDevice7VExportC8progressSfSgvMZ",
-                "mangledName": "$s11MetalDevice7VExportC8progressSfSgvMZ",
-                "moduleName": "MetalDevice",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "exportPB",
-            "printedName": "exportPB(presetName:inVideoUrl:outUrl:completion:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ImplicitlyUnwrappedOptional",
-                "printedName": "Foundation.URL?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "URL",
-                    "printedName": "Foundation.URL",
-                    "usr": "s:10Foundation3URLV"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ImplicitlyUnwrappedOptional",
-                "printedName": "Foundation.URL?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "URL",
-                    "printedName": "Foundation.URL",
-                    "usr": "s:10Foundation3URLV"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "() -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11MetalDevice7VExportC8exportPB10presetName10inVideoUrl03outJ010completionySS_10Foundation3URLVSgALyyctFZ",
-            "mangledName": "$s11MetalDevice7VExportC8exportPB10presetName10inVideoUrl03outJ010completionySS_10Foundation3URLVSgALyyctFZ",
-            "moduleName": "MetalDevice",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "videoCompositionInstruction",
-            "printedName": "videoCompositionInstruction(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "AVMutableVideoCompositionLayerInstruction",
-                "printedName": "AVFoundation.AVMutableVideoCompositionLayerInstruction",
-                "usr": "c:objc(cs)AVMutableVideoCompositionLayerInstruction"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "AVCompositionTrack",
-                "printedName": "AVFoundation.AVCompositionTrack",
-                "usr": "c:objc(cs)AVCompositionTrack"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11MetalDevice7VExportC27videoCompositionInstructionySo014AVMutableVideoe5LayerF0CSo18AVCompositionTrackCFZ",
-            "mangledName": "$s11MetalDevice7VExportC27videoCompositionInstructionySo014AVMutableVideoe5LayerF0CSo18AVCompositionTrackCFZ",
-            "moduleName": "MetalDevice",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "trim",
-            "printedName": "trim(inURL:outURL:timeRange:callBack:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "URL",
-                "printedName": "Foundation.URL",
-                "usr": "s:10Foundation3URLV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "URL",
-                "printedName": "Foundation.URL",
-                "usr": "s:10Foundation3URLV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CMTimeRange",
-                "printedName": "CoreMedia.CMTimeRange",
-                "usr": "c:@SA@CMTimeRange"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "() -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11MetalDevice7VExportC4trim5inURL03outF09timeRange8callBacky10Foundation0F0V_AKSo06CMTimeI0ayyctFZ",
-            "mangledName": "$s11MetalDevice7VExportC4trim5inURL03outF09timeRange8callBacky10Foundation0F0V_AKSo06CMTimeI0ayyctFZ",
-            "moduleName": "MetalDevice",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:11MetalDevice7VExportC",
-        "mangledName": "$s11MetalDevice7VExportC",
-        "moduleName": "MetalDevice",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "hasMissingDesignatedInitializers": true
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MetalDevice",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CoreMedia",
-        "printedName": "CoreMedia",
-        "declKind": "Import",
-        "moduleName": "MetalDevice"
-      },
-      {
-        "kind": "Import",
-        "name": "AVFoundation",
-        "printedName": "AVFoundation",
-        "declKind": "Import",
-        "moduleName": "MetalDevice"
-      },
-      {
         "kind": "TypeDecl",
         "name": "SIMD2",
         "printedName": "SIMD2",
@@ -3010,1110 +3010,67 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/PBEditor.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Editor.swift",
       "kind": "Array",
-      "offset": 269,
+      "offset": 302,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/PBEditor.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Editor.swift",
       "kind": "IntegerLiteral",
-      "offset": 805,
+      "offset": 2746,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/PBEditor.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Editor.swift",
       "kind": "IntegerLiteral",
-      "offset": 809,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/PBEditor.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1897,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/PBEditor.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1958,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/PBEditor.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1971,
+      "offset": 2760,
       "length": 2,
       "value": "60"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/PBEditor.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2249,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/PBEditor.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4287,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/PBEditor.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Editor.swift",
       "kind": "StringLiteral",
-      "offset": 4370,
-      "length": 25,
-      "value": "\"error composition error\""
+      "offset": 4355,
+      "length": 20,
+      "value": "\"error composition1\""
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/PBEditor.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Editor.swift",
       "kind": "Array",
-      "offset": 4796,
+      "offset": 4873,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "StringLiteral",
-      "offset": 860,
-      "length": 30,
-      "value": "\"Memory to be released Device\""
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Editor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6649,
+      "length": 1,
+      "value": "1"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "StringLiteral",
-      "offset": 1251,
-      "length": 11,
-      "value": "\"DEVICE!!!\""
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "StringLiteral",
-      "offset": 1397,
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Editor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6663,
       "length": 2,
-      "value": "\"\""
+      "value": "60"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Editor.swift",
       "kind": "StringLiteral",
-      "offset": 1437,
-      "length": 35,
-      "value": "\"https:\/\/videodrome.app\/Main.metal\""
+      "offset": 8135,
+      "length": 20,
+      "value": "\"error composition1\""
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "StringLiteral",
-      "offset": 1814,
-      "length": 17,
-      "value": "\"Error: \""
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "StringLiteral",
-      "offset": 1830,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "StringLiteral",
-      "offset": 1978,
-      "length": 30,
-      "value": "\"Received data:\n\""
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "StringLiteral",
-      "offset": 2004,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "StringLiteral",
-      "offset": 2007,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "StringLiteral",
-      "offset": 2220,
-      "length": 12,
-      "value": "\"LIBRARY!!!\""
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "StringLiteral",
-      "offset": 2272,
-      "length": 15,
-      "value": "\"NO LIBRARY!!!\""
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "StringLiteral",
-      "offset": 2911,
-      "length": 14,
-      "value": "\"vertexShader\""
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "StringLiteral",
-      "offset": 3749,
-      "length": 14,
-      "value": "\"!!texture!!!\""
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "StringLiteral",
-      "offset": 4351,
-      "length": 14,
-      "value": "\"!!texture!!!\""
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "StringLiteral",
-      "offset": 4927,
-      "length": 14,
-      "value": "\"!!texture!!!\""
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "FloatLiteral",
-      "offset": 5174,
-      "length": 4,
-      "value": "-1.0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "FloatLiteral",
-      "offset": 5183,
-      "length": 4,
-      "value": "-1.0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "FloatLiteral",
-      "offset": 5210,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "FloatLiteral",
-      "offset": 5218,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "FloatLiteral",
-      "offset": 5268,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "FloatLiteral",
-      "offset": 5276,
-      "length": 4,
-      "value": "-1.0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "FloatLiteral",
-      "offset": 5303,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "FloatLiteral",
-      "offset": 5311,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "FloatLiteral",
-      "offset": 5361,
-      "length": 4,
-      "value": "-1.0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "FloatLiteral",
-      "offset": 5370,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "FloatLiteral",
-      "offset": 5396,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "FloatLiteral",
-      "offset": 5404,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "FloatLiteral",
-      "offset": 5454,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "FloatLiteral",
-      "offset": 5462,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "FloatLiteral",
-      "offset": 5488,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "FloatLiteral",
-      "offset": 5496,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Editor.swift",
       "kind": "Array",
-      "offset": 5650,
+      "offset": 8604,
       "length": 2,
       "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "Array",
-      "offset": 5802,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5824,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6046,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "Array",
-      "offset": 6208,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "Array",
-      "offset": 6264,
-      "length": 34,
-      "value": "[0, 1, 2, 2, 3, 0]"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "StringLiteral",
-      "offset": 6379,
-      "length": 14,
-      "value": "\"vertexShader\""
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6976,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7015,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7027,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7048,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7065,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7086,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7125,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7184,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7201,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7326,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "Array",
-      "offset": 8003,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8025,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "Array",
-      "offset": 8200,
-      "length": 39,
-      "value": "[9, 0, 1, 1, 9, 8, 8, 2, 3, 3, 8, 7, 3, 4, 4, 7, 6, 4, 5]"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "Array",
-      "offset": 8492,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9549,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11769,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11817,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11855,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12115,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12291,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12297,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "IntegerLiteral",
-      "offset": 13051,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "IntegerLiteral",
-      "offset": 13119,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "IntegerLiteral",
-      "offset": 13189,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "IntegerLiteral",
-      "offset": 13223,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "IntegerLiteral",
-      "offset": 13226,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "IntegerLiteral",
-      "offset": 13229,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "FloatLiteral",
-      "offset": 13232,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "IntegerLiteral",
-      "offset": 13293,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "IntegerLiteral",
-      "offset": 13505,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "BooleanLiteral",
-      "offset": 14750,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "IntegerLiteral",
-      "offset": 15103,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "IntegerLiteral",
-      "offset": 15119,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "IntegerLiteral",
-      "offset": 15388,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "IntegerLiteral",
-      "offset": 15391,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "IntegerLiteral",
-      "offset": 15535,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "IntegerLiteral",
-      "offset": 15568,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "IntegerLiteral",
-      "offset": 16610,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "StringLiteral",
-      "offset": 17387,
-      "length": 54,
-      "value": "\"Invalid input pixel buffer type \""
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "StringLiteral",
-      "offset": 17440,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "Dictionary",
-      "offset": 17969,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "StringLiteral",
-      "offset": 20189,
-      "length": 59,
-      "value": "\"Allocation failure: Could not allocate pixel buffer pool.\""
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "StringLiteral",
-      "offset": 22376,
-      "length": 26,
-      "value": "\"Failed to create CGImage\""
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "IntegerLiteral",
-      "offset": 22558,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "StringLiteral",
-      "offset": 22586,
-      "length": 22,
-      "value": "\"Create CFData error!\""
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "IntegerLiteral",
-      "offset": 22745,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "StringLiteral",
-      "offset": 22778,
-      "length": 34,
-      "value": "\"Create CGImageDestination error!\""
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "StringLiteral",
-      "offset": 23076,
-      "length": 38,
-      "value": "\"Finalizing CGImageDestination error!\""
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "IntegerLiteral",
-      "offset": 23331,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "StringLiteral",
-      "offset": 23359,
-      "length": 22,
-      "value": "\"Create CFData error!\""
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "IntegerLiteral",
-      "offset": 23518,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "StringLiteral",
-      "offset": 23551,
-      "length": 34,
-      "value": "\"Create CGImageDestination error!\""
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "StringLiteral",
-      "offset": 23831,
-      "length": 38,
-      "value": "\"Finalizing CGImageDestination error!\""
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "StringLiteral",
-      "offset": 24636,
-      "length": 26,
-      "value": "\"Failed to create CGImage\""
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "IntegerLiteral",
-      "offset": 24772,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "StringLiteral",
-      "offset": 24800,
-      "length": 22,
-      "value": "\"Create CFData error!\""
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "IntegerLiteral",
-      "offset": 24959,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "StringLiteral",
-      "offset": 24992,
-      "length": 34,
-      "value": "\"Create CGImageDestination error!\""
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "StringLiteral",
-      "offset": 25272,
-      "length": 38,
-      "value": "\"Finalizing CGImageDestination error!\""
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "IntegerLiteral",
-      "offset": 25468,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "IntegerLiteral",
-      "offset": 25797,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "IntegerLiteral",
-      "offset": 25803,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "IntegerLiteral",
-      "offset": 25809,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "IntegerLiteral",
-      "offset": 26219,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "IntegerLiteral",
-      "offset": 26827,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "IntegerLiteral",
-      "offset": 26880,
-      "length": 2,
-      "value": "32"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "BooleanLiteral",
-      "offset": 27225,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "FloatLiteral",
-      "offset": 27461,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "FloatLiteral",
-      "offset": 27492,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalDevice.swift",
-      "kind": "IntegerLiteral",
-      "offset": 27676,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Instruction.swift",
-      "kind": "BooleanLiteral",
-      "offset": 224,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Instruction.swift",
-      "kind": "BooleanLiteral",
-      "offset": 262,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Instruction.swift",
-      "kind": "BooleanLiteral",
-      "offset": 737,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Instruction.swift",
-      "kind": "BooleanLiteral",
-      "offset": 773,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Instruction.swift",
-      "kind": "StringLiteral",
-      "offset": 121,
-      "length": 11,
-      "value": "\"MetalDevice.Instruction\""
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalRenderer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 689,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalRenderer.swift",
-      "kind": "StringLiteral",
-      "offset": 743,
-      "length": 24,
-      "value": "\"video processing queue\""
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalRenderer.swift",
-      "kind": "Array",
-      "offset": 781,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalRenderer.swift",
-      "kind": "StringLiteral",
-      "offset": 1038,
-      "length": 13,
-      "value": "\"main_kernel\""
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalRenderer.swift",
-      "kind": "FloatLiteral",
-      "offset": 1138,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalRenderer.swift",
-      "kind": "FloatLiteral",
-      "offset": 1160,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalRenderer.swift",
-      "kind": "FloatLiteral",
-      "offset": 1164,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalRenderer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1177,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalRenderer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1187,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalRenderer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1205,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalRenderer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2289,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalRenderer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2352,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalRenderer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2409,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalRenderer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2419,
-      "length": 2,
-      "value": "12"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalRenderer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2483,
-      "length": 2,
-      "value": "12"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalRenderer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2487,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalRenderer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2491,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalRenderer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2665,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalRenderer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4158,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalRenderer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4220,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalRenderer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4276,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalRenderer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4286,
-      "length": 2,
-      "value": "12"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalRenderer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4348,
-      "length": 2,
-      "value": "12"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalRenderer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4352,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalRenderer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4356,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Metall\/MetalRenderer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4529,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/VideoCompositor.swift",
-      "kind": "StringLiteral",
-      "offset": 218,
-      "length": 24,
-      "value": "\"deinit VideoCompositor\""
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/VideoCompositor.swift",
-      "kind": "BooleanLiteral",
-      "offset": 696,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/VideoCompositor.swift",
-      "kind": "StringLiteral",
-      "offset": 760,
-      "length": 51,
-      "value": "\"com.apple.aplcustomvideocompositor.renderingqueue\""
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/VideoCompositor.swift",
-      "kind": "StringLiteral",
-      "offset": 873,
-      "length": 55,
-      "value": "\"com.apple.aplcustomvideocompositor.rendercontextqueue\""
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/VideoCompositor.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1053,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/VideoCompositor.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1741,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/VideoCompositor.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2864,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/VideoCompositor.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2945,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/VideoCompositor.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3934,
-      "length": 5,
-      "value": "false"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Export.swift",
@@ -4263,67 +3220,1061 @@
       "value": "true"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Editor.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/PBEditor.swift",
       "kind": "Array",
-      "offset": 302,
+      "offset": 269,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Editor.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/PBEditor.swift",
       "kind": "IntegerLiteral",
-      "offset": 2746,
+      "offset": 805,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Editor.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/PBEditor.swift",
       "kind": "IntegerLiteral",
-      "offset": 2760,
-      "length": 2,
-      "value": "60"
+      "offset": 809,
+      "length": 1,
+      "value": "2"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Editor.swift",
-      "kind": "StringLiteral",
-      "offset": 4355,
-      "length": 20,
-      "value": "\"error composition1\""
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Editor.swift",
-      "kind": "Array",
-      "offset": 4873,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Editor.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/PBEditor.swift",
       "kind": "IntegerLiteral",
-      "offset": 6649,
+      "offset": 1897,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/PBEditor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1958,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Editor.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/PBEditor.swift",
       "kind": "IntegerLiteral",
-      "offset": 6663,
+      "offset": 1971,
       "length": 2,
       "value": "60"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Editor.swift",
-      "kind": "StringLiteral",
-      "offset": 8135,
-      "length": 20,
-      "value": "\"error composition1\""
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/PBEditor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2249,
+      "length": 1,
+      "value": "1"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Editor.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/PBEditor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4287,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/PBEditor.swift",
+      "kind": "StringLiteral",
+      "offset": 4370,
+      "length": 25,
+      "value": "\"error composition error\""
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/PBEditor.swift",
       "kind": "Array",
-      "offset": 8604,
+      "offset": 4796,
       "length": 2,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 860,
+      "length": 30,
+      "value": "\"Memory to be released Device\""
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1251,
+      "length": 11,
+      "value": "\"DEVICE!!!\""
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1952,
+      "length": 14,
+      "value": "\"vertexShader\""
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 2790,
+      "length": 14,
+      "value": "\"!!texture!!!\""
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 3392,
+      "length": 14,
+      "value": "\"!!texture!!!\""
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 3968,
+      "length": 14,
+      "value": "\"!!texture!!!\""
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "FloatLiteral",
+      "offset": 4215,
+      "length": 4,
+      "value": "-1.0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "FloatLiteral",
+      "offset": 4224,
+      "length": 4,
+      "value": "-1.0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "FloatLiteral",
+      "offset": 4251,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "FloatLiteral",
+      "offset": 4259,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "FloatLiteral",
+      "offset": 4309,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "FloatLiteral",
+      "offset": 4317,
+      "length": 4,
+      "value": "-1.0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "FloatLiteral",
+      "offset": 4344,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "FloatLiteral",
+      "offset": 4352,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "FloatLiteral",
+      "offset": 4402,
+      "length": 4,
+      "value": "-1.0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "FloatLiteral",
+      "offset": 4411,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "FloatLiteral",
+      "offset": 4437,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "FloatLiteral",
+      "offset": 4445,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "FloatLiteral",
+      "offset": 4495,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "FloatLiteral",
+      "offset": 4503,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "FloatLiteral",
+      "offset": 4529,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "FloatLiteral",
+      "offset": 4537,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "Array",
+      "offset": 4691,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "Array",
+      "offset": 4843,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4865,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5087,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "Array",
+      "offset": 5249,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "Array",
+      "offset": 5305,
+      "length": 34,
+      "value": "[0, 1, 2, 2, 3, 0]"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 5420,
+      "length": 14,
+      "value": "\"vertexShader\""
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6017,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6056,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6068,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6089,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6106,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6127,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6166,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6225,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6242,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6367,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "Array",
+      "offset": 7044,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7066,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "Array",
+      "offset": 7241,
+      "length": 39,
+      "value": "[9, 0, 1, 1, 9, 8, 8, 2, 3, 3, 8, 7, 3, 4, 4, 7, 6, 4, 5]"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "Array",
+      "offset": 7533,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8590,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10810,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10858,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10896,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11156,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11332,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11338,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12092,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12160,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12230,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12264,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12267,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12270,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "FloatLiteral",
+      "offset": 12273,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12334,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12546,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13791,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14144,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14160,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14429,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14432,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14576,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14609,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15651,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 16428,
+      "length": 54,
+      "value": "\"Invalid input pixel buffer type \""
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 16481,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "Dictionary",
+      "offset": 17010,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 19230,
+      "length": 59,
+      "value": "\"Allocation failure: Could not allocate pixel buffer pool.\""
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 21417,
+      "length": 26,
+      "value": "\"Failed to create CGImage\""
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 21599,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 21627,
+      "length": 22,
+      "value": "\"Create CFData error!\""
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 21786,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 21819,
+      "length": 34,
+      "value": "\"Create CGImageDestination error!\""
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 22117,
+      "length": 38,
+      "value": "\"Finalizing CGImageDestination error!\""
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 22372,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 22400,
+      "length": 22,
+      "value": "\"Create CFData error!\""
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 22559,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 22592,
+      "length": 34,
+      "value": "\"Create CGImageDestination error!\""
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 22872,
+      "length": 38,
+      "value": "\"Finalizing CGImageDestination error!\""
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 23677,
+      "length": 26,
+      "value": "\"Failed to create CGImage\""
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 23813,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 23841,
+      "length": 22,
+      "value": "\"Create CFData error!\""
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 24000,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 24033,
+      "length": 34,
+      "value": "\"Create CGImageDestination error!\""
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 24313,
+      "length": 38,
+      "value": "\"Finalizing CGImageDestination error!\""
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 24509,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 24838,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 24844,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 24850,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 25260,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 25868,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 25921,
+      "length": 2,
+      "value": "32"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "BooleanLiteral",
+      "offset": 26266,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "FloatLiteral",
+      "offset": 26502,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "FloatLiteral",
+      "offset": 26533,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 26717,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Instruction.swift",
+      "kind": "BooleanLiteral",
+      "offset": 224,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Instruction.swift",
+      "kind": "BooleanLiteral",
+      "offset": 262,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Instruction.swift",
+      "kind": "BooleanLiteral",
+      "offset": 737,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Instruction.swift",
+      "kind": "BooleanLiteral",
+      "offset": 773,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Instruction.swift",
+      "kind": "StringLiteral",
+      "offset": 121,
+      "length": 11,
+      "value": "\"MetalDevice.Instruction\""
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/VideoCompositor.swift",
+      "kind": "StringLiteral",
+      "offset": 218,
+      "length": 24,
+      "value": "\"deinit VideoCompositor\""
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/VideoCompositor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 696,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/VideoCompositor.swift",
+      "kind": "StringLiteral",
+      "offset": 760,
+      "length": 51,
+      "value": "\"com.apple.aplcustomvideocompositor.renderingqueue\""
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/VideoCompositor.swift",
+      "kind": "StringLiteral",
+      "offset": 873,
+      "length": 55,
+      "value": "\"com.apple.aplcustomvideocompositor.rendercontextqueue\""
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/VideoCompositor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1053,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/VideoCompositor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1741,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/VideoCompositor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2864,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/VideoCompositor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2945,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/VideoCompositor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3934,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalRenderer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 689,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalRenderer.swift",
+      "kind": "StringLiteral",
+      "offset": 743,
+      "length": 24,
+      "value": "\"video processing queue\""
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalRenderer.swift",
+      "kind": "Array",
+      "offset": 781,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalRenderer.swift",
+      "kind": "StringLiteral",
+      "offset": 1038,
+      "length": 13,
+      "value": "\"main_kernel\""
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalRenderer.swift",
+      "kind": "FloatLiteral",
+      "offset": 1138,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalRenderer.swift",
+      "kind": "FloatLiteral",
+      "offset": 1160,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalRenderer.swift",
+      "kind": "FloatLiteral",
+      "offset": 1164,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalRenderer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1177,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalRenderer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1187,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalRenderer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1205,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalRenderer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2289,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalRenderer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2352,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalRenderer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2409,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalRenderer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2419,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalRenderer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2483,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalRenderer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2487,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalRenderer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2491,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalRenderer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2665,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalRenderer.swift",
+      "kind": "StringLiteral",
+      "offset": 3691,
+      "length": 33,
+      "value": "\"fatalError loading inputTexture\""
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalRenderer.swift",
+      "kind": "StringLiteral",
+      "offset": 3867,
+      "length": 34,
+      "value": "\"fatalError loading outputTexture\""
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalRenderer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4243,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalRenderer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4305,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalRenderer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4361,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalRenderer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4371,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalRenderer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4433,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalRenderer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4437,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalRenderer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4441,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalRenderer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4614,
+      "length": 1,
+      "value": "1"
     }
   ]
 }

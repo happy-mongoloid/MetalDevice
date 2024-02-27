@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/MetalDevice.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		zrX469KY2brVTSBIVdXU2Oy1wYk=
+		T5PlsNb7FODs0Ur+NXPmI94oDiU=
 		</data>
 		<key>Modules/MetalDevice.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		tfGAmQkGimOWenBbkKjpxPoMnaY=
+		5PgvJX7mVG85rfwVFguDJJuAehc=
 		</data>
 		<key>Modules/MetalDevice.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -30,19 +30,15 @@
 		</data>
 		<key>Modules/MetalDevice.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		tfGAmQkGimOWenBbkKjpxPoMnaY=
+		5PgvJX7mVG85rfwVFguDJJuAehc=
 		</data>
 		<key>Modules/MetalDevice.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		maHA3O3jr3/aYIygekljh16Oges=
+		iWeLWIttOSZgRVKwBBD0heeZYIs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		q800ZIUk/JcT0hXP3kmBe6mPH00=
-		</data>
-		<key>default.metallib</key>
-		<data>
-		PeLXFnthuBljibIyqrq09HSdf+Q=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -65,14 +61,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xGET9SHkH78hpc5Crj92LYZtDskUJ8y6rU+wp3xM8vA=
+			UgYOH6eMDSZ7Na5ezILpu86x48CBqlNm4Vk2XEmZtjg=
 			</data>
 		</dict>
 		<key>Modules/MetalDevice.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cxu19VZ7Dpu7UE4cSex4mxF14LHsF9rLOJuXRfqTN9Q=
+			Se0rv9ZpXTKatNbTYuS6OBMvZrJw75zEKyfaVmn+Gmc=
 			</data>
 		</dict>
 		<key>Modules/MetalDevice.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -86,14 +82,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cxu19VZ7Dpu7UE4cSex4mxF14LHsF9rLOJuXRfqTN9Q=
+			Se0rv9ZpXTKatNbTYuS6OBMvZrJw75zEKyfaVmn+Gmc=
 			</data>
 		</dict>
 		<key>Modules/MetalDevice.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zYEiNbtJ9ly8my7BupLZ3KuKdOZHJJtYvLDxrjvzwAk=
+			hT/F6S1kH1zf2JfAQbQxCOb5on9ezUgoXmV16ihHcxc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -101,13 +97,6 @@
 			<key>hash2</key>
 			<data>
 			CHjeDN/eivRkTZ6BcDerA+2ptj1+VsXyCqyITaBIw+Y=
-			</data>
-		</dict>
-		<key>default.metallib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			QHaI7q3lMDnBgqL1jqg1SPjK3qTt3SheXBQknQjRuWQ=
 			</data>
 		</dict>
 	</dict>
