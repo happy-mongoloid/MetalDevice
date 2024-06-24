@@ -1895,6 +1895,117 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "transitionDuration",
+            "printedName": "transitionDuration",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreMedia.CMTime?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CMTime",
+                    "printedName": "CoreMedia.CMTime",
+                    "usr": "c:@SA@CMTime"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11MetalDevice7VEditorC18transitionDurationSo6CMTimeaSgvp",
+            "mangledName": "$s11MetalDevice7VEditorC18transitionDurationSo6CMTimeaSgvp",
+            "moduleName": "MetalDevice",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CoreMedia.CMTime?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CMTime",
+                        "printedName": "CoreMedia.CMTime",
+                        "usr": "c:@SA@CMTime"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MetalDevice7VEditorC18transitionDurationSo6CMTimeaSgvg",
+                "mangledName": "$s11MetalDevice7VEditorC18transitionDurationSo6CMTimeaSgvg",
+                "moduleName": "MetalDevice",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CoreMedia.CMTime?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CMTime",
+                        "printedName": "CoreMedia.CMTime",
+                        "usr": "c:@SA@CMTime"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MetalDevice7VEditorC18transitionDurationSo6CMTimeaSgvs",
+                "mangledName": "$s11MetalDevice7VEditorC18transitionDurationSo6CMTimeaSgvs",
+                "moduleName": "MetalDevice",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MetalDevice7VEditorC18transitionDurationSo6CMTimeaSgvM",
+                "mangledName": "$s11MetalDevice7VEditorC18transitionDurationSo6CMTimeaSgvM",
+                "moduleName": "MetalDevice",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(clips:clipTimeRanges:)",
@@ -2747,6 +2858,20 @@
       "offset": 765,
       "length": 1,
       "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MultiItemsExport\/VEditor.swift",
+      "kind": "FloatLiteral",
+      "offset": 951,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MultiItemsExport\/VEditor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 976,
+      "length": 3,
+      "value": "600"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MultiItemsExport\/VEditor.swift",

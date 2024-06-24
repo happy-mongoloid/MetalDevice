@@ -59,6 +59,7 @@ extension Metal.MTLRenderCommandEncoder {
 }
 @objc public class VEditor : ObjectiveC.NSObject, AVFoundation.AVVideoCompositionValidationHandling {
   public var trackIndex: Swift.Int
+  public var transitionDuration: CoreMedia.CMTime?
   public init(clips: [AVFoundation.AVURLAsset], clipTimeRanges: [CoreMedia.CMTimeRange])
   public func buildCompositionObjectsForPlayback(_ forPlayback: Swift.Bool, overwriteExistingObjects: Swift.Bool)
   public func playerItem() -> AVFoundation.AVPlayerItem?
