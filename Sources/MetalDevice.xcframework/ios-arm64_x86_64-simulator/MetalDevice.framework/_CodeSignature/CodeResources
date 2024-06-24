@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/MetalDevice.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		c4hv2NJPxRuM6nwAkkw07FsxNsI=
+		RgPIRi94EB2kugc7SDQaBER5sus=
 		</data>
 		<key>Modules/MetalDevice.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/MetalDevice.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		c4hv2NJPxRuM6nwAkkw07FsxNsI=
+		RgPIRi94EB2kugc7SDQaBER5sus=
 		</data>
 		<key>Modules/MetalDevice.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -81,7 +81,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			S4VfUXaZao24TSSGg6Emp8JsnXbvKH/DOrvBOiekG0Y=
+			7yNbrgTyv/Llnw5h40c8PWRwHx/DdF51VbkLHjYtVYc=
 			</data>
 		</dict>
 		<key>Modules/MetalDevice.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -116,7 +116,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			S4VfUXaZao24TSSGg6Emp8JsnXbvKH/DOrvBOiekG0Y=
+			7yNbrgTyv/Llnw5h40c8PWRwHx/DdF51VbkLHjYtVYc=
 			</data>
 		</dict>
 		<key>Modules/MetalDevice.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
