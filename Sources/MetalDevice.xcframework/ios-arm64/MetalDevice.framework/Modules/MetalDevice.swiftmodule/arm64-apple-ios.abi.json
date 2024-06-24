@@ -1810,6 +1810,117 @@
         "children": [
           {
             "kind": "Var",
+            "name": "clipTimeRanges",
+            "printedName": "clipTimeRanges",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[CoreMedia.CMTimeRange]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CMTimeRange",
+                    "printedName": "CoreMedia.CMTimeRange",
+                    "usr": "c:@SA@CMTimeRange"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11MetalDevice7VEditorC14clipTimeRangesSaySo11CMTimeRangeaGvp",
+            "mangledName": "$s11MetalDevice7VEditorC14clipTimeRangesSaySo11CMTimeRangeaGvp",
+            "moduleName": "MetalDevice",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[CoreMedia.CMTimeRange]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CMTimeRange",
+                        "printedName": "CoreMedia.CMTimeRange",
+                        "usr": "c:@SA@CMTimeRange"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MetalDevice7VEditorC14clipTimeRangesSaySo11CMTimeRangeaGvg",
+                "mangledName": "$s11MetalDevice7VEditorC14clipTimeRangesSaySo11CMTimeRangeaGvg",
+                "moduleName": "MetalDevice",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[CoreMedia.CMTimeRange]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CMTimeRange",
+                        "printedName": "CoreMedia.CMTimeRange",
+                        "usr": "c:@SA@CMTimeRange"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MetalDevice7VEditorC14clipTimeRangesSaySo11CMTimeRangeaGvs",
+                "mangledName": "$s11MetalDevice7VEditorC14clipTimeRangesSaySo11CMTimeRangeaGvs",
+                "moduleName": "MetalDevice",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MetalDevice7VEditorC14clipTimeRangesSaySo11CMTimeRangeaGvM",
+                "mangledName": "$s11MetalDevice7VEditorC14clipTimeRangesSaySo11CMTimeRangeaGvM",
+                "moduleName": "MetalDevice",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "trackIndex",
             "printedName": "trackIndex",
             "children": [
@@ -1999,6 +2110,228 @@
                 "declKind": "Accessor",
                 "usr": "s:11MetalDevice7VEditorC18transitionDurationSo6CMTimeaSgvM",
                 "mangledName": "$s11MetalDevice7VEditorC18transitionDurationSo6CMTimeaSgvM",
+                "moduleName": "MetalDevice",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "composition",
+            "printedName": "composition",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AVFoundation.AVMutableComposition?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AVMutableComposition",
+                    "printedName": "AVFoundation.AVMutableComposition",
+                    "usr": "c:objc(cs)AVMutableComposition"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11MetalDevice7VEditorC11compositionSo20AVMutableCompositionCSgvp",
+            "mangledName": "$s11MetalDevice7VEditorC11compositionSo20AVMutableCompositionCSgvp",
+            "moduleName": "MetalDevice",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AVFoundation.AVMutableComposition?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AVMutableComposition",
+                        "printedName": "AVFoundation.AVMutableComposition",
+                        "usr": "c:objc(cs)AVMutableComposition"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MetalDevice7VEditorC11compositionSo20AVMutableCompositionCSgvg",
+                "mangledName": "$s11MetalDevice7VEditorC11compositionSo20AVMutableCompositionCSgvg",
+                "moduleName": "MetalDevice",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AVFoundation.AVMutableComposition?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AVMutableComposition",
+                        "printedName": "AVFoundation.AVMutableComposition",
+                        "usr": "c:objc(cs)AVMutableComposition"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MetalDevice7VEditorC11compositionSo20AVMutableCompositionCSgvs",
+                "mangledName": "$s11MetalDevice7VEditorC11compositionSo20AVMutableCompositionCSgvs",
+                "moduleName": "MetalDevice",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MetalDevice7VEditorC11compositionSo20AVMutableCompositionCSgvM",
+                "mangledName": "$s11MetalDevice7VEditorC11compositionSo20AVMutableCompositionCSgvM",
+                "moduleName": "MetalDevice",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "videoComposition",
+            "printedName": "videoComposition",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AVFoundation.AVMutableVideoComposition?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AVMutableVideoComposition",
+                    "printedName": "AVFoundation.AVMutableVideoComposition",
+                    "usr": "c:objc(cs)AVMutableVideoComposition"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11MetalDevice7VEditorC16videoCompositionSo014AVMutableVideoE0CSgvp",
+            "mangledName": "$s11MetalDevice7VEditorC16videoCompositionSo014AVMutableVideoE0CSgvp",
+            "moduleName": "MetalDevice",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AVFoundation.AVMutableVideoComposition?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AVMutableVideoComposition",
+                        "printedName": "AVFoundation.AVMutableVideoComposition",
+                        "usr": "c:objc(cs)AVMutableVideoComposition"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MetalDevice7VEditorC16videoCompositionSo014AVMutableVideoE0CSgvg",
+                "mangledName": "$s11MetalDevice7VEditorC16videoCompositionSo014AVMutableVideoE0CSgvg",
+                "moduleName": "MetalDevice",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AVFoundation.AVMutableVideoComposition?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AVMutableVideoComposition",
+                        "printedName": "AVFoundation.AVMutableVideoComposition",
+                        "usr": "c:objc(cs)AVMutableVideoComposition"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MetalDevice7VEditorC16videoCompositionSo014AVMutableVideoE0CSgvs",
+                "mangledName": "$s11MetalDevice7VEditorC16videoCompositionSo014AVMutableVideoE0CSgvs",
+                "moduleName": "MetalDevice",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MetalDevice7VEditorC16videoCompositionSo014AVMutableVideoE0CSgvM",
+                "mangledName": "$s11MetalDevice7VEditorC16videoCompositionSo014AVMutableVideoE0CSgvM",
                 "moduleName": "MetalDevice",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -2855,21 +3188,21 @@
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MultiItemsExport\/VEditor.swift",
       "kind": "IntegerLiteral",
-      "offset": 765,
+      "offset": 773,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MultiItemsExport\/VEditor.swift",
       "kind": "FloatLiteral",
-      "offset": 951,
+      "offset": 959,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MultiItemsExport\/VEditor.swift",
       "kind": "IntegerLiteral",
-      "offset": 976,
+      "offset": 984,
       "length": 3,
       "value": "600"
     },
