@@ -3139,28 +3139,28 @@
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
       "kind": "StringLiteral",
-      "offset": 2074,
+      "offset": 2076,
       "length": 15,
       "value": "\"vertex_shader\""
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
       "kind": "Array",
-      "offset": 5428,
+      "offset": 5430,
       "length": 34,
       "value": "[0, 1, 2, 2, 3, 0]"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
       "kind": "StringLiteral",
-      "offset": 5543,
+      "offset": 5545,
       "length": 14,
       "value": "\"vertexShader\""
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 26840,
+      "offset": 26842,
       "length": 1,
       "value": "0"
     },
