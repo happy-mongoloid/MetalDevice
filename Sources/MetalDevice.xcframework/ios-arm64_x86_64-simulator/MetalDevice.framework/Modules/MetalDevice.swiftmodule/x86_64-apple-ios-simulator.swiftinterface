@@ -13,6 +13,40 @@ import Swift
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+@objc public class VEditor : ObjectiveC.NSObject, AVFoundation.AVVideoCompositionValidationHandling {
+  public var clipTimeRanges: [CoreMedia.CMTimeRange]
+  public var trackIndex: Swift.Int
+  public var transitionDuration: CoreMedia.CMTime?
+  public var composition: AVFoundation.AVMutableComposition?
+  public var videoComposition: AVFoundation.AVMutableVideoComposition?
+  public init(clips: [AVFoundation.AVURLAsset], clipTimeRanges: [CoreMedia.CMTimeRange])
+  public func buildCompositionObjectsForPlayback(_ forPlayback: Swift.Bool, overwriteExistingObjects: Swift.Bool)
+  public func playerItem() -> AVFoundation.AVPlayerItem?
+  @objc deinit
+}
+extension AVFoundation.AVAsset {
+  public func orientationValue() -> Swift.Float
+  public var transform: CoreFoundation.CGAffineTransform {
+    get
+  }
+  public var transformedSize: CoreFoundation.CGSize {
+    get
+  }
+}
+extension CoreFoundation.CGAffineTransform {
+  public func videoOrientationF() -> Swift.Float
+}
+public struct Uniform {
+}
+@_hasMissingDesignatedInitializers public class EditorProperties {
+  public static var effects: [Swift.Int]
+  public static var transitions: [Swift.Int]
+  public static var effectKernelName: Swift.String
+  public var effectsKernelsList: [Swift.String]
+  public static var orientation: [Swift.Float]
+  public static var exportSize: CoreFoundation.CGSize
+  @objc deinit
+}
 @_hasMissingDesignatedInitializers public class MTDevice {
   public static let shared: MetalDevice.MTDevice
   public var device: any Metal.MTLDevice
@@ -51,34 +85,4 @@ extension Swift.SIMD2 where Scalar == Swift.Float {
 }
 extension Metal.MTLRenderCommandEncoder {
   public func setFragmentTextures(_ textures: [(any Metal.MTLTexture)?], startingAt startIndex: Swift.Int = 0)
-}
-@_hasMissingDesignatedInitializers public class EditorProperties {
-  public static var orientation: [Swift.Float]
-  public static var exportSize: CoreFoundation.CGSize
-  @objc deinit
-}
-@objc public class VEditor : ObjectiveC.NSObject, AVFoundation.AVVideoCompositionValidationHandling {
-  public var clipTimeRanges: [CoreMedia.CMTimeRange]
-  public var trackIndex: Swift.Int
-  public var transitionDuration: CoreMedia.CMTime?
-  public var composition: AVFoundation.AVMutableComposition?
-  public var videoComposition: AVFoundation.AVMutableVideoComposition?
-  public init(clips: [AVFoundation.AVURLAsset], clipTimeRanges: [CoreMedia.CMTimeRange])
-  public func buildCompositionObjectsForPlayback(_ forPlayback: Swift.Bool, overwriteExistingObjects: Swift.Bool)
-  public func playerItem() -> AVFoundation.AVPlayerItem?
-  @objc deinit
-}
-extension AVFoundation.AVAsset {
-  public func orientationValue() -> Swift.Float
-  public var transform: CoreFoundation.CGAffineTransform {
-    get
-  }
-  public var transformedSize: CoreFoundation.CGSize {
-    get
-  }
-}
-extension CoreFoundation.CGAffineTransform {
-  public func videoOrientationF() -> Swift.Float
-}
-public struct Uniform {
 }

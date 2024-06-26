@@ -6,6 +6,1552 @@
     "children": [
       {
         "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "MetalDevice",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MetalDevice"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreMedia",
+        "printedName": "CoreMedia",
+        "declKind": "Import",
+        "moduleName": "MetalDevice"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MetalDevice",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreMedia",
+        "printedName": "CoreMedia",
+        "declKind": "Import",
+        "moduleName": "MetalDevice"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "MetalDevice"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VEditor",
+        "printedName": "VEditor",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "clipTimeRanges",
+            "printedName": "clipTimeRanges",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[CoreMedia.CMTimeRange]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CMTimeRange",
+                    "printedName": "CoreMedia.CMTimeRange",
+                    "usr": "c:@SA@CMTimeRange"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11MetalDevice7VEditorC14clipTimeRangesSaySo11CMTimeRangeaGvp",
+            "mangledName": "$s11MetalDevice7VEditorC14clipTimeRangesSaySo11CMTimeRangeaGvp",
+            "moduleName": "MetalDevice",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[CoreMedia.CMTimeRange]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CMTimeRange",
+                        "printedName": "CoreMedia.CMTimeRange",
+                        "usr": "c:@SA@CMTimeRange"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MetalDevice7VEditorC14clipTimeRangesSaySo11CMTimeRangeaGvg",
+                "mangledName": "$s11MetalDevice7VEditorC14clipTimeRangesSaySo11CMTimeRangeaGvg",
+                "moduleName": "MetalDevice",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[CoreMedia.CMTimeRange]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CMTimeRange",
+                        "printedName": "CoreMedia.CMTimeRange",
+                        "usr": "c:@SA@CMTimeRange"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MetalDevice7VEditorC14clipTimeRangesSaySo11CMTimeRangeaGvs",
+                "mangledName": "$s11MetalDevice7VEditorC14clipTimeRangesSaySo11CMTimeRangeaGvs",
+                "moduleName": "MetalDevice",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MetalDevice7VEditorC14clipTimeRangesSaySo11CMTimeRangeaGvM",
+                "mangledName": "$s11MetalDevice7VEditorC14clipTimeRangesSaySo11CMTimeRangeaGvM",
+                "moduleName": "MetalDevice",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "trackIndex",
+            "printedName": "trackIndex",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11MetalDevice7VEditorC10trackIndexSivp",
+            "mangledName": "$s11MetalDevice7VEditorC10trackIndexSivp",
+            "moduleName": "MetalDevice",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MetalDevice7VEditorC10trackIndexSivg",
+                "mangledName": "$s11MetalDevice7VEditorC10trackIndexSivg",
+                "moduleName": "MetalDevice",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MetalDevice7VEditorC10trackIndexSivs",
+                "mangledName": "$s11MetalDevice7VEditorC10trackIndexSivs",
+                "moduleName": "MetalDevice",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MetalDevice7VEditorC10trackIndexSivM",
+                "mangledName": "$s11MetalDevice7VEditorC10trackIndexSivM",
+                "moduleName": "MetalDevice",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "transitionDuration",
+            "printedName": "transitionDuration",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreMedia.CMTime?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CMTime",
+                    "printedName": "CoreMedia.CMTime",
+                    "usr": "c:@SA@CMTime"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11MetalDevice7VEditorC18transitionDurationSo6CMTimeaSgvp",
+            "mangledName": "$s11MetalDevice7VEditorC18transitionDurationSo6CMTimeaSgvp",
+            "moduleName": "MetalDevice",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CoreMedia.CMTime?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CMTime",
+                        "printedName": "CoreMedia.CMTime",
+                        "usr": "c:@SA@CMTime"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MetalDevice7VEditorC18transitionDurationSo6CMTimeaSgvg",
+                "mangledName": "$s11MetalDevice7VEditorC18transitionDurationSo6CMTimeaSgvg",
+                "moduleName": "MetalDevice",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CoreMedia.CMTime?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CMTime",
+                        "printedName": "CoreMedia.CMTime",
+                        "usr": "c:@SA@CMTime"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MetalDevice7VEditorC18transitionDurationSo6CMTimeaSgvs",
+                "mangledName": "$s11MetalDevice7VEditorC18transitionDurationSo6CMTimeaSgvs",
+                "moduleName": "MetalDevice",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MetalDevice7VEditorC18transitionDurationSo6CMTimeaSgvM",
+                "mangledName": "$s11MetalDevice7VEditorC18transitionDurationSo6CMTimeaSgvM",
+                "moduleName": "MetalDevice",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "composition",
+            "printedName": "composition",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AVFoundation.AVMutableComposition?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AVMutableComposition",
+                    "printedName": "AVFoundation.AVMutableComposition",
+                    "usr": "c:objc(cs)AVMutableComposition"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11MetalDevice7VEditorC11compositionSo20AVMutableCompositionCSgvp",
+            "mangledName": "$s11MetalDevice7VEditorC11compositionSo20AVMutableCompositionCSgvp",
+            "moduleName": "MetalDevice",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AVFoundation.AVMutableComposition?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AVMutableComposition",
+                        "printedName": "AVFoundation.AVMutableComposition",
+                        "usr": "c:objc(cs)AVMutableComposition"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MetalDevice7VEditorC11compositionSo20AVMutableCompositionCSgvg",
+                "mangledName": "$s11MetalDevice7VEditorC11compositionSo20AVMutableCompositionCSgvg",
+                "moduleName": "MetalDevice",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AVFoundation.AVMutableComposition?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AVMutableComposition",
+                        "printedName": "AVFoundation.AVMutableComposition",
+                        "usr": "c:objc(cs)AVMutableComposition"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MetalDevice7VEditorC11compositionSo20AVMutableCompositionCSgvs",
+                "mangledName": "$s11MetalDevice7VEditorC11compositionSo20AVMutableCompositionCSgvs",
+                "moduleName": "MetalDevice",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MetalDevice7VEditorC11compositionSo20AVMutableCompositionCSgvM",
+                "mangledName": "$s11MetalDevice7VEditorC11compositionSo20AVMutableCompositionCSgvM",
+                "moduleName": "MetalDevice",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "videoComposition",
+            "printedName": "videoComposition",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AVFoundation.AVMutableVideoComposition?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AVMutableVideoComposition",
+                    "printedName": "AVFoundation.AVMutableVideoComposition",
+                    "usr": "c:objc(cs)AVMutableVideoComposition"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11MetalDevice7VEditorC16videoCompositionSo014AVMutableVideoE0CSgvp",
+            "mangledName": "$s11MetalDevice7VEditorC16videoCompositionSo014AVMutableVideoE0CSgvp",
+            "moduleName": "MetalDevice",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AVFoundation.AVMutableVideoComposition?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AVMutableVideoComposition",
+                        "printedName": "AVFoundation.AVMutableVideoComposition",
+                        "usr": "c:objc(cs)AVMutableVideoComposition"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MetalDevice7VEditorC16videoCompositionSo014AVMutableVideoE0CSgvg",
+                "mangledName": "$s11MetalDevice7VEditorC16videoCompositionSo014AVMutableVideoE0CSgvg",
+                "moduleName": "MetalDevice",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AVFoundation.AVMutableVideoComposition?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AVMutableVideoComposition",
+                        "printedName": "AVFoundation.AVMutableVideoComposition",
+                        "usr": "c:objc(cs)AVMutableVideoComposition"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MetalDevice7VEditorC16videoCompositionSo014AVMutableVideoE0CSgvs",
+                "mangledName": "$s11MetalDevice7VEditorC16videoCompositionSo014AVMutableVideoE0CSgvs",
+                "moduleName": "MetalDevice",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MetalDevice7VEditorC16videoCompositionSo014AVMutableVideoE0CSgvM",
+                "mangledName": "$s11MetalDevice7VEditorC16videoCompositionSo014AVMutableVideoE0CSgvM",
+                "moduleName": "MetalDevice",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(clips:clipTimeRanges:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VEditor",
+                "printedName": "MetalDevice.VEditor",
+                "usr": "c:@M@MetalDevice@objc(cs)VEditor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[AVFoundation.AVURLAsset]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AVURLAsset",
+                    "printedName": "AVFoundation.AVURLAsset",
+                    "usr": "c:objc(cs)AVURLAsset"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[CoreMedia.CMTimeRange]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CMTimeRange",
+                    "printedName": "CoreMedia.CMTimeRange",
+                    "usr": "c:@SA@CMTimeRange"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11MetalDevice7VEditorC5clips14clipTimeRangesACSaySo10AVURLAssetCG_SaySo11CMTimeRangeaGtcfc",
+            "mangledName": "$s11MetalDevice7VEditorC5clips14clipTimeRangesACSaySo10AVURLAssetCG_SaySo11CMTimeRangeaGtcfc",
+            "moduleName": "MetalDevice",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "buildCompositionObjectsForPlayback",
+            "printedName": "buildCompositionObjectsForPlayback(_:overwriteExistingObjects:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11MetalDevice7VEditorC34buildCompositionObjectsForPlayback_017overwriteExistingF0ySb_SbtF",
+            "mangledName": "$s11MetalDevice7VEditorC34buildCompositionObjectsForPlayback_017overwriteExistingF0ySb_SbtF",
+            "moduleName": "MetalDevice",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "playerItem",
+            "printedName": "playerItem()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AVFoundation.AVPlayerItem?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AVPlayerItem",
+                    "printedName": "AVFoundation.AVPlayerItem",
+                    "usr": "c:objc(cs)AVPlayerItem"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11MetalDevice7VEditorC10playerItemSo08AVPlayerE0CSgyF",
+            "mangledName": "$s11MetalDevice7VEditorC10playerItemSo08AVPlayerE0CSgyF",
+            "moduleName": "MetalDevice",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VEditor",
+                "printedName": "MetalDevice.VEditor",
+                "usr": "c:@M@MetalDevice@objc(cs)VEditor"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@MetalDevice@objc(cs)VEditor(im)init",
+            "mangledName": "$s11MetalDevice7VEditorCACycfc",
+            "moduleName": "MetalDevice",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@MetalDevice@objc(cs)VEditor",
+        "mangledName": "$s11MetalDevice7VEditorC",
+        "moduleName": "MetalDevice",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MetalDevice",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MetalDevice",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "MetalDevice"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreVideo",
+        "printedName": "CoreVideo",
+        "declKind": "Import",
+        "moduleName": "MetalDevice"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "MetalDevice",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MetalKit",
+        "printedName": "MetalKit",
+        "declKind": "Import",
+        "moduleName": "MetalDevice"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Uniform",
+        "printedName": "Uniform",
+        "declKind": "Struct",
+        "usr": "s:11MetalDevice7UniformV",
+        "mangledName": "$s11MetalDevice7UniformV",
+        "moduleName": "MetalDevice",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "EditorProperties",
+        "printedName": "EditorProperties",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "effects",
+            "printedName": "effects",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.Int]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11MetalDevice16EditorPropertiesC7effectsSaySiGvpZ",
+            "mangledName": "$s11MetalDevice16EditorPropertiesC7effectsSaySiGvpZ",
+            "moduleName": "MetalDevice",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.Int]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MetalDevice16EditorPropertiesC7effectsSaySiGvgZ",
+                "mangledName": "$s11MetalDevice16EditorPropertiesC7effectsSaySiGvgZ",
+                "moduleName": "MetalDevice",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.Int]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MetalDevice16EditorPropertiesC7effectsSaySiGvsZ",
+                "mangledName": "$s11MetalDevice16EditorPropertiesC7effectsSaySiGvsZ",
+                "moduleName": "MetalDevice",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MetalDevice16EditorPropertiesC7effectsSaySiGvMZ",
+                "mangledName": "$s11MetalDevice16EditorPropertiesC7effectsSaySiGvMZ",
+                "moduleName": "MetalDevice",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "transitions",
+            "printedName": "transitions",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.Int]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11MetalDevice16EditorPropertiesC11transitionsSaySiGvpZ",
+            "mangledName": "$s11MetalDevice16EditorPropertiesC11transitionsSaySiGvpZ",
+            "moduleName": "MetalDevice",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.Int]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MetalDevice16EditorPropertiesC11transitionsSaySiGvgZ",
+                "mangledName": "$s11MetalDevice16EditorPropertiesC11transitionsSaySiGvgZ",
+                "moduleName": "MetalDevice",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.Int]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MetalDevice16EditorPropertiesC11transitionsSaySiGvsZ",
+                "mangledName": "$s11MetalDevice16EditorPropertiesC11transitionsSaySiGvsZ",
+                "moduleName": "MetalDevice",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MetalDevice16EditorPropertiesC11transitionsSaySiGvMZ",
+                "mangledName": "$s11MetalDevice16EditorPropertiesC11transitionsSaySiGvMZ",
+                "moduleName": "MetalDevice",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "effectKernelName",
+            "printedName": "effectKernelName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11MetalDevice16EditorPropertiesC16effectKernelNameSSvpZ",
+            "mangledName": "$s11MetalDevice16EditorPropertiesC16effectKernelNameSSvpZ",
+            "moduleName": "MetalDevice",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MetalDevice16EditorPropertiesC16effectKernelNameSSvgZ",
+                "mangledName": "$s11MetalDevice16EditorPropertiesC16effectKernelNameSSvgZ",
+                "moduleName": "MetalDevice",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MetalDevice16EditorPropertiesC16effectKernelNameSSvsZ",
+                "mangledName": "$s11MetalDevice16EditorPropertiesC16effectKernelNameSSvsZ",
+                "moduleName": "MetalDevice",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MetalDevice16EditorPropertiesC16effectKernelNameSSvMZ",
+                "mangledName": "$s11MetalDevice16EditorPropertiesC16effectKernelNameSSvMZ",
+                "moduleName": "MetalDevice",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "effectsKernelsList",
+            "printedName": "effectsKernelsList",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11MetalDevice16EditorPropertiesC18effectsKernelsListSaySSGvp",
+            "mangledName": "$s11MetalDevice16EditorPropertiesC18effectsKernelsListSaySSGvp",
+            "moduleName": "MetalDevice",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MetalDevice16EditorPropertiesC18effectsKernelsListSaySSGvg",
+                "mangledName": "$s11MetalDevice16EditorPropertiesC18effectsKernelsListSaySSGvg",
+                "moduleName": "MetalDevice",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MetalDevice16EditorPropertiesC18effectsKernelsListSaySSGvs",
+                "mangledName": "$s11MetalDevice16EditorPropertiesC18effectsKernelsListSaySSGvs",
+                "moduleName": "MetalDevice",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MetalDevice16EditorPropertiesC18effectsKernelsListSaySSGvM",
+                "mangledName": "$s11MetalDevice16EditorPropertiesC18effectsKernelsListSaySSGvM",
+                "moduleName": "MetalDevice",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "orientation",
+            "printedName": "orientation",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.Float]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11MetalDevice16EditorPropertiesC11orientationSaySfGvpZ",
+            "mangledName": "$s11MetalDevice16EditorPropertiesC11orientationSaySfGvpZ",
+            "moduleName": "MetalDevice",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.Float]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Float",
+                        "printedName": "Swift.Float",
+                        "usr": "s:Sf"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MetalDevice16EditorPropertiesC11orientationSaySfGvgZ",
+                "mangledName": "$s11MetalDevice16EditorPropertiesC11orientationSaySfGvgZ",
+                "moduleName": "MetalDevice",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.Float]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Float",
+                        "printedName": "Swift.Float",
+                        "usr": "s:Sf"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MetalDevice16EditorPropertiesC11orientationSaySfGvsZ",
+                "mangledName": "$s11MetalDevice16EditorPropertiesC11orientationSaySfGvsZ",
+                "moduleName": "MetalDevice",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MetalDevice16EditorPropertiesC11orientationSaySfGvMZ",
+                "mangledName": "$s11MetalDevice16EditorPropertiesC11orientationSaySfGvMZ",
+                "moduleName": "MetalDevice",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "exportSize",
+            "printedName": "exportSize",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11MetalDevice16EditorPropertiesC10exportSizeSo6CGSizeVvpZ",
+            "mangledName": "$s11MetalDevice16EditorPropertiesC10exportSizeSo6CGSizeVvpZ",
+            "moduleName": "MetalDevice",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGSize",
+                    "printedName": "CoreFoundation.CGSize",
+                    "usr": "c:@S@CGSize"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MetalDevice16EditorPropertiesC10exportSizeSo6CGSizeVvgZ",
+                "mangledName": "$s11MetalDevice16EditorPropertiesC10exportSizeSo6CGSizeVvgZ",
+                "moduleName": "MetalDevice",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGSize",
+                    "printedName": "CoreFoundation.CGSize",
+                    "usr": "c:@S@CGSize"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MetalDevice16EditorPropertiesC10exportSizeSo6CGSizeVvsZ",
+                "mangledName": "$s11MetalDevice16EditorPropertiesC10exportSizeSo6CGSizeVvsZ",
+                "moduleName": "MetalDevice",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MetalDevice16EditorPropertiesC10exportSizeSo6CGSizeVvMZ",
+                "mangledName": "$s11MetalDevice16EditorPropertiesC10exportSizeSo6CGSizeVvMZ",
+                "moduleName": "MetalDevice",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11MetalDevice16EditorPropertiesC",
+        "mangledName": "$s11MetalDevice16EditorPropertiesC",
+        "moduleName": "MetalDevice",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
         "name": "MetalKit",
         "printedName": "MetalKit",
         "declKind": "Import",
@@ -1541,1339 +3087,6 @@
         "hasMissingDesignatedInitializers": true
       },
       {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MetalDevice",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CoreMedia",
-        "printedName": "CoreMedia",
-        "declKind": "Import",
-        "moduleName": "MetalDevice"
-      },
-      {
-        "kind": "Import",
-        "name": "AVFoundation",
-        "printedName": "AVFoundation",
-        "declKind": "Import",
-        "moduleName": "MetalDevice"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "EditorProperties",
-        "printedName": "EditorProperties",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "orientation",
-            "printedName": "orientation",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[Swift.Float]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Float",
-                    "printedName": "Swift.Float",
-                    "usr": "s:Sf"
-                  }
-                ],
-                "usr": "s:Sa"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:11MetalDevice16EditorPropertiesC11orientationSaySfGvpZ",
-            "mangledName": "$s11MetalDevice16EditorPropertiesC11orientationSaySfGvpZ",
-            "moduleName": "MetalDevice",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[Swift.Float]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Float",
-                        "printedName": "Swift.Float",
-                        "usr": "s:Sf"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11MetalDevice16EditorPropertiesC11orientationSaySfGvgZ",
-                "mangledName": "$s11MetalDevice16EditorPropertiesC11orientationSaySfGvgZ",
-                "moduleName": "MetalDevice",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[Swift.Float]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Float",
-                        "printedName": "Swift.Float",
-                        "usr": "s:Sf"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11MetalDevice16EditorPropertiesC11orientationSaySfGvsZ",
-                "mangledName": "$s11MetalDevice16EditorPropertiesC11orientationSaySfGvsZ",
-                "moduleName": "MetalDevice",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11MetalDevice16EditorPropertiesC11orientationSaySfGvMZ",
-                "mangledName": "$s11MetalDevice16EditorPropertiesC11orientationSaySfGvMZ",
-                "moduleName": "MetalDevice",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "exportSize",
-            "printedName": "exportSize",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "CGSize",
-                "printedName": "CoreFoundation.CGSize",
-                "usr": "c:@S@CGSize"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:11MetalDevice16EditorPropertiesC10exportSizeSo6CGSizeVvpZ",
-            "mangledName": "$s11MetalDevice16EditorPropertiesC10exportSizeSo6CGSizeVvpZ",
-            "moduleName": "MetalDevice",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CGSize",
-                    "printedName": "CoreFoundation.CGSize",
-                    "usr": "c:@S@CGSize"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11MetalDevice16EditorPropertiesC10exportSizeSo6CGSizeVvgZ",
-                "mangledName": "$s11MetalDevice16EditorPropertiesC10exportSizeSo6CGSizeVvgZ",
-                "moduleName": "MetalDevice",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CGSize",
-                    "printedName": "CoreFoundation.CGSize",
-                    "usr": "c:@S@CGSize"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11MetalDevice16EditorPropertiesC10exportSizeSo6CGSizeVvsZ",
-                "mangledName": "$s11MetalDevice16EditorPropertiesC10exportSizeSo6CGSizeVvsZ",
-                "moduleName": "MetalDevice",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11MetalDevice16EditorPropertiesC10exportSizeSo6CGSizeVvMZ",
-                "mangledName": "$s11MetalDevice16EditorPropertiesC10exportSizeSo6CGSizeVvMZ",
-                "moduleName": "MetalDevice",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "_modify"
-              }
-            ]
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:11MetalDevice16EditorPropertiesC",
-        "mangledName": "$s11MetalDevice16EditorPropertiesC",
-        "moduleName": "MetalDevice",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "hasMissingDesignatedInitializers": true
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "VEditor",
-        "printedName": "VEditor",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "clipTimeRanges",
-            "printedName": "clipTimeRanges",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[CoreMedia.CMTimeRange]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CMTimeRange",
-                    "printedName": "CoreMedia.CMTimeRange",
-                    "usr": "c:@SA@CMTimeRange"
-                  }
-                ],
-                "usr": "s:Sa"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:11MetalDevice7VEditorC14clipTimeRangesSaySo11CMTimeRangeaGvp",
-            "mangledName": "$s11MetalDevice7VEditorC14clipTimeRangesSaySo11CMTimeRangeaGvp",
-            "moduleName": "MetalDevice",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[CoreMedia.CMTimeRange]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "CMTimeRange",
-                        "printedName": "CoreMedia.CMTimeRange",
-                        "usr": "c:@SA@CMTimeRange"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11MetalDevice7VEditorC14clipTimeRangesSaySo11CMTimeRangeaGvg",
-                "mangledName": "$s11MetalDevice7VEditorC14clipTimeRangesSaySo11CMTimeRangeaGvg",
-                "moduleName": "MetalDevice",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[CoreMedia.CMTimeRange]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "CMTimeRange",
-                        "printedName": "CoreMedia.CMTimeRange",
-                        "usr": "c:@SA@CMTimeRange"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11MetalDevice7VEditorC14clipTimeRangesSaySo11CMTimeRangeaGvs",
-                "mangledName": "$s11MetalDevice7VEditorC14clipTimeRangesSaySo11CMTimeRangeaGvs",
-                "moduleName": "MetalDevice",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11MetalDevice7VEditorC14clipTimeRangesSaySo11CMTimeRangeaGvM",
-                "mangledName": "$s11MetalDevice7VEditorC14clipTimeRangesSaySo11CMTimeRangeaGvM",
-                "moduleName": "MetalDevice",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "trackIndex",
-            "printedName": "trackIndex",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:11MetalDevice7VEditorC10trackIndexSivp",
-            "mangledName": "$s11MetalDevice7VEditorC10trackIndexSivp",
-            "moduleName": "MetalDevice",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11MetalDevice7VEditorC10trackIndexSivg",
-                "mangledName": "$s11MetalDevice7VEditorC10trackIndexSivg",
-                "moduleName": "MetalDevice",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11MetalDevice7VEditorC10trackIndexSivs",
-                "mangledName": "$s11MetalDevice7VEditorC10trackIndexSivs",
-                "moduleName": "MetalDevice",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11MetalDevice7VEditorC10trackIndexSivM",
-                "mangledName": "$s11MetalDevice7VEditorC10trackIndexSivM",
-                "moduleName": "MetalDevice",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "transitionDuration",
-            "printedName": "transitionDuration",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "CoreMedia.CMTime?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CMTime",
-                    "printedName": "CoreMedia.CMTime",
-                    "usr": "c:@SA@CMTime"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:11MetalDevice7VEditorC18transitionDurationSo6CMTimeaSgvp",
-            "mangledName": "$s11MetalDevice7VEditorC18transitionDurationSo6CMTimeaSgvp",
-            "moduleName": "MetalDevice",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "CoreMedia.CMTime?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "CMTime",
-                        "printedName": "CoreMedia.CMTime",
-                        "usr": "c:@SA@CMTime"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11MetalDevice7VEditorC18transitionDurationSo6CMTimeaSgvg",
-                "mangledName": "$s11MetalDevice7VEditorC18transitionDurationSo6CMTimeaSgvg",
-                "moduleName": "MetalDevice",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "CoreMedia.CMTime?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "CMTime",
-                        "printedName": "CoreMedia.CMTime",
-                        "usr": "c:@SA@CMTime"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11MetalDevice7VEditorC18transitionDurationSo6CMTimeaSgvs",
-                "mangledName": "$s11MetalDevice7VEditorC18transitionDurationSo6CMTimeaSgvs",
-                "moduleName": "MetalDevice",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11MetalDevice7VEditorC18transitionDurationSo6CMTimeaSgvM",
-                "mangledName": "$s11MetalDevice7VEditorC18transitionDurationSo6CMTimeaSgvM",
-                "moduleName": "MetalDevice",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "composition",
-            "printedName": "composition",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "AVFoundation.AVMutableComposition?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AVMutableComposition",
-                    "printedName": "AVFoundation.AVMutableComposition",
-                    "usr": "c:objc(cs)AVMutableComposition"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:11MetalDevice7VEditorC11compositionSo20AVMutableCompositionCSgvp",
-            "mangledName": "$s11MetalDevice7VEditorC11compositionSo20AVMutableCompositionCSgvp",
-            "moduleName": "MetalDevice",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "AVFoundation.AVMutableComposition?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "AVMutableComposition",
-                        "printedName": "AVFoundation.AVMutableComposition",
-                        "usr": "c:objc(cs)AVMutableComposition"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11MetalDevice7VEditorC11compositionSo20AVMutableCompositionCSgvg",
-                "mangledName": "$s11MetalDevice7VEditorC11compositionSo20AVMutableCompositionCSgvg",
-                "moduleName": "MetalDevice",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "AVFoundation.AVMutableComposition?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "AVMutableComposition",
-                        "printedName": "AVFoundation.AVMutableComposition",
-                        "usr": "c:objc(cs)AVMutableComposition"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11MetalDevice7VEditorC11compositionSo20AVMutableCompositionCSgvs",
-                "mangledName": "$s11MetalDevice7VEditorC11compositionSo20AVMutableCompositionCSgvs",
-                "moduleName": "MetalDevice",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11MetalDevice7VEditorC11compositionSo20AVMutableCompositionCSgvM",
-                "mangledName": "$s11MetalDevice7VEditorC11compositionSo20AVMutableCompositionCSgvM",
-                "moduleName": "MetalDevice",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "videoComposition",
-            "printedName": "videoComposition",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "AVFoundation.AVMutableVideoComposition?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AVMutableVideoComposition",
-                    "printedName": "AVFoundation.AVMutableVideoComposition",
-                    "usr": "c:objc(cs)AVMutableVideoComposition"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:11MetalDevice7VEditorC16videoCompositionSo014AVMutableVideoE0CSgvp",
-            "mangledName": "$s11MetalDevice7VEditorC16videoCompositionSo014AVMutableVideoE0CSgvp",
-            "moduleName": "MetalDevice",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "AVFoundation.AVMutableVideoComposition?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "AVMutableVideoComposition",
-                        "printedName": "AVFoundation.AVMutableVideoComposition",
-                        "usr": "c:objc(cs)AVMutableVideoComposition"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11MetalDevice7VEditorC16videoCompositionSo014AVMutableVideoE0CSgvg",
-                "mangledName": "$s11MetalDevice7VEditorC16videoCompositionSo014AVMutableVideoE0CSgvg",
-                "moduleName": "MetalDevice",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "AVFoundation.AVMutableVideoComposition?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "AVMutableVideoComposition",
-                        "printedName": "AVFoundation.AVMutableVideoComposition",
-                        "usr": "c:objc(cs)AVMutableVideoComposition"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11MetalDevice7VEditorC16videoCompositionSo014AVMutableVideoE0CSgvs",
-                "mangledName": "$s11MetalDevice7VEditorC16videoCompositionSo014AVMutableVideoE0CSgvs",
-                "moduleName": "MetalDevice",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11MetalDevice7VEditorC16videoCompositionSo014AVMutableVideoE0CSgvM",
-                "mangledName": "$s11MetalDevice7VEditorC16videoCompositionSo014AVMutableVideoE0CSgvM",
-                "moduleName": "MetalDevice",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(clips:clipTimeRanges:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "VEditor",
-                "printedName": "MetalDevice.VEditor",
-                "usr": "c:@M@MetalDevice@objc(cs)VEditor"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[AVFoundation.AVURLAsset]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AVURLAsset",
-                    "printedName": "AVFoundation.AVURLAsset",
-                    "usr": "c:objc(cs)AVURLAsset"
-                  }
-                ],
-                "usr": "s:Sa"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[CoreMedia.CMTimeRange]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CMTimeRange",
-                    "printedName": "CoreMedia.CMTimeRange",
-                    "usr": "c:@SA@CMTimeRange"
-                  }
-                ],
-                "usr": "s:Sa"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:11MetalDevice7VEditorC5clips14clipTimeRangesACSaySo10AVURLAssetCG_SaySo11CMTimeRangeaGtcfc",
-            "mangledName": "$s11MetalDevice7VEditorC5clips14clipTimeRangesACSaySo10AVURLAssetCG_SaySo11CMTimeRangeaGtcfc",
-            "moduleName": "MetalDevice",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "buildCompositionObjectsForPlayback",
-            "printedName": "buildCompositionObjectsForPlayback(_:overwriteExistingObjects:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11MetalDevice7VEditorC34buildCompositionObjectsForPlayback_017overwriteExistingF0ySb_SbtF",
-            "mangledName": "$s11MetalDevice7VEditorC34buildCompositionObjectsForPlayback_017overwriteExistingF0ySb_SbtF",
-            "moduleName": "MetalDevice",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "playerItem",
-            "printedName": "playerItem()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "AVFoundation.AVPlayerItem?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AVPlayerItem",
-                    "printedName": "AVFoundation.AVPlayerItem",
-                    "usr": "c:objc(cs)AVPlayerItem"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11MetalDevice7VEditorC10playerItemSo08AVPlayerE0CSgyF",
-            "mangledName": "$s11MetalDevice7VEditorC10playerItemSo08AVPlayerE0CSgyF",
-            "moduleName": "MetalDevice",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "VEditor",
-                "printedName": "MetalDevice.VEditor",
-                "usr": "c:@M@MetalDevice@objc(cs)VEditor"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@MetalDevice@objc(cs)VEditor(im)init",
-            "mangledName": "$s11MetalDevice7VEditorCACycfc",
-            "moduleName": "MetalDevice",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "init",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Override"
-            ],
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:@M@MetalDevice@objc(cs)VEditor",
-        "mangledName": "$s11MetalDevice7VEditorC",
-        "moduleName": "MetalDevice",
-        "declAttributes": [
-          "AccessControl",
-          "ObjC"
-        ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "superclassNames": [
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "AVFoundation",
-        "printedName": "AVFoundation",
-        "declKind": "Import",
-        "moduleName": "MetalDevice",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MetalDevice"
-      },
-      {
-        "kind": "Import",
-        "name": "CoreMedia",
-        "printedName": "CoreMedia",
-        "declKind": "Import",
-        "moduleName": "MetalDevice"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MetalDevice",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "AVFoundation",
-        "printedName": "AVFoundation",
-        "declKind": "Import",
-        "moduleName": "MetalDevice"
-      },
-      {
-        "kind": "Import",
-        "name": "CoreVideo",
-        "printedName": "CoreVideo",
-        "declKind": "Import",
-        "moduleName": "MetalDevice"
-      },
-      {
-        "kind": "Import",
-        "name": "AVFoundation",
-        "printedName": "AVFoundation",
-        "declKind": "Import",
-        "moduleName": "MetalDevice",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "MetalKit",
-        "printedName": "MetalKit",
-        "declKind": "Import",
-        "moduleName": "MetalDevice"
-      },
-      {
-        "kind": "Import",
-        "name": "MetalDevice",
-        "printedName": "MetalDevice",
-        "declKind": "Import",
-        "moduleName": "MetalDevice"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "Uniform",
-        "printedName": "Uniform",
-        "declKind": "Struct",
-        "usr": "s:11MetalDevice7UniformV",
-        "mangledName": "$s11MetalDevice7UniformV",
-        "moduleName": "MetalDevice",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MetalDevice",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "SIMD2",
-        "printedName": "SIMD2",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "convertCoord",
-            "printedName": "convertCoord()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "SIMD2",
-                "printedName": "Swift.SIMD2<Swift.Float>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Float",
-                    "printedName": "Swift.Float",
-                    "usr": "s:Sf"
-                  }
-                ],
-                "usr": "s:s5SIMD2V"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:s5SIMD2V11MetalDeviceSfRszrlE12convertCoordABySfGyF",
-            "mangledName": "$ss5SIMD2V11MetalDeviceSfRszrlE12convertCoordABySfGyF",
-            "moduleName": "MetalDevice",
-            "genericSig": "<τ_0_0 where τ_0_0 == Swift.Float>",
-            "sugared_genericSig": "<Scalar where Scalar == Swift.Float>",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:s5SIMD2V",
-        "mangledName": "$ss5SIMD2V",
-        "moduleName": "Swift",
-        "genericSig": "<τ_0_0 where τ_0_0 : Swift.SIMDScalar>",
-        "sugared_genericSig": "<Scalar where Scalar : Swift.SIMDScalar>",
-        "declAttributes": [
-          "Frozen"
-        ],
-        "isExternal": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "SIMD",
-            "printedName": "SIMD",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "MaskStorage",
-                "printedName": "MaskStorage",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "SIMD2",
-                    "printedName": "Swift.SIMD2<τ_0_0.SIMDMaskScalar>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "DependentMember",
-                        "printedName": "τ_0_0.SIMDMaskScalar"
-                      }
-                    ],
-                    "usr": "s:s5SIMD2V"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:s4SIMDP",
-            "mangledName": "$ss4SIMDP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          },
-          {
-            "kind": "Conformance",
-            "name": "ExpressibleByArrayLiteral",
-            "printedName": "ExpressibleByArrayLiteral",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "ArrayLiteralElement",
-                "printedName": "ArrayLiteralElement",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "GenericTypeParam",
-                    "printedName": "τ_0_0"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:s25ExpressibleByArrayLiteralP",
-            "mangledName": "$ss25ExpressibleByArrayLiteralP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "SIMDStorage",
-            "printedName": "SIMDStorage",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Scalar",
-                "printedName": "Scalar",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "GenericTypeParam",
-                    "printedName": "τ_0_0"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:s11SIMDStorageP",
-            "mangledName": "$ss11SIMDStorageP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "MTLRenderCommandEncoder",
-        "printedName": "MTLRenderCommandEncoder",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "setFragmentTextures",
-            "printedName": "setFragmentTextures(_:startingAt:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[(any Metal.MTLTexture)?]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "(any Metal.MTLTexture)?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "MTLTexture",
-                        "printedName": "any Metal.MTLTexture",
-                        "usr": "c:objc(pl)MTLTexture"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "usr": "s:Sa"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "hasDefaultArg": true,
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:So23MTLRenderCommandEncoderP11MetalDeviceE19setFragmentTextures_10startingAtySaySo10MTLTexture_pSgG_SitF",
-            "mangledName": "$sSo23MTLRenderCommandEncoderP11MetalDeviceE19setFragmentTextures_10startingAtySaySo10MTLTexture_pSgG_SitF",
-            "moduleName": "MetalDevice",
-            "genericSig": "<τ_0_0 where τ_0_0 : Metal.MTLRenderCommandEncoder>",
-            "sugared_genericSig": "<Self where Self : Metal.MTLRenderCommandEncoder>",
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Protocol",
-        "usr": "c:objc(pl)MTLRenderCommandEncoder",
-        "moduleName": "Metal",
-        "genericSig": "<τ_0_0 : Metal.MTLCommandEncoder>",
-        "sugared_genericSig": "<Self : Metal.MTLCommandEncoder>",
-        "intro_iOS": "8.0",
-        "objc_name": "MTLRenderCommandEncoder",
-        "declAttributes": [
-          "Available",
-          "ObjC",
-          "Dynamic"
-        ],
-        "isExternal": true
-      },
-      {
         "kind": "TypeDecl",
         "name": "AVAsset",
         "printedName": "AVAsset",
@@ -3131,388 +3344,663 @@
             "mangledName": "$sSE"
           }
         ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SIMD2",
+        "printedName": "SIMD2",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "convertCoord",
+            "printedName": "convertCoord()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SIMD2",
+                "printedName": "Swift.SIMD2<Swift.Float>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "usr": "s:s5SIMD2V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:s5SIMD2V11MetalDeviceSfRszrlE12convertCoordABySfGyF",
+            "mangledName": "$ss5SIMD2V11MetalDeviceSfRszrlE12convertCoordABySfGyF",
+            "moduleName": "MetalDevice",
+            "genericSig": "<τ_0_0 where τ_0_0 == Swift.Float>",
+            "sugared_genericSig": "<Scalar where Scalar == Swift.Float>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:s5SIMD2V",
+        "mangledName": "$ss5SIMD2V",
+        "moduleName": "Swift",
+        "genericSig": "<τ_0_0 where τ_0_0 : Swift.SIMDScalar>",
+        "sugared_genericSig": "<Scalar where Scalar : Swift.SIMDScalar>",
+        "declAttributes": [
+          "Frozen"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "SIMD",
+            "printedName": "SIMD",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "MaskStorage",
+                "printedName": "MaskStorage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD2",
+                    "printedName": "Swift.SIMD2<τ_0_0.SIMDMaskScalar>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DependentMember",
+                        "printedName": "τ_0_0.SIMDMaskScalar"
+                      }
+                    ],
+                    "usr": "s:s5SIMD2V"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s4SIMDP",
+            "mangledName": "$ss4SIMDP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByArrayLiteral",
+            "printedName": "ExpressibleByArrayLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ArrayLiteralElement",
+                "printedName": "ArrayLiteralElement",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s25ExpressibleByArrayLiteralP",
+            "mangledName": "$ss25ExpressibleByArrayLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SIMDStorage",
+            "printedName": "SIMDStorage",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Scalar",
+                "printedName": "Scalar",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s11SIMDStorageP",
+            "mangledName": "$ss11SIMDStorageP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MTLRenderCommandEncoder",
+        "printedName": "MTLRenderCommandEncoder",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "setFragmentTextures",
+            "printedName": "setFragmentTextures(_:startingAt:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[(any Metal.MTLTexture)?]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any Metal.MTLTexture)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MTLTexture",
+                        "printedName": "any Metal.MTLTexture",
+                        "usr": "c:objc(pl)MTLTexture"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So23MTLRenderCommandEncoderP11MetalDeviceE19setFragmentTextures_10startingAtySaySo10MTLTexture_pSgG_SitF",
+            "mangledName": "$sSo23MTLRenderCommandEncoderP11MetalDeviceE19setFragmentTextures_10startingAtySaySo10MTLTexture_pSgG_SitF",
+            "moduleName": "MetalDevice",
+            "genericSig": "<τ_0_0 where τ_0_0 : Metal.MTLRenderCommandEncoder>",
+            "sugared_genericSig": "<Self where Self : Metal.MTLRenderCommandEncoder>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:objc(pl)MTLRenderCommandEncoder",
+        "moduleName": "Metal",
+        "genericSig": "<τ_0_0 : Metal.MTLCommandEncoder>",
+        "sugared_genericSig": "<Self : Metal.MTLCommandEncoder>",
+        "intro_iOS": "8.0",
+        "objc_name": "MTLRenderCommandEncoder",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "Dynamic"
+        ],
+        "isExternal": true
       }
     ],
     "json_format_version": 8
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
-      "kind": "StringLiteral",
-      "offset": 2076,
-      "length": 15,
-      "value": "\"vertex_shader\""
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
-      "kind": "Array",
-      "offset": 5430,
-      "length": 34,
-      "value": "[0, 1, 2, 2, 3, 0]"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
-      "kind": "StringLiteral",
-      "offset": 5545,
-      "length": 14,
-      "value": "\"vertexShader\""
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MetalDevice.swift",
-      "kind": "IntegerLiteral",
-      "offset": 26829,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MultiItemsExport\/VEditor.swift",
-      "kind": "Array",
-      "offset": 425,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MultiItemsExport\/VEditor.swift",
-      "kind": "IntegerLiteral",
-      "offset": 485,
-      "length": 4,
-      "value": "1080"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MultiItemsExport\/VEditor.swift",
-      "kind": "IntegerLiteral",
-      "offset": 499,
-      "length": 4,
-      "value": "1920"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MultiItemsExport\/VEditor.swift",
-      "kind": "IntegerLiteral",
-      "offset": 773,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MultiItemsExport\/VEditor.swift",
-      "kind": "FloatLiteral",
-      "offset": 959,
-      "length": 3,
-      "value": "2.0"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MultiItemsExport\/VEditor.swift",
-      "kind": "IntegerLiteral",
-      "offset": 984,
-      "length": 3,
-      "value": "600"
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MultiItemsExport\/VEditor.swift",
-      "kind": "StringLiteral",
-      "offset": 521,
-      "length": 7,
-      "value": "\"MetalDevice.VEditor\""
-    },
-    {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MultiItemsExport\/Instruction.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Editor\/Instruction.swift",
       "kind": "BooleanLiteral",
       "offset": 899,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MultiItemsExport\/Instruction.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Editor\/Instruction.swift",
       "kind": "BooleanLiteral",
       "offset": 1081,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MultiItemsExport\/Instruction.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Editor\/Instruction.swift",
       "kind": "IntegerLiteral",
       "offset": 1114,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MultiItemsExport\/Instruction.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Editor\/Instruction.swift",
       "kind": "IntegerLiteral",
       "offset": 1138,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MultiItemsExport\/Instruction.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Editor\/Instruction.swift",
       "kind": "BooleanLiteral",
       "offset": 1167,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MultiItemsExport\/Instruction.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Editor\/Instruction.swift",
       "kind": "IntegerLiteral",
       "offset": 1419,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MultiItemsExport\/Instruction.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Editor\/Instruction.swift",
       "kind": "BooleanLiteral",
       "offset": 3932,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MultiItemsExport\/Instruction.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Editor\/Instruction.swift",
       "kind": "IntegerLiteral",
       "offset": 3953,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MultiItemsExport\/Instruction.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Editor\/Instruction.swift",
       "kind": "StringLiteral",
       "offset": 292,
       "length": 11,
       "value": "\"MetalDevice.Instruction\""
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MultiItemsExport\/MIVideoCompositor.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Editor\/VEditor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 619,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Editor\/VEditor.swift",
+      "kind": "FloatLiteral",
+      "offset": 805,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Editor\/VEditor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 830,
+      "length": 3,
+      "value": "600"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Editor\/VEditor.swift",
+      "kind": "StringLiteral",
+      "offset": 367,
+      "length": 7,
+      "value": "\"MetalDevice.VEditor\""
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Editor\/Shader.swift",
+      "kind": "StringLiteral",
+      "offset": 131,
+      "length": 29652,
+      "value": "\"\/\/\n\/\/  Shader.metal\n\/\/  TestApp\n\/\/\n\/\/  Created by Demian Nezhdanov on 23\/06\/2024.\n\/\/\n\n\n\n\n\n#include <metal_stdlib>\nusing namespace metal;\n\nfloat mod(float x, float y) {\n    return x - y * floor(x\/y);\n}\nfloat rand(float2 co) {\n  return fract(sin(dot(co.xy ,float2(12.9898,78.233))) * 43758.5453);\n}\n\nfloat Hash(float2 p)\n{\n    float3 p2 = float3(p.xy, 1.0);\n    return fract(sin(dot(p2, float3(37.1, 61.7, 12.4))) * 3758.5453123);\n}\n\nfloat noise(float2 p)\n{\n    float2 i = floor(p);\n    float2 f = fract(p);\n    f *= f * (3.0 - 2.0 * f);\n\n    return mix(mix(Hash(i + float2(0.0, 0.0)), Hash(i + float2(1.0, 0.0)), f.x),\n               mix(Hash(i + float2(0.0, 1.0)), Hash(i + float2(1.0, 1.0)), f.x),\n               f.y);\n}\n\nfloat fbm(float2 p)\n{\n    float v = 0.0;\n    v += noise(p * 1.0) * 0.5;\n    v += noise(p * 2.0) * 0.25;\n    v += noise(p * 4.0) * 0.125;\n    return v;\n}\n\n float4 burnTransition(float2 uv, float3 src, float3 tgt, float ctime)\n{\n \n\n\n    float3 col = src;\n\n    uv.x -= 1.5;\n\n  \n\n    \/\/ burn\n    float d = uv.x + uv.y * 0.5 + 0.5 * fbm(uv * 15.1) + ctime * 1.3;\n    if (d > 0.35) col = clamp(col - (d - 0.35) * 10.0, 0.0, 1.0);\n    if (d > 0.47) {\n        if (d < 0.5) col += (d - 0.4) * 33.0 * 0.5 * (0.0 + noise(100.0 * uv + float2(-ctime * 2.0, 0.0))) * float3(1.5, 0.5, 0.0);\n        else col += tgt;\n    }\n\n    return float4(col, 1.0);\n}\n\nconstexpr metal::sampler sam(metal::filter::linear,address::clamp_to_zero   );\n\nfloat3 glitchTransition(float2 texCoord,texture2d<float> tex1,texture2d<float> tex2, float2 uvFirst,float2 uvSec,float time) {\n    \n\n    float3 color1 = tex1.sample(sam, uvFirst).rgb;\n    float3 color2 = tex2.sample(sam, uvSec).rgb;\n    float3 color = mix(color1, color2, time);\n\/\/    color.r = 1.0;\n    return (color);\n}\n#define PI 3.14159265358979\n#define pi 3.14159265358979\n\n\/\/constexpr metal::sampler sam(metal::filter::linear,address::clamp_to_zero   );\n\nfloat stripes(float2 uv,float time){\n    float width =  time;\n\n    uv.y -= width;\n    uv.y = clamp(uv.y,0.0,0.5);\n    width = 0.5-(width);\n    width \/= 1.0 ;\n       uv \/= 0.1;\n   \n\n\nfloat dHorz = (fract(uv.x ) - 0.5);\nfloat grid = smoothstep(width + 0.1,width,dHorz);\n\n\n                 return grid;\n}\n\n\nfloat3 stripesTransition(float2 texCoord,texture2d<float> tex1,texture2d<float> tex2, float2 uvFirst,float2 uvSec,float time) {\n    \n\n    float3 color1 = tex1.sample(sam, uvFirst).rgb;\n    float3 color2 = tex2.sample(sam, uvSec).rgb;\n    float s = stripes(texCoord,time);\n    float3 color = mix(color2, color1, s);\n    return (color);\n}\n\nfloat3 swirl(texture2d<float> tex, float2 uv, float time)\n{\n    float2 size = float2(tex.get_width(), tex.get_height());\n\n    float2 center = float2(size.x * 0.5, size.y * 0.5);\n\n    float radius = time * max(size.x, size.y);\n    float angle = time * 2.0;\n\n    float2 texSize = float2(size.x, size.y);\n    float2 tc = uv * texSize;\n    tc -= center;\n    float dist = length(tc);\n    if (dist < radius)\n    {\n        float percent = (radius - dist) \/ radius;\n        float theta = percent * percent * angle * 8.0;\n        float s = sin(theta);\n        float c = cos(theta);\n        tc = float2(dot(tc, float2(c, -s)), dot(tc, float2(s, c)));\n    }\n    tc += center;\n    \n    float3 color = tex.sample(sam, tc\/texSize).rgb;\/\/ swirlTransition(tc \/ texSize, tex, tex, uv, uv, sin(time));\n    return color;\n}\n\nfloat3 swirlTransition(float2 texCoord,texture2d<float> tex1,texture2d<float> tex2, float2 uvFirst,float2 uvSec,float time) {\n    \n\n    float3 color1 = tex1.sample(sam, uvFirst).rgb;\n    float3 color2 = tex2.sample(sam, uvSec).rgb;\n    \n    \n    float3 color = mix(\n        swirl(tex1, uvFirst, sin(time * PI)),\n        swirl(tex2, uvSec, sin(time * PI)),\n                time\n    );\n    \n    \n    return (color);\n}\n\n\n\nfloat Linear_ease( float begin,  float change,  float duration,  float time) {\n    return change * time \/ duration + begin;\n}\n\nfloat Exponential_easeInOut( float begin,  float change,  float duration,  float time) {\n    if (time == 0.0)\n        return begin;\n    else if (time == duration)\n        return begin + change;\n    time = time \/ (duration \/ 2.0);\n    if (time < 1.0)\n        return change \/ 2.0 * pow(2.0, 10.0 * (time - 1.0)) + begin;\n    return change \/ 2.0 * (-pow(2.0, -10.0 * (time - 1.0)) + 2.0) + begin;\n}\n\nfloat Sinusoidal_easeInOut( float begin,  float change,  float duration,  float time) {\n    return -change \/ 2.0 * (cos(PI * time \/ duration) - 1.0) + begin;\n}\n\nfloat random( float3 scale,  float seed, float2 uv) {\n    return fract(sin(dot(uv.xyx + seed, scale)) * 43758.5453 + seed);\n}\n\nfloat3 crossFade(texture2d<float> tex1,texture2d<float> tex2, float2 uvFirst,float2 uvSec,  float dissolve) {\n    return mix(tex1.sample(sam, uvFirst).rgb, tex2.sample(sam, uvSec).rgb, dissolve);\n}\n\nfloat3 zoomTransition(float2 texCoord,texture2d<float> tex1,texture2d<float> tex2, float2 uvFirst,float2 uvSec,float time) {\n    \n    float progress = time;\n    \/\/ Linear interpolate center across center half of the image\n    float2 center = float2(Linear_ease(0.5, 0.0, 1.0, progress),0.5);\n    float dissolve = Exponential_easeInOut(0.0, 1.0, 1.0, progress);\n\n    \/\/ Mirrored sinusoidal loop. 0->strength then strength->0\n    float strength = Sinusoidal_easeInOut(0.0, 0.3, 0.5, progress);\n\n    float3 color = float3(0.0);\n    float total = 0.0;\n    float2 toCenter = center - texCoord;\n\n    \/* randomize the lookup values to hide the fixed number of samples *\/\n    float offset = random(float3(12.9898, 78.233, 151.7182), 0.0, texCoord)*0.5;\n\n    for (float t = 0.0; t <= 20.0; t++) {\n        float percent = (t + offset) \/ 20.0;\n        float weight = 1.0 * (percent - percent * percent);\n        color += crossFade(tex1,\n                           tex2,\n                           uvFirst + toCenter * percent * strength,\n                           uvSec + toCenter * percent * strength, dissolve) * weight;\n        total += weight;\n    }\n\n    return (color \/ total);\n}\n\n\n\nfloat3 screenMelt(float2 texCoord,texture2d<float> tex1,texture2d<float> tex2, float2 uvFirst,float2 uvSec,float time)\n{\n    \n    \/\/ initial \"paint melt\" speed\n    const float START_SPEED  = 2.7;\n    \/\/ texture melting off screen speed\n    const float MELT_SPEED   = 1.;\n    \n    float2 uv = uvFirst;\n    float2 p = uv;\n    \n    \/\/ first let some \"paint\" drip before moving entire texture contents\n    float d = (START_SPEED * time);\n    if(d > 1.) d = 1.;\n    \n    \/\/ initial paint melt shift\n    p.y -= d * 1. * fract(sin(dot(float2(p.x, .0), float2(12.9898, 78.233)))* 43758.5453);\n    \n    \/\/ now move entire melted texture offscreen\n    if(d == 1.)\n        p.y -= MELT_SPEED * (time - d\/START_SPEED);\n    \n    float3 color1 = tex1.sample(sam, p).rgb;\n    float3 color2 = tex2.sample(sam, uvSec).rgb;\n    float3 color = mix(color1, color2, time);\n    \n    return color;\n}\n\nfloat3 crosswarp(float2 texCoord,texture2d<float> tex1,texture2d<float> tex2, float2 uvFirst,float2 uvSec,float time)\n{\n  float2 p = uvFirst;\n    float2 p2 = uvSec;\n  float x = mod(time,2.); \/\/ change this to alter the speed\n   \n  x = smoothstep(.0,1.0,(x*2.0+p.x-1.0));\n    float pc1x = (p.x -.5)*(1.-x)+.5;\n    float pc1y = (p.y -.5)*(1.-x)+.5;\n    float2 pc1 = float2(pc1x, pc1y);\n    \n    float pc2x = (p2.x - .5)*x+.5;\n    float pc2y = (p2.y - .5)*x+.5;\n    float2 pc2 = float2(pc2x, pc2y);\n    \n    float3 color1 = tex1.sample(sam, pc1).rgb;\n    float3 color2 = tex2.sample(sam, pc2).rgb;\n    float3 color = mix(color1, color2, x);\n    \n    return color;\n}\nfloat3 crossHatch(float2 texCoord,texture2d<float> tex1,texture2d<float> tex2, float2 uvFirst,float2 uvSec,float time)\n{\n    float threshold = 3.;\n    float fadeEdge = 0.1;\n    float2 center = float2(0.5);\n    \n    float iTime2 = fract(time\/1.5);\n    float2 uv = uvFirst;\n    float dist = distance(center, uv) \/ threshold;\n    float r = iTime2 - min(rand(float2(uv.y, 0.0)), rand(float2(0.0, uv.x)));\n    \n    float3 c1 = tex1.sample(sam, uvFirst).rgb;\n    float3 c2 = tex2.sample(sam, uvSec).rgb;\n    \n    float3 c3 = mix(c1, c2, mix(0.0, mix(step(dist, r), 1.0, smoothstep(1.0-fadeEdge, 1.0, iTime2)), smoothstep(0.0, fadeEdge, iTime2)));\n    return c3;\n}\n\nfloat3 circularTiles(float2 first_res,texture2d<float> tex1,texture2d<float> tex2, float2 uvFirst,float2 uvSec,float time)\n{\n    float aspectRatio = first_res.x \/ first_res.y;\n    \n    \/\/ Normalized pixel coordinates (from 0 to 1)\n    float2 uv = uvFirst;\n    \n    \/\/ this keeps the transition always in circle shape instead of\n    \/\/ aspect ratio dependent\n    uv.x *= aspectRatio;\n    \n    \/\/ This line tiles the UVs into 10 parts\n    uv = fract(uv * 10.0);\n    \n    \/\/ only required for circular tiling\n    uv -= 0.5; \/\/ shifts the 0.0 point to the middle of each tile\n    \n    \n    \/\/ Circular tile\n    float timing = sin(time) * 1.42;\n    float value = step(timing, length(uv));\n    \n    \n    float3 color1 = tex1.sample(sam, uvFirst).rgb;\n    float3 color2 = tex2.sample(sam, uvSec).rgb;\n    float3 color = mix(color2, color1, min(value, 1.));\n    \n    return color;\n}\n\nfloat3 rectangularTiles(float2 first_res,texture2d<float> tex1,texture2d<float> tex2, float2 uvFirst,float2 uvSec,float time)\n{\n    float aspectRatio = first_res.x \/ first_res.y;\n    \n    \/\/ Normalized pixel coordinates (from 0 to 1)\n    float2 uv = uvFirst;\n    \n    \/\/ this keeps the transition always in circle shape instead of\n    \/\/ aspect ratio dependent\n    uv.x *= aspectRatio;\n    \n    \/\/ This line tiles the UVs into 10 parts\n    uv = fract(uv * 10.0);\n    \n    \/\/ only required for circular tiling\n    uv -= 0.5; \/\/ shifts the 0.0 point to the middle of each tile\n    \n    \/\/ center tile wipe\n    float timing = sin(time);\n    float value = step(timing, abs(uv.x)) + step(timing, abs(uv.y));\n    \n    float3 color1 = tex1.sample(sam, uvFirst).rgb;\n    float3 color2 = tex2.sample(sam, uvSec).rgb;\n    float3 color = mix(color2, color1, min(value, 1.));\n    \n    return color;\n}\nfloat randBlock(float2 co){\n    return fract(sin(dot(co.xy ,float2(12.9898,78.233))) * 43758.5453);\n}\n\nfloat3 blockyDissolve(float2 first_res,texture2d<float> tex1,texture2d<float> tex2, float2 uvFirst,float2 uvSec,float time)\n{\n    \/\/ increase this value to increase the size of block\n    float resolution = 20.0;\n    float2 lowresxy = float2(\n                             ceil((uvFirst.x * first_res.x) \/ resolution),\n                             ceil((uvFirst.y * first_res.y) \/ resolution)\n                             );\n    \n    \/\/ since time value is from 0 to 1\n    \/\/ we can directly use time\n    \/\/ but if it is not 0 to 1\n    \/\/ we should use sin(time)\n    if((time) > randBlock(lowresxy)){\n        float3 color2 = tex2.sample(sam, uvSec).rgb;\n        return color2;\n        \n    }else{\n        float3 color1 = tex1.sample(sam, uvFirst).rgb;\n        return color1;\n    }\n}\n\n\n\n\nfloat3 mod289(float3 x) {\n  return x - floor(x * (1.0 \/ 289.0)) * 289.0;\n}\n\nfloat4 mod289(float4 x) {\n  return x - floor(x * (1.0 \/ 289.0)) * 289.0;\n}\n\nfloat4 permute(float4 x) {\n  return mod289(((x*34.0)+1.0)*x);\n}\n\nfloat4 taylorInvSqrt(float4 r){\n  return 1.79284291400159 - 0.85373472095314 * r;\n}\n\nfloat snoise(float3 v) {\n\n  const float2  C = float2(1.0\/6.0, 1.0\/3.0) ;\n  const float4  D = float4(0.0, 0.5, 1.0, 2.0);\n\n  \/\/ First corner\n  float3 i  = floor(v + dot(v, C.yyy) );\n  float3 x0 =   v - i + dot(i, C.xxx) ;\n\n  \/\/ Other corners\n  float3 g = step(x0.yzx, x0.xyz);\n  float3 l = 1.0 - g;\n  float3 i1 = min( g.xyz, l.zxy );\n  float3 i2 = max( g.xyz, l.zxy );\n\n  \/\/   x0 = x0 - 0.0 + 0.0 * C.xxx;\n  \/\/   x1 = x0 - i1  + 1.0 * C.xxx;\n  \/\/   x2 = x0 - i2  + 2.0 * C.xxx;\n  \/\/   x3 = x0 - 1.0 + 3.0 * C.xxx;\n  float3 x1 = x0 - i1 + C.xxx;\n  float3 x2 = x0 - i2 + C.yyy; \/\/ 2.0*C.x = 1\/3 = C.y\n  float3 x3 = x0 - D.yyy;      \/\/ -1.0+3.0*C.x = -0.5 = -D.y\n\n  \/\/ Permutations\n  i = mod289(i);\n  float4 p = permute( permute( permute(\n      i.z + float4(0.0, i1.z, i2.z, 1.0 ))\n    + i.y + float4(0.0, i1.y, i2.y, 1.0 ))\n    + i.x + float4(0.0, i1.x, i2.x, 1.0 ));\n\n  \/\/ Gradients: 7x7 points over a square, mapped onto an octahedron.\n  \/\/ The ring size 17*17 = 289 is close to a multiple of 49 (49*6 = 294)\n  float n_ = 0.142857142857; \/\/ 1.0\/7.0\n  float3  ns = n_ * D.wyz - D.xzx;\n\n  float4 j = p - 49.0 * floor(p * ns.z * ns.z);  \/\/  mod(p,7*7)\n\n  float4 x_ = floor(j * ns.z);\n  float4 y_ = floor(j - 7.0 * x_ );    \/\/ mod(j,N)\n\n  float4 x = x_ *ns.x + ns.yyyy;\n  float4 y = y_ *ns.x + ns.yyyy;\n  float4 h = 1.0 - abs(x) - abs(y);\n\n  float4 b0 = float4( x.xy, y.xy );\n  float4 b1 = float4( x.zw, y.zw );\n\n  \/\/float4 s0 = float4(lessThan(b0,0.0))*2.0 - 1.0;\n  \/\/float4 s1 = float4(lessThan(b1,0.0))*2.0 - 1.0;\n  float4 s0 = floor(b0)*2.0 + 1.0;\n  float4 s1 = floor(b1)*2.0 + 1.0;\n  float4 sh = -step(h, float4(0.0));\n\n  float4 a0 = b0.xzyw + s0.xzyw*sh.xxyy ;\n  float4 a1 = b1.xzyw + s1.xzyw*sh.zzww ;\n\n  float3 p0 = float3(a0.xy,h.x);\n  float3 p1 = float3(a0.zw,h.y);\n  float3 p2 = float3(a1.xy,h.z);\n  float3 p3 = float3(a1.zw,h.w);\n\n  \/\/Normalise gradients\n  float4 norm = taylorInvSqrt(float4(dot(p0,p0), dot(p1,p1), dot(p2, p2), dot(p3,p3)));\n  p0 *= norm.x;\n  p1 *= norm.y;\n  p2 *= norm.z;\n  p3 *= norm.w;\n\n  \/\/ Mix final noise value\n  float4 m = max(0.6 - float4(dot(x0,x0), dot(x1,x1), dot(x2,x2), dot(x3,x3)), 0.0);\n  m = m * m;\n  return 42.0 * dot( m*m, float4( dot(p0,x0), dot(p1,x1), dot(p2,x2), dot(p3,x3) ) );\n\n}\n\n\/\/ via: https:\/\/petewerner.blogspot.jp\/2015\/02\/intro-to-curl-noise.html\nfloat3 curlNoise( float3 p ){\n\n  const float e = 0.1;\n\n  float  n1 = snoise(float3(p.x, p.y + e, p.z));\n  float  n2 = snoise(float3(p.x, p.y - e, p.z));\n  float  n3 = snoise(float3(p.x, p.y, p.z + e));\n  float  n4 = snoise(float3(p.x, p.y, p.z - e));\n  float  n5 = snoise(float3(p.x + e, p.y, p.z));\n  float  n6 = snoise(float3(p.x - e, p.y, p.z));\n\n  float x = n2 - n1 - n4 + n3;\n  float y = n4 - n3 - n6 + n5;\n  float z = n6 - n5 - n2 + n1;\n\n\n  const float divisor = 1.0 \/ ( 2.0 * e );\n  return normalize( float3( x , y , z ) * divisor );\n}\n\nfloat3 curlNoise(texture2d<float> tex1,texture2d<float> tex2, float2 uvFirst,float2 uvSec,float time) {\n    float3 curl = curlNoise(float3(uvFirst,1.) *5. + time) \/ 1.;\n    float3 color1 = tex1.sample(sam, float2(uvFirst.x,uvFirst.y + time * (curl.x) )).rgb;\n    float3 color2 = tex2.sample(sam, float2(uvSec.x,uvSec.y + (1.-time) * (curl.x) )).rgb;\n    float3 color = mix(color1, color2, time);\n    return color;\n}\nfloat rule(float2 coord)\n{\n    float2 uv2 = coord - float2(0.5, 0.5);\n    float angle = atan2(uv2.x, uv2.y);\n    return angle \/ 2.0 \/ 3.1416 + 0.5;\n}\n\nfloat3 circularScan(texture2d<float> tex1,texture2d<float> tex2, float2 uvFirst,float2 uvSec,float time)\n{\n    float2 uv = uvFirst;\n    float3 color1 = tex1.sample(sam, uvFirst).rgb;\n    float3 color2 = tex2.sample(sam, uvSec).rgb;\n    \n    float myRule = rule(uv);\n    float progress = time;\n    float vague = 0.2;\n    float phase = progress * (1.0 + vague);\n    float p0 = smoothstep(myRule, myRule + vague, phase);\n    \n    float3 color = color1 * (1.0 - p0) + color2 * p0;\n    return color;\n}\nfloat3 drain(texture2d<float> tex1,texture2d<float> tex2, float2 uvFirst,float2 uvSec,float time)\n{\n    float2 uv = uvFirst;\n    float2 target = float2(0.5, 0.5);\n    \n    float strength = 1.0;\n    \n    \/\/offset the uv (radial since we normalise the dir)\n    float2 dir = normalize(uv - target);\n    uv += dir * strength * (time);\n    \n    \/\/if outside the texture region, return tex2\n    if (any(uv < float2(0.0)) || any(uv > float2(1.0))) {\n        float3 color2 = tex2.sample(sam, uvSec).rgb;\n        return color2;\n    } else {\n        float3 color1 = tex1.sample(sam, uv).rgb;\n        return color1;\n    }\n}\n\nfloat3 stretchRight(texture2d<float> tex1,texture2d<float> tex2, float2 uvFirst,float2 uvSec,float time) {\n    \n    if (time < 0.5) {\n        \n        \/\/ we process stretch for tex1 here\n        float2 uv = uvFirst;\n        \/\/ time 0 is no stretch period and 1 is max stretch period\n        \/\/ making time oscillate from 0 to 1\n        float timeToUse = (time * 2.0);\n        \n        \/\/ non stretching x\n        float nonStretchingX = 0.0;\n        \n        uv.x -= (uv.x - nonStretchingX) * timeToUse;\n        \n        float3 color1 = tex1.sample(sam, uv).rgb;\n        return color1;\n    } else {\n        \/\/ we process stretch for tex2 here\n        float2 uv = uvSec;\n        \n        \/\/ making time oscillate from 1 to 0\n        float timeToUse = abs((time - 1) * 2);\n        \n        \/\/ non stretching x\n        float nonStretchingX = 1.0;\n        uv.x -= (uv.x - nonStretchingX) * timeToUse;\n        float3 color2 = tex2.sample(sam, uv).rgb;\n        return color2;\n    }\n}\n\nfloat3 stretchLeft(texture2d<float> tex1,texture2d<float> tex2, float2 uvFirst,float2 uvSec,float time) {\n    \n    if (time < 0.5) {\n        \n        \/\/ we process stretch for tex1 here\n        float2 uv = uvFirst;\n        \n        \/\/ making time oscillate from 0 to 1\n        float timeToUse = (time * 2.0);\n        \n        \/\/ non stretching x\n        float nonStretchingX = 1.0;\n        \n        uv.x -= (uv.x - nonStretchingX) * timeToUse;\n        \n        float3 color1 = tex1.sample(sam, uv).rgb;\n        return color1;\n    } else {\n        \/\/ we process stretch for tex2 here\n        float2 uv = uvSec;\n        \n        \/\/ making time oscillate from 1 to 0\n        float timeToUse = abs((time - 1) * 2);\n        \n        \/\/ non stretching x\n        float nonStretchingX = 0.0;\n        uv.x -= (uv.x - nonStretchingX) * timeToUse;\n        float3 color2 = tex2.sample(sam, uv).rgb;\n        return color2;\n    }\n}\n\n\nfloat3 split(texture2d<float> tex1,texture2d<float> tex2, float2 uvFirst,float2 uvSec,float time) {\n    \n    float t = time;\n    float2 uv = uvFirst;\n    \n    if (uv.y > 0.5) {\n        t = 1.0 - t;\n        if (uv.x < t) {\n            uv.x += 1.0 - t;\n            float3 color1 = tex1.sample(sam, uv).rgb;\n            return color1;\n        } else {\n            uvSec.x -= t;\n            float3 color2 = tex2.sample(sam, uvSec).rgb;\n            return color2;\n        }\n    } else {\n        \n        if (uv.x < t) {\n            uvSec.x += 1.0 - t;\n            float3 color2 = tex2.sample(sam, uvSec).rgb;\n            return color2;\n        } else {\n            uv.x -= t;\n            float3 color1 = tex1.sample(sam, uv).rgb;\n            return color1;\n        }\n    }\n}\n\n\nfloat3 split2(texture2d<float> tex1,texture2d<float> tex2, float2 uvFirst,float2 uvSec,float time) {\n    \n    float t = time;\n    float2 uv = uvFirst;\n    \n    if (uv.y < 0.5) {\n        t = 1.0 - t;\n        if (uv.x < t) {\n            uv.x += 1.0 - t;\n            float3 color1 = tex1.sample(sam, uv).rgb;\n            return color1;\n        } else {\n            uvSec.x -= t;\n            float3 color2 = tex2.sample(sam, uvSec).rgb;\n            return color2;\n        }\n    } else {\n        \n        if (uv.x < t) {\n            uvSec.x += 1.0 - t;\n            float3 color2 = tex2.sample(sam, uvSec).rgb;\n            return color2;\n        } else {\n            uv.x -= t;\n            float3 color1 = tex1.sample(sam, uv).rgb;\n            return color1;\n        }\n    }\n}\n\n\n\n\n\n\n\n\nfloat3x3 inverse(float3x3 m) {\n    float det = determinant(m);\n    if (abs(det) < 1e-6) return float3x3(1.0); \/\/ or any other form of error handling\n\n    float3x3 adj; \/\/ adjoint\n\n    \/\/ calculate the adjoint of m\n    adj[0][0] =  m[1][1] * m[2][2] - m[1][2] * m[2][1];\n    adj[0][1] = -m[0][1] * m[2][2] + m[0][2] * m[2][1];\n    adj[0][2] =  m[0][1] * m[1][2] - m[0][2] * m[1][1];\n    adj[1][0] = -m[1][0] * m[2][2] + m[1][2] * m[2][0];\n    adj[1][1] =  m[0][0] * m[2][2] - m[0][2] * m[2][0];\n    adj[1][2] = -m[0][0] * m[1][2] + m[0][2] * m[1][0];\n    adj[2][0] =  m[1][0] * m[2][1] - m[1][1] * m[2][0];\n    adj[2][1] = -m[0][0] * m[2][1] + m[0][1] * m[2][0];\n    adj[2][2] =  m[0][0] * m[1][1] - m[0][1] * m[1][0];\n\n    return adj \/ det;\n}\n\/\/float3x3 inverse(float3x3 m) {\n\/\/    float3x3 cofactor = float3x3(\n\/\/        cross(m[1].yzx, m[2].yzx),\n\/\/        cross(m[2].zxy, m[0].zxy),\n\/\/        cross(m[0].yxy, m[1].yxy)\n\/\/    );\n\/\/\n\/\/    float det = determinant(m);\n\/\/    float invDet = 1.0 \/ det;\n\/\/\n\/\/    return transpose(cofactor) * invDet;\n\/\/}\n\n\nfloat2 rotateUV(float2 uv, float rotation)\n{\n    return float2(\n        cos(rotation) * uv.x + sin(rotation) * uv.y,\n        cos(rotation) * uv.y - sin(rotation) * uv.x\n    );\n}\nfloat2x2 rotate(float a) {\n    float s = sin(a);\n    float c = cos(a);\n    return float2x2(c, -s, s, c);\n}\n\n\n\ntypedef struct {\n    float u_time ;\n    float transition_time ;\n\/\/    int transition_type ;\n    bool on_transition ;\n    simd_float2 main_resolution;\n    simd_float2 sec_resolution;\n    float main_rotation = 0.0;\n    float sec_rotation = 0.0;\n    float3x3 media_first_Trnsform = float3x3(1,0,0,\n                                             0,1,0,\n                                             0,0,1);\n    float3x3 media_second_Trnsform = float3x3(1,0,0,\n                                              0,1,0,\n                                              0,0,1);\n}MetalUniform;\n\n\nfloat2 reduceAspectRatio(float2 uv, float2 source_res,float2 main_resolution, float a){\n    \n    \n    uv -= 0.5;\n    uv = rotateUV(uv, a);\n    uv += 0.5;\n    source_res *= rotate(a);\n    \n    if(a > 0){\n        uv.y = 1.0 - uv.y;\n    }\n    \n    float aspectMain = main_resolution.y\/main_resolution.x;\n    float aspectSource = source_res.y\/source_res.x;\n\n            if(aspectSource >= aspectMain){\n                uv -= 0.5;\n                uv.x *= aspectSource;\n                uv.x \/= aspectMain;\n                uv += 0.5;\n            }else{\n                uv -= 0.5;\n                uv.y \/= aspectSource;\n                uv.y *= aspectMain;\n                uv += 0.5;\n            }\n\/\/\n    return uv;\n}\n\nkernel void playback_kernel(  texture2d<float, access::write> output [[texture(0)]],\n                            texture2d<float, access::sample> input [[texture(1)]],\n\/\/                        texture2d<float, access::sample> video2 [[texture(2)]],\n                      \n\/\/                      constant bool &onTransition [[buffer(8)]],\n\/\/                        constant int &transition_type [[buffer(9)]],\n                       uint2 gid [[thread_position_in_grid]],\n                       constant MetalUniform &values [[buffer(12)]]\n                      )\n    {\n      constexpr sampler sam(mag_filter::linear, min_filter::linear, address::clamp_to_zero);\n   \n      \n        float2 input_res = float2(input.get_width(),input.get_height());\n        float2 uv = float2(gid.x,gid.y) \/ input_res;\n\/\/        uv = 1.0 - uv;\n\/\/        uv.y = 1.0 - uv.y;\n        \n       \n        \n        float4 color = input.sample(sam,  uv);\n\n        output.write(color, gid);\n}\n\n\nkernel void main_kernel(  texture2d<float, access::sample> video1 [[texture(1)]],\n                        texture2d<float, access::sample> video2 [[texture(2)]],\n                       texture2d<float, access::write> output [[texture(0)]],\n                      constant bool &onTransition [[buffer(8)]],\n                        constant int &transition_type [[buffer(9)]],\n                       uint2 gid [[thread_position_in_grid]],\n                       constant MetalUniform &values [[buffer(12)]]\n                      )\n    {\n      constexpr sampler sam(mag_filter::linear, min_filter::linear, address::clamp_to_zero);\n      float2 uv = float2(gid.x,gid.y) \/ values.main_resolution;\n      \n        float2 first_res = float2(video1.get_width(),video1.get_height());\n        float2 second_res = float2(video2.get_width(),video2.get_height());\n        \n        float2 first_uv = reduceAspectRatio(uv, first_res, values.main_resolution, pi);\n        float2 second_uv = reduceAspectRatio(uv, second_res, values.main_resolution, pi);\n        \n        float3x3 mi1 = inverse(values.media_first_Trnsform);\n        float3x3 mi2 = inverse(values.media_second_Trnsform);\n        \n        first_uv -= 0.5;\n        second_uv -= 0.5;\n        first_uv = (mi1 * float3(first_uv, 1.0)).xy;\n        second_uv = (mi2 * float3(second_uv, 1.0)).xy;\n        second_uv += 0.5;\n        first_uv += 0.5;\n        \n        float4 videoColor1 = video1.sample(sam,  first_uv);\n      \n        float4 videoColor2 = video2.sample(sam,  second_uv);\n      \n        \n        float4 color =  float4(1.0);\n        \n        \n\n            \n        \n        \n     \n        if(transition_type == 1){\n            \n            color.rgb = zoomTransition(uv, video1, video2, first_uv, second_uv, values.transition_time);\n            \n        }else if(transition_type == 2){\n            color.rgb = swirlTransition(uv, video1, video2, first_uv, second_uv, values.transition_time);\n           \n        }else if(transition_type == 3){\n            color.rgb = stripesTransition(uv, video1, video2, first_uv, second_uv, values.transition_time);\n           \n        }else if(transition_type == 4){\n            \n            color = burnTransition(uv,videoColor1.rgb,videoColor2.rgb, values.transition_time*1.5);\n        }else if(transition_type == 5){\n            color.rgb = glitchTransition(uv, video1, video2, first_uv, second_uv, values.transition_time);\n           \n        }else{\n          color = mix(videoColor1,videoColor2,values.transition_time);\n      }\n\/\/        }else{\n\/\/            mix(videoColor1,videoColor2,abs((values.transition_time)));\n    \/\/        color = videoColor1;\n\/\/        }\n  output.write(color, gid);\n}\n\n\n\nkernel void export_kernel(  texture2d<float, access::sample> video1 [[texture(1)]],\n                          texture2d<float, access::sample> video2 [[texture(2)]],\n                         texture2d<float, access::write> output [[texture(0)]],\n                        constant bool &onTransition [[buffer(8)]],\n                          constant int &transition_type [[buffer(9)]],\n                          constant float2 &angel [[buffer(11)]],\n                         uint2 gid [[thread_position_in_grid]],\n                         constant MetalUniform &values [[buffer(12)]]\n                        )\n{\n    constexpr sampler sam(mag_filter::linear, min_filter::linear, address::clamp_to_zero);\n    float2 uv = float2(gid.x,gid.y) \/ values.main_resolution;\n    \n    float2 first_res = float2(video1.get_width(),video1.get_height());\n    float2 second_res = float2(video2.get_width(),video2.get_height());\n    \n    float2 first_uv = reduceAspectRatio(uv, first_res, values.main_resolution, angel.x);\n    float2 second_uv = reduceAspectRatio(uv, second_res, values.main_resolution,angel.y);\n    \n  \n    float3x3 mi1 = inverse(values.media_first_Trnsform);\n    float3x3 mi2 = inverse(values.media_second_Trnsform);\n    \n    first_uv -= 0.5;\n    second_uv -= 0.5;\n    first_uv = (mi1 * float3(first_uv, 1.0)).xy;\n    second_uv = (mi2 * float3(second_uv, 1.0)).xy;\n    second_uv += 0.5;\n    first_uv += 0.5;\n    \n    float4 videoColor1 = video1.sample(sam,  first_uv);\n    \n    float4 videoColor2 = video2.sample(sam,  second_uv);\n    \n    \n    float4 color =  float4(1.0);\n    if(transition_type == 1){\n        \n        color.rgb = split(video1, video2, first_uv, second_uv, values.transition_time);\n        \n    }else if(transition_type == 2){\n        color.rgb = swirlTransition(uv, video1, video2, first_uv, second_uv, values.transition_time);\n       \n    }else if(transition_type == 3){\n        color.rgb = stripesTransition(uv, video1, video2, first_uv, second_uv, values.transition_time);\n       \n    }else if(transition_type == 4){\n        \n        color = burnTransition(uv,videoColor1.rgb,videoColor2.rgb, values.transition_time*1.5);\n    }else if(transition_type == 5){\n        color.rgb = glitchTransition(uv, video1, video2, first_uv, second_uv, values.transition_time);\n       \n    }else if(transition_type == 6){\n        color.rgb = screenMelt(uv, video1, video2, first_uv, second_uv, values.transition_time);\n    }else if(transition_type == 7){\n        color.rgb = crosswarp(uv, video1, video2, first_uv, second_uv, values.transition_time);\n    }else if(transition_type == 8){\n        color.rgb = crossHatch(uv, video1, video2, first_uv, second_uv, values.transition_time);\n\n    }else if(transition_type == 9){\n        color.rgb = circularTiles(first_res, video1, video2, first_uv, second_uv, values.transition_time);\n        \n    }else if(transition_type == 10){\n        color.rgb = rectangularTiles(first_res, video1, video2, first_uv, second_uv, values.transition_time);\n        \n    }else if(transition_type == 11){\n        color.rgb = blockyDissolve(first_res, video1, video2, first_uv, second_uv, values.transition_time);\n        \n    }else if(transition_type == 12){\n        color.rgb = curlNoise(video1, video2, first_uv, second_uv, values.transition_time);\n        \n    }else if(transition_type == 13){\n        color.rgb = circularScan(video1, video2, first_uv, second_uv, values.transition_time);\n        \n    }else if(transition_type == 14){\n        color.rgb = drain(video1, video2, first_uv, second_uv, values.transition_time);\n        \n    }else if(transition_type == 15){\n        color.rgb = stretchRight(video1, video2, first_uv, second_uv, values.transition_time);\n        \n    }else if(transition_type == 16){\n        color.rgb = stretchLeft(video1, video2, first_uv, second_uv, values.transition_time);\n        \n    }else if(transition_type == 17){\n        \n        color.rgb = split(video1, video2, first_uv, second_uv, values.transition_time);\n        \n    }else if(transition_type == 18){\n        \n        color.rgb = split2(video1, video2, first_uv, second_uv, values.transition_time);\n        \n    }else{\n      color = mix(videoColor1,videoColor2,values.transition_time);\n  }\n    color.g \/= 2.0;\n    output.write(color, gid);\n}\n\n\n\n\""
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Editor\/MIVideoCompositor.swift",
       "kind": "BooleanLiteral",
       "offset": 993,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MultiItemsExport\/MIVideoCompositor.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Editor\/MIVideoCompositor.swift",
       "kind": "StringLiteral",
       "offset": 1134,
       "length": 51,
       "value": "\"com.apple.aplcustomvideocompositor.renderingqueue\""
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MultiItemsExport\/MIVideoCompositor.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Editor\/MIVideoCompositor.swift",
       "kind": "StringLiteral",
       "offset": 1366,
       "length": 55,
       "value": "\"com.apple.aplcustomvideocompositor.rendercontextqueue\""
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MultiItemsExport\/MIVideoCompositor.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Editor\/MIVideoCompositor.swift",
       "kind": "BooleanLiteral",
       "offset": 1701,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MultiItemsExport\/MTLEditorPipe.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Editor\/MTLEditorPipe.swift",
       "kind": "BooleanLiteral",
-      "offset": 309,
+      "offset": 311,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MultiItemsExport\/MTLEditorPipe.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Editor\/MTLEditorPipe.swift",
       "kind": "IntegerLiteral",
-      "offset": 416,
+      "offset": 418,
       "length": 3,
       "value": "100"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MultiItemsExport\/MTLEditorPipe.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Editor\/MTLEditorPipe.swift",
       "kind": "IntegerLiteral",
-      "offset": 427,
+      "offset": 429,
       "length": 3,
       "value": "100"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MultiItemsExport\/MTLEditorPipe.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Editor\/MTLEditorPipe.swift",
       "kind": "IntegerLiteral",
-      "offset": 464,
+      "offset": 466,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MultiItemsExport\/MTLEditorPipe.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Editor\/MTLEditorPipe.swift",
       "kind": "IntegerLiteral",
-      "offset": 496,
+      "offset": 498,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MultiItemsExport\/MTLEditorPipe.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Editor\/MTLEditorPipe.swift",
       "kind": "FloatLiteral",
-      "offset": 565,
+      "offset": 567,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MultiItemsExport\/MTLEditorPipe.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Editor\/MTLEditorPipe.swift",
       "kind": "FloatLiteral",
-      "offset": 570,
+      "offset": 572,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MultiItemsExport\/MTLEditorPipe.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Editor\/MTLEditorPipe.swift",
       "kind": "FloatLiteral",
-      "offset": 575,
+      "offset": 577,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MultiItemsExport\/MTLEditorPipe.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Editor\/MTLEditorPipe.swift",
       "kind": "FloatLiteral",
-      "offset": 648,
+      "offset": 650,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MultiItemsExport\/MTLEditorPipe.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Editor\/MTLEditorPipe.swift",
       "kind": "FloatLiteral",
-      "offset": 653,
+      "offset": 655,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MultiItemsExport\/MTLEditorPipe.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Editor\/MTLEditorPipe.swift",
       "kind": "FloatLiteral",
-      "offset": 658,
+      "offset": 660,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MultiItemsExport\/MTLEditorPipe.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Editor\/MTLEditorPipe.swift",
       "kind": "FloatLiteral",
-      "offset": 731,
+      "offset": 733,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MultiItemsExport\/MTLEditorPipe.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Editor\/MTLEditorPipe.swift",
       "kind": "FloatLiteral",
-      "offset": 736,
+      "offset": 738,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MultiItemsExport\/MTLEditorPipe.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Editor\/MTLEditorPipe.swift",
       "kind": "FloatLiteral",
-      "offset": 741,
+      "offset": 743,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MultiItemsExport\/MTLEditorPipe.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Editor\/MTLEditorPipe.swift",
       "kind": "FloatLiteral",
-      "offset": 817,
+      "offset": 819,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MultiItemsExport\/MTLEditorPipe.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Editor\/MTLEditorPipe.swift",
       "kind": "FloatLiteral",
-      "offset": 822,
+      "offset": 824,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MultiItemsExport\/MTLEditorPipe.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Editor\/MTLEditorPipe.swift",
       "kind": "FloatLiteral",
-      "offset": 827,
+      "offset": 829,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MultiItemsExport\/MTLEditorPipe.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Editor\/MTLEditorPipe.swift",
       "kind": "FloatLiteral",
-      "offset": 901,
+      "offset": 903,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MultiItemsExport\/MTLEditorPipe.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Editor\/MTLEditorPipe.swift",
       "kind": "FloatLiteral",
-      "offset": 906,
+      "offset": 908,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MultiItemsExport\/MTLEditorPipe.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Editor\/MTLEditorPipe.swift",
       "kind": "FloatLiteral",
-      "offset": 911,
+      "offset": 913,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MultiItemsExport\/MTLEditorPipe.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Editor\/MTLEditorPipe.swift",
       "kind": "FloatLiteral",
-      "offset": 985,
+      "offset": 987,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MultiItemsExport\/MTLEditorPipe.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Editor\/MTLEditorPipe.swift",
       "kind": "FloatLiteral",
-      "offset": 990,
+      "offset": 992,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MultiItemsExport\/MTLEditorPipe.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Editor\/MTLEditorPipe.swift",
       "kind": "FloatLiteral",
-      "offset": 995,
+      "offset": 997,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MultiItemsExport\/MTLEditorPipe.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Editor\/MTLEditorPipe.swift",
+      "kind": "Array",
+      "offset": 1076,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Editor\/MTLEditorPipe.swift",
+      "kind": "Array",
+      "offset": 1127,
+      "length": 7,
+      "value": "[1, 2, 3]"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Editor\/MTLEditorPipe.swift",
       "kind": "StringLiteral",
-      "offset": 1102,
+      "offset": 1189,
+      "length": 6,
+      "value": "\"none\""
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Editor\/MTLEditorPipe.swift",
+      "kind": "Array",
+      "offset": 1291,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Editor\/MTLEditorPipe.swift",
+      "kind": "Array",
+      "offset": 1339,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Editor\/MTLEditorPipe.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1399,
+      "length": 4,
+      "value": "1080"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Editor\/MTLEditorPipe.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1413,
+      "length": 4,
+      "value": "1920"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Editor\/MTLEditorPipe.swift",
+      "kind": "StringLiteral",
+      "offset": 1529,
       "length": 15,
       "value": "\"export_kernel\""
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MultiItemsExport\/MTLEditorPipe.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Editor\/MTLEditorPipe.swift",
+      "kind": "StringLiteral",
+      "offset": 1621,
+      "length": 6,
+      "value": "\"none\""
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Editor\/MTLEditorPipe.swift",
       "kind": "FloatLiteral",
-      "offset": 1201,
+      "offset": 1711,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MultiItemsExport\/MTLEditorPipe.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Editor\/MTLEditorPipe.swift",
       "kind": "IntegerLiteral",
-      "offset": 1242,
+      "offset": 1752,
       "length": 3,
       "value": "100"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MultiItemsExport\/MTLEditorPipe.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Editor\/MTLEditorPipe.swift",
       "kind": "IntegerLiteral",
-      "offset": 1253,
+      "offset": 1763,
       "length": 3,
       "value": "100"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MultiItemsExport\/MTLEditorPipe.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Editor\/MTLEditorPipe.swift",
       "kind": "BooleanLiteral",
-      "offset": 1561,
+      "offset": 2395,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/MultiItemsExport\/MTLEditorPipe.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Editor\/MTLEditorPipe.swift",
       "kind": "IntegerLiteral",
-      "offset": 1623,
+      "offset": 2457,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Shader.swift",
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Editor\/MetalDevice.swift",
       "kind": "StringLiteral",
-      "offset": 131,
-      "length": 29652,
-      "value": "\"\/\/\n\/\/  Shader.metal\n\/\/  TestApp\n\/\/\n\/\/  Created by Demian Nezhdanov on 23\/06\/2024.\n\/\/\n\n\n\n\n\n#include <metal_stdlib>\nusing namespace metal;\n\nfloat mod(float x, float y) {\n    return x - y * floor(x\/y);\n}\nfloat rand(float2 co) {\n  return fract(sin(dot(co.xy ,float2(12.9898,78.233))) * 43758.5453);\n}\n\nfloat Hash(float2 p)\n{\n    float3 p2 = float3(p.xy, 1.0);\n    return fract(sin(dot(p2, float3(37.1, 61.7, 12.4))) * 3758.5453123);\n}\n\nfloat noise(float2 p)\n{\n    float2 i = floor(p);\n    float2 f = fract(p);\n    f *= f * (3.0 - 2.0 * f);\n\n    return mix(mix(Hash(i + float2(0.0, 0.0)), Hash(i + float2(1.0, 0.0)), f.x),\n               mix(Hash(i + float2(0.0, 1.0)), Hash(i + float2(1.0, 1.0)), f.x),\n               f.y);\n}\n\nfloat fbm(float2 p)\n{\n    float v = 0.0;\n    v += noise(p * 1.0) * 0.5;\n    v += noise(p * 2.0) * 0.25;\n    v += noise(p * 4.0) * 0.125;\n    return v;\n}\n\n float4 burnTransition(float2 uv, float3 src, float3 tgt, float ctime)\n{\n \n\n\n    float3 col = src;\n\n    uv.x -= 1.5;\n\n  \n\n    \/\/ burn\n    float d = uv.x + uv.y * 0.5 + 0.5 * fbm(uv * 15.1) + ctime * 1.3;\n    if (d > 0.35) col = clamp(col - (d - 0.35) * 10.0, 0.0, 1.0);\n    if (d > 0.47) {\n        if (d < 0.5) col += (d - 0.4) * 33.0 * 0.5 * (0.0 + noise(100.0 * uv + float2(-ctime * 2.0, 0.0))) * float3(1.5, 0.5, 0.0);\n        else col += tgt;\n    }\n\n    return float4(col, 1.0);\n}\n\nconstexpr metal::sampler sam(metal::filter::linear,address::clamp_to_zero   );\n\nfloat3 glitchTransition(float2 texCoord,texture2d<float> tex1,texture2d<float> tex2, float2 uvFirst,float2 uvSec,float time) {\n    \n\n    float3 color1 = tex1.sample(sam, uvFirst).rgb;\n    float3 color2 = tex2.sample(sam, uvSec).rgb;\n    float3 color = mix(color1, color2, time);\n\/\/    color.r = 1.0;\n    return (color);\n}\n#define PI 3.14159265358979\n#define pi 3.14159265358979\n\n\/\/constexpr metal::sampler sam(metal::filter::linear,address::clamp_to_zero   );\n\nfloat stripes(float2 uv,float time){\n    float width =  time;\n\n    uv.y -= width;\n    uv.y = clamp(uv.y,0.0,0.5);\n    width = 0.5-(width);\n    width \/= 1.0 ;\n       uv \/= 0.1;\n   \n\n\nfloat dHorz = (fract(uv.x ) - 0.5);\nfloat grid = smoothstep(width + 0.1,width,dHorz);\n\n\n                 return grid;\n}\n\n\nfloat3 stripesTransition(float2 texCoord,texture2d<float> tex1,texture2d<float> tex2, float2 uvFirst,float2 uvSec,float time) {\n    \n\n    float3 color1 = tex1.sample(sam, uvFirst).rgb;\n    float3 color2 = tex2.sample(sam, uvSec).rgb;\n    float s = stripes(texCoord,time);\n    float3 color = mix(color2, color1, s);\n    return (color);\n}\n\nfloat3 swirl(texture2d<float> tex, float2 uv, float time)\n{\n    float2 size = float2(tex.get_width(), tex.get_height());\n\n    float2 center = float2(size.x * 0.5, size.y * 0.5);\n\n    float radius = time * max(size.x, size.y);\n    float angle = time * 2.0;\n\n    float2 texSize = float2(size.x, size.y);\n    float2 tc = uv * texSize;\n    tc -= center;\n    float dist = length(tc);\n    if (dist < radius)\n    {\n        float percent = (radius - dist) \/ radius;\n        float theta = percent * percent * angle * 8.0;\n        float s = sin(theta);\n        float c = cos(theta);\n        tc = float2(dot(tc, float2(c, -s)), dot(tc, float2(s, c)));\n    }\n    tc += center;\n    \n    float3 color = tex.sample(sam, tc\/texSize).rgb;\/\/ swirlTransition(tc \/ texSize, tex, tex, uv, uv, sin(time));\n    return color;\n}\n\nfloat3 swirlTransition(float2 texCoord,texture2d<float> tex1,texture2d<float> tex2, float2 uvFirst,float2 uvSec,float time) {\n    \n\n    float3 color1 = tex1.sample(sam, uvFirst).rgb;\n    float3 color2 = tex2.sample(sam, uvSec).rgb;\n    \n    \n    float3 color = mix(\n        swirl(tex1, uvFirst, sin(time * PI)),\n        swirl(tex2, uvSec, sin(time * PI)),\n                time\n    );\n    \n    \n    return (color);\n}\n\n\n\nfloat Linear_ease( float begin,  float change,  float duration,  float time) {\n    return change * time \/ duration + begin;\n}\n\nfloat Exponential_easeInOut( float begin,  float change,  float duration,  float time) {\n    if (time == 0.0)\n        return begin;\n    else if (time == duration)\n        return begin + change;\n    time = time \/ (duration \/ 2.0);\n    if (time < 1.0)\n        return change \/ 2.0 * pow(2.0, 10.0 * (time - 1.0)) + begin;\n    return change \/ 2.0 * (-pow(2.0, -10.0 * (time - 1.0)) + 2.0) + begin;\n}\n\nfloat Sinusoidal_easeInOut( float begin,  float change,  float duration,  float time) {\n    return -change \/ 2.0 * (cos(PI * time \/ duration) - 1.0) + begin;\n}\n\nfloat random( float3 scale,  float seed, float2 uv) {\n    return fract(sin(dot(uv.xyx + seed, scale)) * 43758.5453 + seed);\n}\n\nfloat3 crossFade(texture2d<float> tex1,texture2d<float> tex2, float2 uvFirst,float2 uvSec,  float dissolve) {\n    return mix(tex1.sample(sam, uvFirst).rgb, tex2.sample(sam, uvSec).rgb, dissolve);\n}\n\nfloat3 zoomTransition(float2 texCoord,texture2d<float> tex1,texture2d<float> tex2, float2 uvFirst,float2 uvSec,float time) {\n    \n    float progress = time;\n    \/\/ Linear interpolate center across center half of the image\n    float2 center = float2(Linear_ease(0.5, 0.0, 1.0, progress),0.5);\n    float dissolve = Exponential_easeInOut(0.0, 1.0, 1.0, progress);\n\n    \/\/ Mirrored sinusoidal loop. 0->strength then strength->0\n    float strength = Sinusoidal_easeInOut(0.0, 0.3, 0.5, progress);\n\n    float3 color = float3(0.0);\n    float total = 0.0;\n    float2 toCenter = center - texCoord;\n\n    \/* randomize the lookup values to hide the fixed number of samples *\/\n    float offset = random(float3(12.9898, 78.233, 151.7182), 0.0, texCoord)*0.5;\n\n    for (float t = 0.0; t <= 20.0; t++) {\n        float percent = (t + offset) \/ 20.0;\n        float weight = 1.0 * (percent - percent * percent);\n        color += crossFade(tex1,\n                           tex2,\n                           uvFirst + toCenter * percent * strength,\n                           uvSec + toCenter * percent * strength, dissolve) * weight;\n        total += weight;\n    }\n\n    return (color \/ total);\n}\n\n\n\nfloat3 screenMelt(float2 texCoord,texture2d<float> tex1,texture2d<float> tex2, float2 uvFirst,float2 uvSec,float time)\n{\n    \n    \/\/ initial \"paint melt\" speed\n    const float START_SPEED  = 2.7;\n    \/\/ texture melting off screen speed\n    const float MELT_SPEED   = 1.;\n    \n    float2 uv = uvFirst;\n    float2 p = uv;\n    \n    \/\/ first let some \"paint\" drip before moving entire texture contents\n    float d = (START_SPEED * time);\n    if(d > 1.) d = 1.;\n    \n    \/\/ initial paint melt shift\n    p.y -= d * 1. * fract(sin(dot(float2(p.x, .0), float2(12.9898, 78.233)))* 43758.5453);\n    \n    \/\/ now move entire melted texture offscreen\n    if(d == 1.)\n        p.y -= MELT_SPEED * (time - d\/START_SPEED);\n    \n    float3 color1 = tex1.sample(sam, p).rgb;\n    float3 color2 = tex2.sample(sam, uvSec).rgb;\n    float3 color = mix(color1, color2, time);\n    \n    return color;\n}\n\nfloat3 crosswarp(float2 texCoord,texture2d<float> tex1,texture2d<float> tex2, float2 uvFirst,float2 uvSec,float time)\n{\n  float2 p = uvFirst;\n    float2 p2 = uvSec;\n  float x = mod(time,2.); \/\/ change this to alter the speed\n   \n  x = smoothstep(.0,1.0,(x*2.0+p.x-1.0));\n    float pc1x = (p.x -.5)*(1.-x)+.5;\n    float pc1y = (p.y -.5)*(1.-x)+.5;\n    float2 pc1 = float2(pc1x, pc1y);\n    \n    float pc2x = (p2.x - .5)*x+.5;\n    float pc2y = (p2.y - .5)*x+.5;\n    float2 pc2 = float2(pc2x, pc2y);\n    \n    float3 color1 = tex1.sample(sam, pc1).rgb;\n    float3 color2 = tex2.sample(sam, pc2).rgb;\n    float3 color = mix(color1, color2, x);\n    \n    return color;\n}\nfloat3 crossHatch(float2 texCoord,texture2d<float> tex1,texture2d<float> tex2, float2 uvFirst,float2 uvSec,float time)\n{\n    float threshold = 3.;\n    float fadeEdge = 0.1;\n    float2 center = float2(0.5);\n    \n    float iTime2 = fract(time\/1.5);\n    float2 uv = uvFirst;\n    float dist = distance(center, uv) \/ threshold;\n    float r = iTime2 - min(rand(float2(uv.y, 0.0)), rand(float2(0.0, uv.x)));\n    \n    float3 c1 = tex1.sample(sam, uvFirst).rgb;\n    float3 c2 = tex2.sample(sam, uvSec).rgb;\n    \n    float3 c3 = mix(c1, c2, mix(0.0, mix(step(dist, r), 1.0, smoothstep(1.0-fadeEdge, 1.0, iTime2)), smoothstep(0.0, fadeEdge, iTime2)));\n    return c3;\n}\n\nfloat3 circularTiles(float2 first_res,texture2d<float> tex1,texture2d<float> tex2, float2 uvFirst,float2 uvSec,float time)\n{\n    float aspectRatio = first_res.x \/ first_res.y;\n    \n    \/\/ Normalized pixel coordinates (from 0 to 1)\n    float2 uv = uvFirst;\n    \n    \/\/ this keeps the transition always in circle shape instead of\n    \/\/ aspect ratio dependent\n    uv.x *= aspectRatio;\n    \n    \/\/ This line tiles the UVs into 10 parts\n    uv = fract(uv * 10.0);\n    \n    \/\/ only required for circular tiling\n    uv -= 0.5; \/\/ shifts the 0.0 point to the middle of each tile\n    \n    \n    \/\/ Circular tile\n    float timing = sin(time) * 1.42;\n    float value = step(timing, length(uv));\n    \n    \n    float3 color1 = tex1.sample(sam, uvFirst).rgb;\n    float3 color2 = tex2.sample(sam, uvSec).rgb;\n    float3 color = mix(color2, color1, min(value, 1.));\n    \n    return color;\n}\n\nfloat3 rectangularTiles(float2 first_res,texture2d<float> tex1,texture2d<float> tex2, float2 uvFirst,float2 uvSec,float time)\n{\n    float aspectRatio = first_res.x \/ first_res.y;\n    \n    \/\/ Normalized pixel coordinates (from 0 to 1)\n    float2 uv = uvFirst;\n    \n    \/\/ this keeps the transition always in circle shape instead of\n    \/\/ aspect ratio dependent\n    uv.x *= aspectRatio;\n    \n    \/\/ This line tiles the UVs into 10 parts\n    uv = fract(uv * 10.0);\n    \n    \/\/ only required for circular tiling\n    uv -= 0.5; \/\/ shifts the 0.0 point to the middle of each tile\n    \n    \/\/ center tile wipe\n    float timing = sin(time);\n    float value = step(timing, abs(uv.x)) + step(timing, abs(uv.y));\n    \n    float3 color1 = tex1.sample(sam, uvFirst).rgb;\n    float3 color2 = tex2.sample(sam, uvSec).rgb;\n    float3 color = mix(color2, color1, min(value, 1.));\n    \n    return color;\n}\nfloat randBlock(float2 co){\n    return fract(sin(dot(co.xy ,float2(12.9898,78.233))) * 43758.5453);\n}\n\nfloat3 blockyDissolve(float2 first_res,texture2d<float> tex1,texture2d<float> tex2, float2 uvFirst,float2 uvSec,float time)\n{\n    \/\/ increase this value to increase the size of block\n    float resolution = 20.0;\n    float2 lowresxy = float2(\n                             ceil((uvFirst.x * first_res.x) \/ resolution),\n                             ceil((uvFirst.y * first_res.y) \/ resolution)\n                             );\n    \n    \/\/ since time value is from 0 to 1\n    \/\/ we can directly use time\n    \/\/ but if it is not 0 to 1\n    \/\/ we should use sin(time)\n    if((time) > randBlock(lowresxy)){\n        float3 color2 = tex2.sample(sam, uvSec).rgb;\n        return color2;\n        \n    }else{\n        float3 color1 = tex1.sample(sam, uvFirst).rgb;\n        return color1;\n    }\n}\n\n\n\n\nfloat3 mod289(float3 x) {\n  return x - floor(x * (1.0 \/ 289.0)) * 289.0;\n}\n\nfloat4 mod289(float4 x) {\n  return x - floor(x * (1.0 \/ 289.0)) * 289.0;\n}\n\nfloat4 permute(float4 x) {\n  return mod289(((x*34.0)+1.0)*x);\n}\n\nfloat4 taylorInvSqrt(float4 r){\n  return 1.79284291400159 - 0.85373472095314 * r;\n}\n\nfloat snoise(float3 v) {\n\n  const float2  C = float2(1.0\/6.0, 1.0\/3.0) ;\n  const float4  D = float4(0.0, 0.5, 1.0, 2.0);\n\n  \/\/ First corner\n  float3 i  = floor(v + dot(v, C.yyy) );\n  float3 x0 =   v - i + dot(i, C.xxx) ;\n\n  \/\/ Other corners\n  float3 g = step(x0.yzx, x0.xyz);\n  float3 l = 1.0 - g;\n  float3 i1 = min( g.xyz, l.zxy );\n  float3 i2 = max( g.xyz, l.zxy );\n\n  \/\/   x0 = x0 - 0.0 + 0.0 * C.xxx;\n  \/\/   x1 = x0 - i1  + 1.0 * C.xxx;\n  \/\/   x2 = x0 - i2  + 2.0 * C.xxx;\n  \/\/   x3 = x0 - 1.0 + 3.0 * C.xxx;\n  float3 x1 = x0 - i1 + C.xxx;\n  float3 x2 = x0 - i2 + C.yyy; \/\/ 2.0*C.x = 1\/3 = C.y\n  float3 x3 = x0 - D.yyy;      \/\/ -1.0+3.0*C.x = -0.5 = -D.y\n\n  \/\/ Permutations\n  i = mod289(i);\n  float4 p = permute( permute( permute(\n      i.z + float4(0.0, i1.z, i2.z, 1.0 ))\n    + i.y + float4(0.0, i1.y, i2.y, 1.0 ))\n    + i.x + float4(0.0, i1.x, i2.x, 1.0 ));\n\n  \/\/ Gradients: 7x7 points over a square, mapped onto an octahedron.\n  \/\/ The ring size 17*17 = 289 is close to a multiple of 49 (49*6 = 294)\n  float n_ = 0.142857142857; \/\/ 1.0\/7.0\n  float3  ns = n_ * D.wyz - D.xzx;\n\n  float4 j = p - 49.0 * floor(p * ns.z * ns.z);  \/\/  mod(p,7*7)\n\n  float4 x_ = floor(j * ns.z);\n  float4 y_ = floor(j - 7.0 * x_ );    \/\/ mod(j,N)\n\n  float4 x = x_ *ns.x + ns.yyyy;\n  float4 y = y_ *ns.x + ns.yyyy;\n  float4 h = 1.0 - abs(x) - abs(y);\n\n  float4 b0 = float4( x.xy, y.xy );\n  float4 b1 = float4( x.zw, y.zw );\n\n  \/\/float4 s0 = float4(lessThan(b0,0.0))*2.0 - 1.0;\n  \/\/float4 s1 = float4(lessThan(b1,0.0))*2.0 - 1.0;\n  float4 s0 = floor(b0)*2.0 + 1.0;\n  float4 s1 = floor(b1)*2.0 + 1.0;\n  float4 sh = -step(h, float4(0.0));\n\n  float4 a0 = b0.xzyw + s0.xzyw*sh.xxyy ;\n  float4 a1 = b1.xzyw + s1.xzyw*sh.zzww ;\n\n  float3 p0 = float3(a0.xy,h.x);\n  float3 p1 = float3(a0.zw,h.y);\n  float3 p2 = float3(a1.xy,h.z);\n  float3 p3 = float3(a1.zw,h.w);\n\n  \/\/Normalise gradients\n  float4 norm = taylorInvSqrt(float4(dot(p0,p0), dot(p1,p1), dot(p2, p2), dot(p3,p3)));\n  p0 *= norm.x;\n  p1 *= norm.y;\n  p2 *= norm.z;\n  p3 *= norm.w;\n\n  \/\/ Mix final noise value\n  float4 m = max(0.6 - float4(dot(x0,x0), dot(x1,x1), dot(x2,x2), dot(x3,x3)), 0.0);\n  m = m * m;\n  return 42.0 * dot( m*m, float4( dot(p0,x0), dot(p1,x1), dot(p2,x2), dot(p3,x3) ) );\n\n}\n\n\/\/ via: https:\/\/petewerner.blogspot.jp\/2015\/02\/intro-to-curl-noise.html\nfloat3 curlNoise( float3 p ){\n\n  const float e = 0.1;\n\n  float  n1 = snoise(float3(p.x, p.y + e, p.z));\n  float  n2 = snoise(float3(p.x, p.y - e, p.z));\n  float  n3 = snoise(float3(p.x, p.y, p.z + e));\n  float  n4 = snoise(float3(p.x, p.y, p.z - e));\n  float  n5 = snoise(float3(p.x + e, p.y, p.z));\n  float  n6 = snoise(float3(p.x - e, p.y, p.z));\n\n  float x = n2 - n1 - n4 + n3;\n  float y = n4 - n3 - n6 + n5;\n  float z = n6 - n5 - n2 + n1;\n\n\n  const float divisor = 1.0 \/ ( 2.0 * e );\n  return normalize( float3( x , y , z ) * divisor );\n}\n\nfloat3 curlNoise(texture2d<float> tex1,texture2d<float> tex2, float2 uvFirst,float2 uvSec,float time) {\n    float3 curl = curlNoise(float3(uvFirst,1.) *5. + time) \/ 1.;\n    float3 color1 = tex1.sample(sam, float2(uvFirst.x,uvFirst.y + time * (curl.x) )).rgb;\n    float3 color2 = tex2.sample(sam, float2(uvSec.x,uvSec.y + (1.-time) * (curl.x) )).rgb;\n    float3 color = mix(color1, color2, time);\n    return color;\n}\nfloat rule(float2 coord)\n{\n    float2 uv2 = coord - float2(0.5, 0.5);\n    float angle = atan2(uv2.x, uv2.y);\n    return angle \/ 2.0 \/ 3.1416 + 0.5;\n}\n\nfloat3 circularScan(texture2d<float> tex1,texture2d<float> tex2, float2 uvFirst,float2 uvSec,float time)\n{\n    float2 uv = uvFirst;\n    float3 color1 = tex1.sample(sam, uvFirst).rgb;\n    float3 color2 = tex2.sample(sam, uvSec).rgb;\n    \n    float myRule = rule(uv);\n    float progress = time;\n    float vague = 0.2;\n    float phase = progress * (1.0 + vague);\n    float p0 = smoothstep(myRule, myRule + vague, phase);\n    \n    float3 color = color1 * (1.0 - p0) + color2 * p0;\n    return color;\n}\nfloat3 drain(texture2d<float> tex1,texture2d<float> tex2, float2 uvFirst,float2 uvSec,float time)\n{\n    float2 uv = uvFirst;\n    float2 target = float2(0.5, 0.5);\n    \n    float strength = 1.0;\n    \n    \/\/offset the uv (radial since we normalise the dir)\n    float2 dir = normalize(uv - target);\n    uv += dir * strength * (time);\n    \n    \/\/if outside the texture region, return tex2\n    if (any(uv < float2(0.0)) || any(uv > float2(1.0))) {\n        float3 color2 = tex2.sample(sam, uvSec).rgb;\n        return color2;\n    } else {\n        float3 color1 = tex1.sample(sam, uv).rgb;\n        return color1;\n    }\n}\n\nfloat3 stretchRight(texture2d<float> tex1,texture2d<float> tex2, float2 uvFirst,float2 uvSec,float time) {\n    \n    if (time < 0.5) {\n        \n        \/\/ we process stretch for tex1 here\n        float2 uv = uvFirst;\n        \/\/ time 0 is no stretch period and 1 is max stretch period\n        \/\/ making time oscillate from 0 to 1\n        float timeToUse = (time * 2.0);\n        \n        \/\/ non stretching x\n        float nonStretchingX = 0.0;\n        \n        uv.x -= (uv.x - nonStretchingX) * timeToUse;\n        \n        float3 color1 = tex1.sample(sam, uv).rgb;\n        return color1;\n    } else {\n        \/\/ we process stretch for tex2 here\n        float2 uv = uvSec;\n        \n        \/\/ making time oscillate from 1 to 0\n        float timeToUse = abs((time - 1) * 2);\n        \n        \/\/ non stretching x\n        float nonStretchingX = 1.0;\n        uv.x -= (uv.x - nonStretchingX) * timeToUse;\n        float3 color2 = tex2.sample(sam, uv).rgb;\n        return color2;\n    }\n}\n\nfloat3 stretchLeft(texture2d<float> tex1,texture2d<float> tex2, float2 uvFirst,float2 uvSec,float time) {\n    \n    if (time < 0.5) {\n        \n        \/\/ we process stretch for tex1 here\n        float2 uv = uvFirst;\n        \n        \/\/ making time oscillate from 0 to 1\n        float timeToUse = (time * 2.0);\n        \n        \/\/ non stretching x\n        float nonStretchingX = 1.0;\n        \n        uv.x -= (uv.x - nonStretchingX) * timeToUse;\n        \n        float3 color1 = tex1.sample(sam, uv).rgb;\n        return color1;\n    } else {\n        \/\/ we process stretch for tex2 here\n        float2 uv = uvSec;\n        \n        \/\/ making time oscillate from 1 to 0\n        float timeToUse = abs((time - 1) * 2);\n        \n        \/\/ non stretching x\n        float nonStretchingX = 0.0;\n        uv.x -= (uv.x - nonStretchingX) * timeToUse;\n        float3 color2 = tex2.sample(sam, uv).rgb;\n        return color2;\n    }\n}\n\n\nfloat3 split(texture2d<float> tex1,texture2d<float> tex2, float2 uvFirst,float2 uvSec,float time) {\n    \n    float t = time;\n    float2 uv = uvFirst;\n    \n    if (uv.y > 0.5) {\n        t = 1.0 - t;\n        if (uv.x < t) {\n            uv.x += 1.0 - t;\n            float3 color1 = tex1.sample(sam, uv).rgb;\n            return color1;\n        } else {\n            uvSec.x -= t;\n            float3 color2 = tex2.sample(sam, uvSec).rgb;\n            return color2;\n        }\n    } else {\n        \n        if (uv.x < t) {\n            uvSec.x += 1.0 - t;\n            float3 color2 = tex2.sample(sam, uvSec).rgb;\n            return color2;\n        } else {\n            uv.x -= t;\n            float3 color1 = tex1.sample(sam, uv).rgb;\n            return color1;\n        }\n    }\n}\n\n\nfloat3 split2(texture2d<float> tex1,texture2d<float> tex2, float2 uvFirst,float2 uvSec,float time) {\n    \n    float t = time;\n    float2 uv = uvFirst;\n    \n    if (uv.y < 0.5) {\n        t = 1.0 - t;\n        if (uv.x < t) {\n            uv.x += 1.0 - t;\n            float3 color1 = tex1.sample(sam, uv).rgb;\n            return color1;\n        } else {\n            uvSec.x -= t;\n            float3 color2 = tex2.sample(sam, uvSec).rgb;\n            return color2;\n        }\n    } else {\n        \n        if (uv.x < t) {\n            uvSec.x += 1.0 - t;\n            float3 color2 = tex2.sample(sam, uvSec).rgb;\n            return color2;\n        } else {\n            uv.x -= t;\n            float3 color1 = tex1.sample(sam, uv).rgb;\n            return color1;\n        }\n    }\n}\n\n\n\n\n\n\n\n\nfloat3x3 inverse(float3x3 m) {\n    float det = determinant(m);\n    if (abs(det) < 1e-6) return float3x3(1.0); \/\/ or any other form of error handling\n\n    float3x3 adj; \/\/ adjoint\n\n    \/\/ calculate the adjoint of m\n    adj[0][0] =  m[1][1] * m[2][2] - m[1][2] * m[2][1];\n    adj[0][1] = -m[0][1] * m[2][2] + m[0][2] * m[2][1];\n    adj[0][2] =  m[0][1] * m[1][2] - m[0][2] * m[1][1];\n    adj[1][0] = -m[1][0] * m[2][2] + m[1][2] * m[2][0];\n    adj[1][1] =  m[0][0] * m[2][2] - m[0][2] * m[2][0];\n    adj[1][2] = -m[0][0] * m[1][2] + m[0][2] * m[1][0];\n    adj[2][0] =  m[1][0] * m[2][1] - m[1][1] * m[2][0];\n    adj[2][1] = -m[0][0] * m[2][1] + m[0][1] * m[2][0];\n    adj[2][2] =  m[0][0] * m[1][1] - m[0][1] * m[1][0];\n\n    return adj \/ det;\n}\n\/\/float3x3 inverse(float3x3 m) {\n\/\/    float3x3 cofactor = float3x3(\n\/\/        cross(m[1].yzx, m[2].yzx),\n\/\/        cross(m[2].zxy, m[0].zxy),\n\/\/        cross(m[0].yxy, m[1].yxy)\n\/\/    );\n\/\/\n\/\/    float det = determinant(m);\n\/\/    float invDet = 1.0 \/ det;\n\/\/\n\/\/    return transpose(cofactor) * invDet;\n\/\/}\n\n\nfloat2 rotateUV(float2 uv, float rotation)\n{\n    return float2(\n        cos(rotation) * uv.x + sin(rotation) * uv.y,\n        cos(rotation) * uv.y - sin(rotation) * uv.x\n    );\n}\nfloat2x2 rotate(float a) {\n    float s = sin(a);\n    float c = cos(a);\n    return float2x2(c, -s, s, c);\n}\n\n\n\ntypedef struct {\n    float u_time ;\n    float transition_time ;\n\/\/    int transition_type ;\n    bool on_transition ;\n    simd_float2 main_resolution;\n    simd_float2 sec_resolution;\n    float main_rotation = 0.0;\n    float sec_rotation = 0.0;\n    float3x3 media_first_Trnsform = float3x3(1,0,0,\n                                             0,1,0,\n                                             0,0,1);\n    float3x3 media_second_Trnsform = float3x3(1,0,0,\n                                              0,1,0,\n                                              0,0,1);\n}MetalUniform;\n\n\nfloat2 reduceAspectRatio(float2 uv, float2 source_res,float2 main_resolution, float a){\n    \n    \n    uv -= 0.5;\n    uv = rotateUV(uv, a);\n    uv += 0.5;\n    source_res *= rotate(a);\n    \n    if(a > 0){\n        uv.y = 1.0 - uv.y;\n    }\n    \n    float aspectMain = main_resolution.y\/main_resolution.x;\n    float aspectSource = source_res.y\/source_res.x;\n\n            if(aspectSource >= aspectMain){\n                uv -= 0.5;\n                uv.x *= aspectSource;\n                uv.x \/= aspectMain;\n                uv += 0.5;\n            }else{\n                uv -= 0.5;\n                uv.y \/= aspectSource;\n                uv.y *= aspectMain;\n                uv += 0.5;\n            }\n\/\/\n    return uv;\n}\n\nkernel void playback_kernel(  texture2d<float, access::write> output [[texture(0)]],\n                            texture2d<float, access::sample> input [[texture(1)]],\n\/\/                        texture2d<float, access::sample> video2 [[texture(2)]],\n                      \n\/\/                      constant bool &onTransition [[buffer(8)]],\n\/\/                        constant int &transition_type [[buffer(9)]],\n                       uint2 gid [[thread_position_in_grid]],\n                       constant MetalUniform &values [[buffer(12)]]\n                      )\n    {\n      constexpr sampler sam(mag_filter::linear, min_filter::linear, address::clamp_to_zero);\n   \n      \n        float2 input_res = float2(input.get_width(),input.get_height());\n        float2 uv = float2(gid.x,gid.y) \/ input_res;\n\/\/        uv = 1.0 - uv;\n\/\/        uv.y = 1.0 - uv.y;\n        \n       \n        \n        float4 color = input.sample(sam,  uv);\n\n        output.write(color, gid);\n}\n\n\nkernel void main_kernel(  texture2d<float, access::sample> video1 [[texture(1)]],\n                        texture2d<float, access::sample> video2 [[texture(2)]],\n                       texture2d<float, access::write> output [[texture(0)]],\n                      constant bool &onTransition [[buffer(8)]],\n                        constant int &transition_type [[buffer(9)]],\n                       uint2 gid [[thread_position_in_grid]],\n                       constant MetalUniform &values [[buffer(12)]]\n                      )\n    {\n      constexpr sampler sam(mag_filter::linear, min_filter::linear, address::clamp_to_zero);\n      float2 uv = float2(gid.x,gid.y) \/ values.main_resolution;\n      \n        float2 first_res = float2(video1.get_width(),video1.get_height());\n        float2 second_res = float2(video2.get_width(),video2.get_height());\n        \n        float2 first_uv = reduceAspectRatio(uv, first_res, values.main_resolution, pi);\n        float2 second_uv = reduceAspectRatio(uv, second_res, values.main_resolution, pi);\n        \n        float3x3 mi1 = inverse(values.media_first_Trnsform);\n        float3x3 mi2 = inverse(values.media_second_Trnsform);\n        \n        first_uv -= 0.5;\n        second_uv -= 0.5;\n        first_uv = (mi1 * float3(first_uv, 1.0)).xy;\n        second_uv = (mi2 * float3(second_uv, 1.0)).xy;\n        second_uv += 0.5;\n        first_uv += 0.5;\n        \n        float4 videoColor1 = video1.sample(sam,  first_uv);\n      \n        float4 videoColor2 = video2.sample(sam,  second_uv);\n      \n        \n        float4 color =  float4(1.0);\n        \n        \n\n            \n        \n        \n     \n        if(transition_type == 1){\n            \n            color.rgb = zoomTransition(uv, video1, video2, first_uv, second_uv, values.transition_time);\n            \n        }else if(transition_type == 2){\n            color.rgb = swirlTransition(uv, video1, video2, first_uv, second_uv, values.transition_time);\n           \n        }else if(transition_type == 3){\n            color.rgb = stripesTransition(uv, video1, video2, first_uv, second_uv, values.transition_time);\n           \n        }else if(transition_type == 4){\n            \n            color = burnTransition(uv,videoColor1.rgb,videoColor2.rgb, values.transition_time*1.5);\n        }else if(transition_type == 5){\n            color.rgb = glitchTransition(uv, video1, video2, first_uv, second_uv, values.transition_time);\n           \n        }else{\n          color = mix(videoColor1,videoColor2,values.transition_time);\n      }\n\/\/        }else{\n\/\/            mix(videoColor1,videoColor2,abs((values.transition_time)));\n    \/\/        color = videoColor1;\n\/\/        }\n  output.write(color, gid);\n}\n\n\n\nkernel void export_kernel(  texture2d<float, access::sample> video1 [[texture(1)]],\n                          texture2d<float, access::sample> video2 [[texture(2)]],\n                         texture2d<float, access::write> output [[texture(0)]],\n                        constant bool &onTransition [[buffer(8)]],\n                          constant int &transition_type [[buffer(9)]],\n                          constant float2 &angel [[buffer(11)]],\n                         uint2 gid [[thread_position_in_grid]],\n                         constant MetalUniform &values [[buffer(12)]]\n                        )\n{\n    constexpr sampler sam(mag_filter::linear, min_filter::linear, address::clamp_to_zero);\n    float2 uv = float2(gid.x,gid.y) \/ values.main_resolution;\n    \n    float2 first_res = float2(video1.get_width(),video1.get_height());\n    float2 second_res = float2(video2.get_width(),video2.get_height());\n    \n    float2 first_uv = reduceAspectRatio(uv, first_res, values.main_resolution, angel.x);\n    float2 second_uv = reduceAspectRatio(uv, second_res, values.main_resolution,angel.y);\n    \n  \n    float3x3 mi1 = inverse(values.media_first_Trnsform);\n    float3x3 mi2 = inverse(values.media_second_Trnsform);\n    \n    first_uv -= 0.5;\n    second_uv -= 0.5;\n    first_uv = (mi1 * float3(first_uv, 1.0)).xy;\n    second_uv = (mi2 * float3(second_uv, 1.0)).xy;\n    second_uv += 0.5;\n    first_uv += 0.5;\n    \n    float4 videoColor1 = video1.sample(sam,  first_uv);\n    \n    float4 videoColor2 = video2.sample(sam,  second_uv);\n    \n    \n    float4 color =  float4(1.0);\n    if(transition_type == 1){\n        \n        color.rgb = split(video1, video2, first_uv, second_uv, values.transition_time);\n        \n    }else if(transition_type == 2){\n        color.rgb = swirlTransition(uv, video1, video2, first_uv, second_uv, values.transition_time);\n       \n    }else if(transition_type == 3){\n        color.rgb = stripesTransition(uv, video1, video2, first_uv, second_uv, values.transition_time);\n       \n    }else if(transition_type == 4){\n        \n        color = burnTransition(uv,videoColor1.rgb,videoColor2.rgb, values.transition_time*1.5);\n    }else if(transition_type == 5){\n        color.rgb = glitchTransition(uv, video1, video2, first_uv, second_uv, values.transition_time);\n       \n    }else if(transition_type == 6){\n        color.rgb = screenMelt(uv, video1, video2, first_uv, second_uv, values.transition_time);\n    }else if(transition_type == 7){\n        color.rgb = crosswarp(uv, video1, video2, first_uv, second_uv, values.transition_time);\n    }else if(transition_type == 8){\n        color.rgb = crossHatch(uv, video1, video2, first_uv, second_uv, values.transition_time);\n\n    }else if(transition_type == 9){\n        color.rgb = circularTiles(first_res, video1, video2, first_uv, second_uv, values.transition_time);\n        \n    }else if(transition_type == 10){\n        color.rgb = rectangularTiles(first_res, video1, video2, first_uv, second_uv, values.transition_time);\n        \n    }else if(transition_type == 11){\n        color.rgb = blockyDissolve(first_res, video1, video2, first_uv, second_uv, values.transition_time);\n        \n    }else if(transition_type == 12){\n        color.rgb = curlNoise(video1, video2, first_uv, second_uv, values.transition_time);\n        \n    }else if(transition_type == 13){\n        color.rgb = circularScan(video1, video2, first_uv, second_uv, values.transition_time);\n        \n    }else if(transition_type == 14){\n        color.rgb = drain(video1, video2, first_uv, second_uv, values.transition_time);\n        \n    }else if(transition_type == 15){\n        color.rgb = stretchRight(video1, video2, first_uv, second_uv, values.transition_time);\n        \n    }else if(transition_type == 16){\n        color.rgb = stretchLeft(video1, video2, first_uv, second_uv, values.transition_time);\n        \n    }else if(transition_type == 17){\n        \n        color.rgb = split(video1, video2, first_uv, second_uv, values.transition_time);\n        \n    }else if(transition_type == 18){\n        \n        color.rgb = split2(video1, video2, first_uv, second_uv, values.transition_time);\n        \n    }else{\n      color = mix(videoColor1,videoColor2,values.transition_time);\n  }\n    color.g \/= 2.0;\n    output.write(color, gid);\n}\n\n\n\n\""
+      "offset": 2054,
+      "length": 15,
+      "value": "\"vertex_shader\""
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Editor\/MetalDevice.swift",
+      "kind": "Array",
+      "offset": 5408,
+      "length": 34,
+      "value": "[0, 1, 2, 2, 3, 0]"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Editor\/MetalDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 5523,
+      "length": 14,
+      "value": "\"vertexShader\""
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/MetalDevice\/MetalDevice\/Export\/Editor\/MetalDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 26807,
+      "length": 1,
+      "value": "0"
     }
   ]
 }
