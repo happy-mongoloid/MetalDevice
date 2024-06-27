@@ -42,7 +42,10 @@ public struct Uniform {
   public static var effects: [Swift.Int]
   public static var transitions: [Swift.Int]
   public static var effectKernelName: Swift.String
+  public static var timeRanges: [CoreMedia.CMTimeRange]
   public var effectsKernelsList: [Swift.String]
+  public static var luts: [Foundation.URL]
+  public static var lutIndex: Swift.Int
   public static var orientation: [Swift.Float]
   public static var exportSize: CoreFoundation.CGSize
   @objc deinit
