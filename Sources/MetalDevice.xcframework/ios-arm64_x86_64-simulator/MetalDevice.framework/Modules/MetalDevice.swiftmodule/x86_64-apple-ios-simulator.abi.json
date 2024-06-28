@@ -1898,6 +1898,374 @@
         "hasMissingDesignatedInitializers": true
       },
       {
+        "kind": "TypeDecl",
+        "name": "MTLEditorPipe",
+        "printedName": "MTLEditorPipe",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MTLEditorPipe",
+                "printedName": "MetalDevice.MTLEditorPipe",
+                "usr": "s:11MetalDevice13MTLEditorPipeC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11MetalDevice13MTLEditorPipeC6sharedACvpZ",
+            "mangledName": "$s11MetalDevice13MTLEditorPipeC6sharedACvpZ",
+            "moduleName": "MetalDevice",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MTLEditorPipe",
+                    "printedName": "MetalDevice.MTLEditorPipe",
+                    "usr": "s:11MetalDevice13MTLEditorPipeC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MetalDevice13MTLEditorPipeC6sharedACvgZ",
+                "mangledName": "$s11MetalDevice13MTLEditorPipeC6sharedACvgZ",
+                "moduleName": "MetalDevice",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MTLEditorPipe",
+                    "printedName": "MetalDevice.MTLEditorPipe",
+                    "usr": "s:11MetalDevice13MTLEditorPipeC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MetalDevice13MTLEditorPipeC6sharedACvsZ",
+                "mangledName": "$s11MetalDevice13MTLEditorPipeC6sharedACvsZ",
+                "moduleName": "MetalDevice",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MetalDevice13MTLEditorPipeC6sharedACvMZ",
+                "mangledName": "$s11MetalDevice13MTLEditorPipeC6sharedACvMZ",
+                "moduleName": "MetalDevice",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "texLoader",
+            "printedName": "texLoader",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MTKTextureLoader",
+                "printedName": "MetalKit.MTKTextureLoader",
+                "usr": "c:objc(cs)MTKTextureLoader"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11MetalDevice13MTLEditorPipeC9texLoaderSo010MTKTextureF0Cvp",
+            "mangledName": "$s11MetalDevice13MTLEditorPipeC9texLoaderSo010MTKTextureF0Cvp",
+            "moduleName": "MetalDevice",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MTKTextureLoader",
+                    "printedName": "MetalKit.MTKTextureLoader",
+                    "usr": "c:objc(cs)MTKTextureLoader"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MetalDevice13MTLEditorPipeC9texLoaderSo010MTKTextureF0Cvg",
+                "mangledName": "$s11MetalDevice13MTLEditorPipeC9texLoaderSo010MTKTextureF0Cvg",
+                "moduleName": "MetalDevice",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MTKTextureLoader",
+                    "printedName": "MetalKit.MTKTextureLoader",
+                    "usr": "c:objc(cs)MTKTextureLoader"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MetalDevice13MTLEditorPipeC9texLoaderSo010MTKTextureF0Cvs",
+                "mangledName": "$s11MetalDevice13MTLEditorPipeC9texLoaderSo010MTKTextureF0Cvs",
+                "moduleName": "MetalDevice",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MetalDevice13MTLEditorPipeC9texLoaderSo010MTKTextureF0CvM",
+                "mangledName": "$s11MetalDevice13MTLEditorPipeC9texLoaderSo010MTKTextureF0CvM",
+                "moduleName": "MetalDevice",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "setEffect",
+            "printedName": "setEffect(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11MetalDevice13MTLEditorPipeC9setEffectyySdF",
+            "mangledName": "$s11MetalDevice13MTLEditorPipeC9setEffectyySdF",
+            "moduleName": "MetalDevice",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setLut",
+            "printedName": "setLut(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11MetalDevice13MTLEditorPipeC6setLutyySiF",
+            "mangledName": "$s11MetalDevice13MTLEditorPipeC6setLutyySiF",
+            "moduleName": "MetalDevice",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "loadLutTexture",
+            "printedName": "loadLutTexture(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any Metal.MTLTexture)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MTLTexture",
+                    "printedName": "any Metal.MTLTexture",
+                    "usr": "c:objc(pl)MTLTexture"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11MetalDevice13MTLEditorPipeC14loadLutTextureySo10MTLTexture_pSgSiF",
+            "mangledName": "$s11MetalDevice13MTLEditorPipeC14loadLutTextureySo10MTLTexture_pSgSiF",
+            "moduleName": "MetalDevice",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "drawExport",
+            "printedName": "drawExport(input:outputBuffer:onTransition:assetTime:transitionTime:itemIndex:tranformID:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[CoreVideo.CVBuffer?]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CoreVideo.CVBuffer?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CVBuffer",
+                        "printedName": "CoreVideo.CVBuffer",
+                        "usr": "c:@T@CVBufferRef"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CVBuffer",
+                "printedName": "CoreVideo.CVBuffer",
+                "usr": "c:@T@CVBufferRef"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11MetalDevice13MTLEditorPipeC10drawExport5input12outputBuffer12onTransition9assetTime010transitionM09itemIndex10tranformIDySaySo11CVBufferRefaSgG_AMSbS2dS2itF",
+            "mangledName": "$s11MetalDevice13MTLEditorPipeC10drawExport5input12outputBuffer12onTransition9assetTime010transitionM09itemIndex10tranformIDySaySo11CVBufferRefaSgG_AMSbS2dS2itF",
+            "moduleName": "MetalDevice",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11MetalDevice13MTLEditorPipeC",
+        "mangledName": "$s11MetalDevice13MTLEditorPipeC",
+        "moduleName": "MetalDevice",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
         "kind": "Import",
         "name": "MetalKit",
         "printedName": "MetalKit",
@@ -4303,49 +4671,49 @@
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/TestApp\/TestApp\/MTLNativeEditor\/Export\/Editor\/MTLEditorPipe.swift",
       "kind": "StringLiteral",
-      "offset": 1756,
+      "offset": 1763,
       "length": 15,
       "value": "\"export_kernel\""
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/TestApp\/TestApp\/MTLNativeEditor\/Export\/Editor\/MTLEditorPipe.swift",
       "kind": "StringLiteral",
-      "offset": 1848,
+      "offset": 1855,
       "length": 6,
       "value": "\"none\""
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/TestApp\/TestApp\/MTLNativeEditor\/Export\/Editor\/MTLEditorPipe.swift",
       "kind": "FloatLiteral",
-      "offset": 1938,
+      "offset": 1946,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/TestApp\/TestApp\/MTLNativeEditor\/Export\/Editor\/MTLEditorPipe.swift",
       "kind": "IntegerLiteral",
-      "offset": 1979,
+      "offset": 1987,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/TestApp\/TestApp\/MTLNativeEditor\/Export\/Editor\/MTLEditorPipe.swift",
       "kind": "IntegerLiteral",
-      "offset": 1990,
+      "offset": 1998,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/TestApp\/TestApp\/MTLNativeEditor\/Export\/Editor\/MTLEditorPipe.swift",
       "kind": "BooleanLiteral",
-      "offset": 3776,
+      "offset": 3791,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/TestApp\/TestApp\/MTLNativeEditor\/Export\/Editor\/MTLEditorPipe.swift",
       "kind": "IntegerLiteral",
-      "offset": 3838,
+      "offset": 3853,
       "length": 1,
       "value": "0"
     },

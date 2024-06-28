@@ -50,6 +50,15 @@ public struct Uniform {
   public static var exportSize: CoreFoundation.CGSize
   @objc deinit
 }
+@_hasMissingDesignatedInitializers public class MTLEditorPipe {
+  public static var shared: MetalDevice.MTLEditorPipe
+  public var texLoader: MetalKit.MTKTextureLoader
+  public func setEffect(_ inTime: Swift.Double)
+  public func setLut(_ index: Swift.Int)
+  public func loadLutTexture(_ index: Swift.Int) -> (any Metal.MTLTexture)?
+  public func drawExport(input: [CoreVideo.CVPixelBuffer?], outputBuffer: CoreVideo.CVPixelBuffer, onTransition: Swift.Bool = true, assetTime: Swift.Double, transitionTime: Swift.Double, itemIndex: Swift.Int = 0, tranformID: Swift.Int)
+  @objc deinit
+}
 @_hasMissingDesignatedInitializers public class MTDevice {
   public static let shared: MetalDevice.MTDevice
   public var device: any Metal.MTLDevice
