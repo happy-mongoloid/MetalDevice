@@ -4852,21 +4852,21 @@
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/TestApp\/TestApp\/MTLNativeEditor\/Export\/Editor\/MTLEditorPipe.swift",
       "kind": "StringLiteral",
-      "offset": 3330,
+      "offset": 3462,
       "length": 6,
       "value": "\"none\""
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/TestApp\/TestApp\/MTLNativeEditor\/Export\/Editor\/MTLEditorPipe.swift",
       "kind": "BooleanLiteral",
-      "offset": 4654,
+      "offset": 4786,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/TestApp\/TestApp\/MTLNativeEditor\/Export\/Editor\/MTLEditorPipe.swift",
       "kind": "IntegerLiteral",
-      "offset": 4716,
+      "offset": 4848,
       "length": 1,
       "value": "0"
     },
