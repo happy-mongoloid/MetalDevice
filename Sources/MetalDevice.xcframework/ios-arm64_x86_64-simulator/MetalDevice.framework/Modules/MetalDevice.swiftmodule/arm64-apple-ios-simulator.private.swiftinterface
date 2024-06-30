@@ -53,7 +53,11 @@ public struct Uniform {
 @_hasMissingDesignatedInitializers public class MTLEditorPipe {
   public static var shared: MetalDevice.MTLEditorPipe
   public var texLoader: MetalKit.MTKTextureLoader
-  public func setEffect(_ inTime: Swift.Double)
+  public func setEffects(_ timeRanges: [CoreMedia.CMTimeRange], _ types: [Swift.String])
+  public var effect: Swift.String {
+    get
+    set
+  }
   public func setLut(_ index: Swift.Int)
   public func loadLutTexture(_ index: Swift.Int) -> (any Metal.MTLTexture)?
   public func drawExport(input: [CoreVideo.CVPixelBuffer?], outputBuffer: CoreVideo.CVPixelBuffer, onTransition: Swift.Bool = true, assetTime: Swift.Double, transitionTime: Swift.Double, itemIndex: Swift.Int = 0, tranformID: Swift.Int)
@@ -83,6 +87,7 @@ public struct Uniform {
   final public class func scnTexture(_ size: CoreFoundation.CGSize) -> any Metal.MTLTexture
   final public class func sceneToTexture(in scnView: SceneKit.SCNView, _ commandBuffer: any Metal.MTLCommandBuffer, texture: inout any Metal.MTLTexture, time: CoreFoundation.CFTimeInterval)
   final public func computeState(compStr: Swift.String) -> (any Metal.MTLComputePipelineState)!
+  final public func effectsComputeState(compStr: Swift.String) -> (any Metal.MTLComputePipelineState)!
   final public func dstTexture(buffer: CoreVideo.CVPixelBuffer!) -> (any Metal.MTLTexture)?
   public static func allocateBufferPool(with inputFormatDescription: CoreMedia.CMFormatDescription, outputRetainedBufferCountHint: Swift.Int) -> (outputBufferPool: CoreVideo.CVPixelBufferPool?, outputColorSpace: CoreGraphics.CGColorSpace?, outputFormatDescription: CoreMedia.CMFormatDescription?)
   public static func preallocateBuffers(pool: CoreVideo.CVPixelBufferPool, allocationThreshold: Swift.Int)

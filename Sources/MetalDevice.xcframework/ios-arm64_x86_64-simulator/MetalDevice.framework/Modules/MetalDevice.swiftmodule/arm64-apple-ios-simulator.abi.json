@@ -2090,8 +2090,8 @@
           },
           {
             "kind": "Function",
-            "name": "setEffect",
-            "printedName": "setEffect(_:)",
+            "name": "setEffects",
+            "printedName": "setEffects(_:_:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2100,19 +2100,122 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Double",
-                "printedName": "Swift.Double",
-                "usr": "s:Sd"
+                "name": "Array",
+                "printedName": "[CoreMedia.CMTimeRange]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CMTimeRange",
+                    "printedName": "CoreMedia.CMTimeRange",
+                    "usr": "c:@SA@CMTimeRange"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
               }
             ],
             "declKind": "Func",
-            "usr": "s:11MetalDevice13MTLEditorPipeC9setEffectyySdF",
-            "mangledName": "$s11MetalDevice13MTLEditorPipeC9setEffectyySdF",
+            "usr": "s:11MetalDevice13MTLEditorPipeC10setEffectsyySaySo11CMTimeRangeaG_SaySSGtF",
+            "mangledName": "$s11MetalDevice13MTLEditorPipeC10setEffectsyySaySo11CMTimeRangeaG_SaySSGtF",
             "moduleName": "MetalDevice",
             "declAttributes": [
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "effect",
+            "printedName": "effect",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11MetalDevice13MTLEditorPipeC6effectSSvp",
+            "mangledName": "$s11MetalDevice13MTLEditorPipeC6effectSSvp",
+            "moduleName": "MetalDevice",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MetalDevice13MTLEditorPipeC6effectSSvg",
+                "mangledName": "$s11MetalDevice13MTLEditorPipeC6effectSSvg",
+                "moduleName": "MetalDevice",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MetalDevice13MTLEditorPipeC6effectSSvs",
+                "mangledName": "$s11MetalDevice13MTLEditorPipeC6effectSSvs",
+                "moduleName": "MetalDevice",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MetalDevice13MTLEditorPipeC6effectSSvM",
+                "mangledName": "$s11MetalDevice13MTLEditorPipeC6effectSSvM",
+                "moduleName": "MetalDevice",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
           },
           {
             "kind": "Function",
@@ -3400,6 +3503,42 @@
           },
           {
             "kind": "Function",
+            "name": "effectsComputeState",
+            "printedName": "effectsComputeState(compStr:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "(any Metal.MTLComputePipelineState)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MTLComputePipelineState",
+                    "printedName": "any Metal.MTLComputePipelineState",
+                    "usr": "c:objc(pl)MTLComputePipelineState"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11MetalDevice8MTDeviceC19effectsComputeState7compStrSo018MTLComputePipelineF0_pSgSS_tF",
+            "mangledName": "$s11MetalDevice8MTDeviceC19effectsComputeState7compStrSo018MTLComputePipelineF0_pSgSS_tF",
+            "moduleName": "MetalDevice",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "dstTexture",
             "printedName": "dstTexture(buffer:)",
             "children": [
@@ -4601,119 +4740,133 @@
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/TestApp\/TestApp\/MTLNativeEditor\/Export\/Editor\/MTLEditorPipe.swift",
       "kind": "Array",
-      "offset": 1110,
+      "offset": 1184,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/TestApp\/TestApp\/MTLNativeEditor\/Export\/Editor\/MTLEditorPipe.swift",
       "kind": "Array",
-      "offset": 1161,
+      "offset": 1235,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/TestApp\/TestApp\/MTLNativeEditor\/Export\/Editor\/MTLEditorPipe.swift",
       "kind": "StringLiteral",
-      "offset": 1218,
+      "offset": 1292,
       "length": 6,
       "value": "\"none\""
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/TestApp\/TestApp\/MTLNativeEditor\/Export\/Editor\/MTLEditorPipe.swift",
       "kind": "Array",
-      "offset": 1274,
+      "offset": 1348,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/TestApp\/TestApp\/MTLNativeEditor\/Export\/Editor\/MTLEditorPipe.swift",
       "kind": "Array",
-      "offset": 1323,
+      "offset": 1397,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/TestApp\/TestApp\/MTLNativeEditor\/Export\/Editor\/MTLEditorPipe.swift",
       "kind": "Array",
-      "offset": 1361,
+      "offset": 1435,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/TestApp\/TestApp\/MTLNativeEditor\/Export\/Editor\/MTLEditorPipe.swift",
       "kind": "IntegerLiteral",
-      "offset": 1401,
+      "offset": 1475,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/TestApp\/TestApp\/MTLNativeEditor\/Export\/Editor\/MTLEditorPipe.swift",
       "kind": "Array",
-      "offset": 1448,
+      "offset": 1522,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/TestApp\/TestApp\/MTLNativeEditor\/Export\/Editor\/MTLEditorPipe.swift",
       "kind": "IntegerLiteral",
-      "offset": 1508,
+      "offset": 1582,
       "length": 4,
       "value": "1080"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/TestApp\/TestApp\/MTLNativeEditor\/Export\/Editor\/MTLEditorPipe.swift",
       "kind": "IntegerLiteral",
-      "offset": 1522,
+      "offset": 1596,
       "length": 4,
       "value": "1920"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/TestApp\/TestApp\/MTLNativeEditor\/Export\/Editor\/MTLEditorPipe.swift",
       "kind": "StringLiteral",
-      "offset": 1763,
+      "offset": 1837,
       "length": 15,
       "value": "\"export_kernel\""
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/TestApp\/TestApp\/MTLNativeEditor\/Export\/Editor\/MTLEditorPipe.swift",
       "kind": "StringLiteral",
-      "offset": 1855,
+      "offset": 1929,
       "length": 6,
       "value": "\"none\""
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/TestApp\/TestApp\/MTLNativeEditor\/Export\/Editor\/MTLEditorPipe.swift",
       "kind": "FloatLiteral",
-      "offset": 1946,
+      "offset": 2020,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/TestApp\/TestApp\/MTLNativeEditor\/Export\/Editor\/MTLEditorPipe.swift",
       "kind": "IntegerLiteral",
-      "offset": 1987,
+      "offset": 2061,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/TestApp\/TestApp\/MTLNativeEditor\/Export\/Editor\/MTLEditorPipe.swift",
       "kind": "IntegerLiteral",
-      "offset": 1998,
+      "offset": 2072,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/TestApp\/TestApp\/MTLNativeEditor\/Export\/Editor\/MTLEditorPipe.swift",
+      "kind": "Array",
+      "offset": 2205,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/TestApp\/TestApp\/MTLNativeEditor\/Export\/Editor\/MTLEditorPipe.swift",
+      "kind": "StringLiteral",
+      "offset": 3330,
+      "length": 6,
+      "value": "\"none\""
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/TestApp\/TestApp\/MTLNativeEditor\/Export\/Editor\/MTLEditorPipe.swift",
       "kind": "BooleanLiteral",
-      "offset": 3791,
+      "offset": 4654,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/TestApp\/TestApp\/MTLNativeEditor\/Export\/Editor\/MTLEditorPipe.swift",
       "kind": "IntegerLiteral",
-      "offset": 3853,
+      "offset": 4716,
       "length": 1,
       "value": "0"
     },
@@ -4741,7 +4894,7 @@
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/TestApp\/TestApp\/MTLNativeEditor\/Export\/Editor\/MetalDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 26807,
+      "offset": 27536,
       "length": 1,
       "value": "0"
     }
