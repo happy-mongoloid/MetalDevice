@@ -44,6 +44,8 @@ public struct Uniform {
   public static var transitions: [Swift.Int]
   public static var effectKernelName: Swift.String
   public static var timeRanges: [CoreMedia.CMTimeRange]
+  public static var transitionTimeRanges: [CoreMedia.CMTimeRange]
+  public static var mediaTimeRanges: [CoreMedia.CMTimeRange]
   public var effectsKernelsList: [Swift.String]
   public static var luts: [Foundation.URL]
   public static var lutIndex: Swift.Int
